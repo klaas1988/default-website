@@ -1,8 +1,9 @@
 .htaccess
-wp-*.php
 xmlrpc.php
-wp-admin/
-wp-includes/
+/shared
+/local-config.php
+/sql-dump-*.sql
+/db-sync
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
