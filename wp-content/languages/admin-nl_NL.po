@@ -5561,4 +5561,4008 @@ msgstr "Leeg archief."
 #: wp-admin/includes/file.php:758 wp-admin/includes/update-core.php:565
 #: wp-admin/includes/update-core.php:657
 msgid "Could not copy file."
-msgstr "Kan bestan
+msgstr "Kan bestand niet kopi&#235;ren"
+
+#: wp-admin/includes/file.php:582 wp-admin/includes/file.php:618
+msgid "Could not retrieve file from archive."
+msgstr "Kan geen bestand terughalen uit het archief."
+
+#: wp-admin/includes/file.php:628
+msgid "Could not extract file from archive."
+msgstr "Kan geen bestand terughalen uit het archief."
+
+#: wp-admin/includes/file.php:484
+msgid "Could not create Temporary file."
+msgstr "Kan geen tijdelijk bestand aanmaken"
+
+#: wp-admin/includes/file.php:578 wp-admin/includes/file.php:672
+msgid "Incompatible Archive."
+msgstr "Archief is niet compatible"
+
+#: wp-admin/includes/file.php:416
+msgid "Specified file does not exist."
+msgstr "Opgegeven bestand bestaat niet."
+
+#: wp-admin/includes/file.php:480
+msgid "Invalid URL Provided."
+msgstr "URL is niet geldig"
+
+#: wp-admin/includes/file.php:412
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini."
+msgstr "Bestand is leeg. Upload iets met inhoud. Deze foutmelding kan ook opkomen als uploads uitgeschakeld zijn in je php.ini."
+
+#: wp-admin/includes/file.php:382
+msgid "The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified in the HTML form."
+msgstr "Het ge&uuml;ploade bestand is groter dan de toegestane bestandsgrootte (<em>MAX_FILE_SIZE</em> in het HTML formulier)."
+
+#: wp-admin/includes/file.php:381
+msgid "The uploaded file exceeds the <code>upload_max_filesize</code> directive in <code>php.ini</code>."
+msgstr "Het ge&uuml;ploade bestand is groter dan de toegestane bestandsgrootte (<code>upload_max_filesize</code> in <code>php.ini</code>)."
+
+#: wp-admin/includes/file.php:329 wp-admin/includes/file.php:451
+msgid "The uploaded file could not be moved to %s."
+msgstr "Het ge&uuml;ploade bestand kan niet verplaatst worden naar %s."
+
+#: wp-admin/includes/file.php:290 wp-admin/includes/import.php:63
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Bestand is leeg. Upload iets met meer inhoud. Deze foutmelding kan ook voorkomen als uploads uitgeschakeld zijn in je php.ini of wanneer de post_max_size kleiner gedefinie&#235;rd als de max_filesize in je php.ini."
+
+#: wp-admin/includes/file.php:296
+msgid "Specified file failed upload test."
+msgstr "Het bestand is niet door de uploadtest gekomen."
+
+#: wp-admin/includes/file.php:309 wp-admin/includes/file.php:429
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Sorry, dit type bestand vanwege veiligheidsredenen niet toegestaan."
+
+#: wp-admin/includes/file.php:288
+msgid "File is empty. Please upload something more substantial."
+msgstr "Bestand is leeg. Upload iets met meer inhoud."
+
+#: wp-admin/includes/file.php:279 wp-admin/includes/file.php:404
+msgid "Invalid form submission."
+msgstr "Ongeldige invoer in formulier."
+
+#: wp-admin/includes/file.php:262 wp-admin/includes/file.php:388
+msgid "File upload stopped by extension."
+msgstr "Bestandsoverdracht gestopt door extentie."
+
+#: wp-admin/includes/file.php:261 wp-admin/includes/file.php:387
+msgid "Failed to write file to disk."
+msgstr "Opslaan van bestand naar schijf is mislukt."
+
+#: wp-admin/includes/file.php:260 wp-admin/includes/file.php:386
+msgid "Missing a temporary folder."
+msgstr "Er ontbreekt een tijdelijke map."
+
+#: wp-admin/includes/file.php:258 wp-admin/includes/file.php:384
+msgid "No file was uploaded."
+msgstr "Geen bestand ge&uuml;pload."
+
+#: wp-admin/includes/file.php:257 wp-admin/includes/file.php:383
+msgid "The uploaded file was only partially uploaded."
+msgstr "Het ge&uuml;ploade bestand is slechts gedeeltelijk ge&uuml;pload."
+
+#: wp-admin/includes/file.php:256
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "Het ge&#252;ploade bestand overschrijdt de MAX_FILE_SIZE aanwijzing die staat aangegeven in het HTLM formulier."
+
+#: wp-admin/includes/file.php:255
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Het ge&#252;ploade bestand overschrijft de upload_max_filesize waarde die in php.ini is opgegeven."
+
+#: wp-admin/includes/file.php:208
+msgid "Sorry, that file cannot be edited."
+msgstr "Sorry, dat bestand kan niet worden bewerkt."
+
+#: wp-admin/includes/file.php:202
+msgid "Sorry, can&#8217;t edit files with &#8220;..&#8221; in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
+msgstr "Kan geen bestanden met &#8220;..&#8221; in de naam bewerken. Als je probeert een bestand in je WordPress home map te bewerken, kan je volstaan met de naam van het bestand in te typen."
+
+#: wp-admin/includes/file.php:65
+msgid "%s Page Template"
+msgstr "%s Paginatemplate"
+
+#: wp-admin/includes/file.php:42
+msgid "Popup Comments Template"
+msgstr "Popup reactie template"
+
+#: wp-admin/includes/file.php:38
+msgid ".htaccess (for rewrite rules )"
+msgstr ".htaccess (voor rewrite regels)"
+
+#: wp-admin/includes/file.php:41
+msgid "Comments Template"
+msgstr "Reactie template"
+
+#: wp-admin/includes/file.php:35
+msgid "Audio Attachment Template"
+msgstr "Audio bijlage template"
+
+#: wp-admin/includes/file.php:36
+msgid "Application Attachment Template"
+msgstr "Applicatie bijlage template"
+
+#: wp-admin/includes/file.php:37
+msgid "my-hacks.php (legacy hacks support)"
+msgstr "my-hacks.php (ondersteuning verouderde hacks)"
+
+#: wp-admin/includes/file.php:34
+msgid "Video Attachment Template"
+msgstr "Video bijlage template"
+
+#: wp-admin/includes/file.php:32
+msgid "Attachment Template"
+msgstr "Bijlage template"
+
+#: wp-admin/includes/file.php:33
+msgid "Image Attachment Template"
+msgstr "Afbeelding bijlage template"
+
+#: wp-admin/includes/file.php:31
+msgid "Theme Functions"
+msgstr "Themafuncties"
+
+#: wp-admin/includes/file.php:30
+msgid "Links Template"
+msgstr "Links template"
+
+#: wp-admin/includes/file.php:28
+msgid "Single Post"
+msgstr "Enkelvoudig bericht"
+
+#: wp-admin/includes/file.php:29
+msgid "404 Template"
+msgstr "404 Template"
+
+#: wp-admin/includes/file.php:27
+msgid "Search Form"
+msgstr "Zoekformulier"
+
+#: wp-admin/includes/file.php:24
+msgid "Category Template"
+msgstr "Categorietemplate"
+
+#: wp-admin/includes/file.php:25 wp-admin/includes/meta-boxes.php:581
+msgid "Page Template"
+msgstr "Paginatemplate"
+
+#: wp-admin/includes/file.php:23
+msgid "Tag Template"
+msgstr "Tagtemplate"
+
+#: wp-admin/includes/file.php:22
+msgid "Author Template"
+msgstr "Auteurstemplate"
+
+#: wp-admin/includes/file.php:18
+msgid "Footer"
+msgstr "Voettekst"
+
+#: wp-admin/includes/file.php:17
+msgid "Popup Comments"
+msgstr "Popup reacties"
+
+#: wp-admin/includes/file.php:15
+msgid "RTL Stylesheet"
+msgstr "RTL-stylesheet"
+
+#: wp-admin/includes/file.php:14
+msgid "Visual Editor RTL Stylesheet"
+msgstr "Visuele editor RTL stylesheet"
+
+#: wp-admin/includes/file.php:13
+msgid "Visual Editor Stylesheet"
+msgstr "Stylesheet visuele bewerker"
+
+#: wp-admin/includes/file.php:11
+msgid "Main Index Template"
+msgstr "Hoofdtemplate"
+
+#: wp-admin/includes/deprecated.php:562
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Getoond %s&#8211;%s van %s"
+
+#: wp-admin/includes/deprecated.php:523
+msgid "No matching users were found!"
+msgstr "Er zijn geen passende gebruikers gevonden!"
+
+#: wp-admin/includes/dashboard.php:1322
+msgid "Already know what you&#8217;re doing? <a href=\"%s\">Dismiss this message</a>."
+msgstr "Weet je al waar je mee bezig bent? <a href=\"%s\">Verwijder deze melding</a>."
+
+#: wp-admin/includes/dashboard.php:1316
+msgid "Use the current theme &mdash; %1$s &mdash; or <a href=\"%2$s\">choose a new one</a>."
+msgstr "Gebruik het huidige thema &mdash; %1$s &mdash;  of <a href=\"%2$s\">kies een nieuw thema</a>."
+
+#: wp-admin/includes/dashboard.php:1305
+msgid "Use the current theme &mdash; %1$s &mdash; or <a href=\"%2$s\">choose a new one</a>. If you stick with %1$s, here are a few ways to make your site look unique."
+msgstr "Gebruik het huidige thema &mdash; %1$s &mdash; of <a href=\"%2$s\">kies een nieuwe</a>. Als je %1$s blijft gebruiken, dan zijn hier een aantal manieren om deze uniek te maken."
+
+#: wp-admin/includes/dashboard.php:1301
+msgid "<a href=\"%s\">Add some widgets</a>"
+msgstr "<a href=\"%s\">Voeg een paar widgets toe</a>"
+
+#: wp-admin/includes/dashboard.php:1292
+msgid "<a href=\"%s\">Choose light or dark</a>"
+msgstr "<a href=\"%s\">Kies licht of donker</a>"
+
+#: wp-admin/includes/dashboard.php:1295
+msgid "<a href=\"%s\">Set a background color</a>"
+msgstr "<a href=\"%s\">Stel een achtergrondkleur in</a>"
+
+#: wp-admin/includes/dashboard.php:1298
+msgid "<a href=\"%s\">Select a new header image</a>"
+msgstr "<a href=\"%s\">Een nieuwe headerafbeelding selecteren</a>"
+
+#: wp-admin/includes/dashboard.php:1287
+msgid "<a href=\"%s\">Install a theme</a> to get started customizing your site."
+msgstr "<a href=\"%s\">Een thema installeren</a> om te starten met je site aan te passen."
+
+#: wp-admin/includes/dashboard.php:1278
+msgid "<a href=\"%s\">Write your first post</a>"
+msgstr "<a href=\"%s\">Schrijf je eerste bericht</a>"
+
+#: wp-admin/includes/dashboard.php:1282
+msgid "Customize Your Site"
+msgstr "Je site aanpassen"
+
+#: wp-admin/includes/dashboard.php:1276
+msgid "Delete the <a href=\"%1$s\">sample page</a> and <a href=\"%2$s\">post</a>"
+msgstr "De <a href=\"%1$s\">voorbeeldpagina</a> en <a href=\"%2$s\">bericht</a> verwijderen"
+
+#: wp-admin/includes/dashboard.php:1277
+msgid "<a href=\"%s\">Create an About Me page</a>"
+msgstr "<a href=\"%s\">Over mij pagina aanmaken</a>"
+
+#: wp-admin/includes/dashboard.php:1275
+msgid "View the <a href=\"%1$s\">sample page</a> and <a href=\"%2$s\">post</a>"
+msgstr "Bekijk de <a href=\"%1$s\">voorbeeldpagina</a> en <a href=\"%2$s\">bericht</a>"
+
+#: wp-admin/includes/dashboard.php:1273
+msgid "Check out the sample page & post editors to see how it all works, then delete the default content and write your own!"
+msgstr "Bezoek de voorbeeldpagina & berichtbewerkers om te zien hoe alles werkt, verwijder vervolgens de standaard inhoud en schrijf je eigen inhoud!"
+
+#: wp-admin/includes/dashboard.php:1272
+msgid "Add Real Content"
+msgstr "Voeg echte inhoud toe"
+
+#: wp-admin/includes/dashboard.php:1268
+msgid "<a href=\"%s\">Fill in your profile</a>"
+msgstr "<a href=\"%s\">Vul je profiel in</a>"
+
+#: wp-admin/includes/dashboard.php:1267
+msgid "<a href=\"%s\">Turn comments on or off</a>"
+msgstr "<a href=\"%s\">Reacties in- of uitschakelen</a>"
+
+#: wp-admin/includes/dashboard.php:1265
+msgid "<a href=\"%s\">Choose your privacy setting</a>"
+msgstr "<a href=\"%s\">Kies je privacy-instelling</a>"
+
+#: wp-admin/includes/dashboard.php:1266
+msgid "<a href=\"%s\">Select your tagline and time zone</a>"
+msgstr "<a href=\"%s\">Je onderschrift en tijdszone selecteren</a>"
+
+#: wp-admin/includes/dashboard.php:1263
+msgid "Here are a few easy things you can do to get your feet wet. Make sure to click Save on each Settings screen."
+msgstr "Hier zijn een aantal eenvoudige dingen die je kunt doen om de smaak te pakken te krijgen. Zorg er wel voor dat je op Opslaan klikt bij elk instellingenscherm."
+
+#: wp-admin/includes/dashboard.php:1262
+msgid "Basic Settings"
+msgstr "Basisinstellingen"
+
+#: wp-admin/includes/dashboard.php:1259
+msgid "If you need help getting started, check out our documentation on <a href=\"http://codex.wordpress.org/First_Steps_With_WordPress\">First Steps with WordPress</a>. If you&#8217;d rather dive right in, here are a few things most people do first when they set up a new WordPress site. If you need help, use the Help tabs in the upper right corner to get information on how to use your current screen and where to go for more assistance."
+msgstr "Als je hulp nodig hebt om te starten, bezoek de documentatie op <a href=\"http://codex.wordpress.org/First_Steps_With_WordPress\">De eerste stappen met WordPress</a>(Engels). Duik je liever direct in het diepe, kun je hier aanwijzingen vinden die de meeste mensen doen als ze een nieuwe WordPress site instellen. Als je hulp nodig hebt, gebruik de Help tabs in de rechterbovenhoek om informatie te krijgen hoe je het huidige scherm kunt gebruiken en waar je meer informatie kunt vinden."
+
+#: wp-admin/includes/dashboard.php:1258
+msgid "Welcome to your new WordPress site!"
+msgstr "Welkom bij je nieuwe WordPress website!"
+
+#: wp-admin/includes/dashboard.php:1144
+msgid "It looks like you're using an old version of <a href='%s'>%s</a>. For the best WordPress experience, please update your browser."
+msgstr "Het lijkt erop dat je een oude versie van <a href='%s'>%s</a> gebruikt. Voor de beste WordPress ervaring, werk je browser nu bij."
+
+#: wp-admin/includes/dashboard.php:1161
+msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
+msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> of leer je hoe goed en veilig kunt <a href=\"%3$s\" class=\"browse-happy-link\">bladeren</a>"
+
+#: wp-admin/includes/dashboard.php:1126
+msgid "Space Used"
+msgstr "Toegestane ruimte"
+
+#: wp-admin/includes/dashboard.php:1142
+msgid "It looks like you're using an insecure version of <a href='%s'>%s</a>. Using an outdated browser makes your computer unsafe. For the best WordPress experience, please update your browser."
+msgstr "Het lijkt erop dat je een oude versie van <a href='%s'>%s</a> gebruikt. Het gebruiken van een gedateerde browser maakt je computer onveilig. Werk nu je browser bij voor de beste WordPress ervaring."
+
+#: wp-admin/includes/dashboard.php:1118
+msgid "Space Allowed"
+msgstr "Opslagruimte toegestaan"
+
+#: wp-admin/includes/dashboard.php:1125
+msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s%%)</a>"
+msgstr "<a href=\"%1$s\" title=\"Uploads beheren\" class=\"musublink\">%2$sMB (%3$s%%)</a>"
+
+#: wp-admin/includes/dashboard.php:1117
+msgid "<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB</a>"
+msgstr "<a href=\"%1$s\" title=\"Uploads beheren\" class=\"musublink\">%2$sMB</a>"
+
+#: wp-admin/includes/dashboard.php:1001
+msgid "This widget requires JavaScript."
+msgstr "Deze widget heeft JavaScript nodig."
+
+#: wp-admin/includes/dashboard.php:1113
+msgid "Storage Space"
+msgstr "Opslagruimte "
+
+#: wp-admin/includes/dashboard.php:919
+msgid "Most Popular"
+msgstr "Populairste"
+
+#: wp-admin/includes/dashboard.php:919
+msgid "Newest Plugins"
+msgstr "Nieuwste"
+
+#: wp-admin/includes/dashboard.php:1001
+msgid "Loading&#8230;"
+msgstr "Laden&#8230;"
+
+#: wp-admin/includes/dashboard.php:814
+msgid "%1$s linked here saying, \"%3$s\""
+msgstr "%1$s heeft een link naar deze site geplaatst met de tekst: \"%3$s\""
+
+#: wp-admin/includes/dashboard.php:819
+msgid "on %4$s"
+msgstr "op %4$s"
+
+#: wp-admin/includes/dashboard.php:797 wp-admin/includes/dashboard.php:799
+#: wp-admin/includes/post.php:1230
+msgid "Somebody"
+msgstr "Iemand"
+
+#: wp-admin/includes/dashboard.php:811
+msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\""
+msgstr "%1$s plaatste een link naar je site en <a href=\"%2$s\">schreef</a>, \"%3$s\""
+
+#: wp-admin/includes/dashboard.php:773
+msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
+msgstr "Deze dashboardwidget van <a href=\"http://blogsearch.google.com/\">Google blog search</a> toont andere sites die naar je site toe linken. Er zijn nog geen binnenkomende links  gevonden&hellip; Dat is prima, er is geen haast bij."
+
+#: wp-admin/includes/dashboard.php:714
+msgctxt "dashboard"
+msgid "%1$s on %2$s"
+msgstr "%1$s op %2$s"
+
+#: wp-admin/includes/dashboard.php:695
+msgid "[Pending]"
+msgstr "[Wachtend]"
+
+#: wp-admin/includes/dashboard.php:694
+msgid "From %1$s on %2$s%3$s"
+msgstr "Van %1$s op %2$s%3$s"
+
+#: wp-admin/includes/dashboard.php:580
+msgid "There are no drafts at the moment"
+msgstr "Er zijn op dit moment geen concepten aanwezig."
+
+#: wp-admin/includes/dashboard.php:483 wp-admin/options-writing.php:27
+#: wp-admin/options-writing.php:122 wp-admin/options-writing.php:126
+#: wp-admin/press-this.php:302 wp-admin/press-this.php:459
+#: wp-admin/tools.php:16 wp-admin/tools.php:41 wp-admin/tools.php:46
+msgid "Press This"
+msgstr "Publiceer dit"
+
+#: wp-admin/includes/dashboard.php:535
+msgid "Reset"
+msgstr "Reset"
+
+#: wp-admin/includes/dashboard.php:537 wp-admin/includes/meta-boxes.php:217
+#: wp-admin/includes/meta-boxes.php:218 wp-admin/press-this.php:468
+msgid "Submit for Review"
+msgstr "Inzenden voor review"
+
+#: wp-admin/includes/dashboard.php:470
+msgid "Draft saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
+msgstr "Concept opgeslagen. <a href=\"%s\">Voorbeeld bekijken</a> | <a href=\"%s\">Bericht bewerken</a>"
+
+#: wp-admin/includes/dashboard.php:483
+msgid "You can also try %s, easy blogging from anywhere on the Web."
+msgstr "Je kunt ook %s proberen, makkelijk bloggen van overal op het Web."
+
+#: wp-admin/includes/dashboard.php:468
+msgid "Post submitted. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
+msgstr "Bericht gepubliceerd. <a href=\"%s\">Bericht tonen</a> | <a href=\"%s\">Bericht bewerken</a>"
+
+#: wp-admin/includes/dashboard.php:466
+msgid "Post published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
+msgstr "Bericht gepubliceerd. <a href=\"%s\">Bericht bekijken</a> | <a href=\"%s\">Bericht bewerken</a>"
+
+#: wp-admin/includes/dashboard.php:449
+msgid "Search Sites"
+msgstr "Sites zoeken"
+
+#: wp-admin/includes/dashboard.php:423
+msgid "You have %1$s and %2$s."
+msgstr "Je hebt %1$s en %2$s."
+
+#: wp-admin/includes/dashboard.php:442 wp-admin/users.php:417
+msgid "Search Users"
+msgstr "Gebruikers zoeken"
+
+#: wp-admin/includes/dashboard.php:421
+msgid "%s site"
+msgid_plural "%s sites"
+msgstr[0] "%s site"
+msgstr[1] "%s sites"
+
+#: wp-admin/includes/dashboard.php:420
+msgid "%s user"
+msgid_plural "%s users"
+msgstr[0] "%s gebruiker"
+msgstr[1] "%s gebruikers"
+
+#: wp-admin/includes/dashboard.php:415
+msgid "Create a New User"
+msgstr "Nieuwe gebruiker aanmaken"
+
+#: wp-admin/includes/dashboard.php:413 wp-admin/includes/ms.php:618
+msgid "Create a New Site"
+msgstr "Een nieuwe site aanmaken"
+
+#: wp-admin/includes/dashboard.php:398
+msgid "Search Engines Blocked"
+msgstr "Zoekmachines geblokkeerd."
+
+#: wp-admin/includes/dashboard.php:397
+msgid "Your site is asking search engines not to index its content"
+msgstr "Je site vraagt zoekmachines om de inhoud van de site niet te indexeren. "
+
+#: wp-admin/includes/dashboard.php:389
+msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
+msgstr "Thema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
+
+#: wp-admin/includes/dashboard.php:391
+msgid "Theme <span class=\"b\">%1$s</span>"
+msgstr "Thema <span class=\"b\">%1$s</span>"
+
+#: wp-admin/includes/dashboard.php:385
+msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
+msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</span>"
+msgstr[0] "Thema <span class=\"b\">%1$s</span> met <span class=\"b\">%2$s widget</span>"
+msgstr[1] "Thema <span class=\"b\">%1$s</span> met <span class=\"b\">%2$s widgets</span>"
+
+#: wp-admin/includes/dashboard.php:335
+msgid "Pending"
+msgid_plural "Pending"
+msgstr[0] "In wachtrij"
+msgstr[1] "In wachtrij"
+
+#: wp-admin/includes/dashboard.php:347
+msgctxt "comment"
+msgid "Spam"
+msgid_plural "Spam"
+msgstr[0] "Spam"
+msgstr[1] "Spam"
+
+#: wp-admin/includes/dashboard.php:383
+msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widget</a></span>"
+msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widgets</a></span>"
+msgstr[0] "Thema <span class=\"b\">%1$s</span> met <span class=\"b\"><a href=\"widgets.php\">%2$s widget</a></span>"
+msgstr[1] "Thema <span class=\"b\">%1$s</span> met <span class=\"b\"><a href=\"widgets.php\">%2$s widgets</a></span>"
+
+#: wp-admin/includes/dashboard.php:293
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] "Tag"
+msgstr[1] "Tags"
+
+#: wp-admin/includes/dashboard.php:311
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Reactie"
+msgstr[1] "Reacties"
+
+#: wp-admin/includes/dashboard.php:323
+msgctxt "Right Now"
+msgid "Approved"
+msgid_plural "Approved"
+msgstr[0] "Toegelaten"
+msgstr[1] "Toegelaten"
+
+#: wp-admin/includes/dashboard.php:160
+msgid "Configure"
+msgstr "Configureren"
+
+#: wp-admin/includes/dashboard.php:241
+msgid "Post"
+msgid_plural "Posts"
+msgstr[0] "Bericht"
+msgstr[1] "Berichten"
+
+#: wp-admin/includes/dashboard.php:269
+msgid "Page"
+msgid_plural "Pages"
+msgstr[0] "Pagina"
+msgstr[1] "Pagina&#39;s"
+
+#: wp-admin/includes/dashboard.php:281
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Categorie"
+msgstr[1] "Categorie&#235;n"
+
+#: wp-admin/includes/dashboard.php:106
+msgid "Other WordPress News"
+msgstr "Overig WordPress nieuws"
+
+#: wp-admin/includes/dashboard.php:129 wp-admin/includes/dashboard.php:577
+msgid "View all"
+msgstr "Alles tonen"
+
+#: wp-admin/includes/dashboard.php:104 wp-admin/includes/upgrade.php:178
+msgid "http://planet.wordpress.org/"
+msgstr "http://planet.wordpress.org/"
+
+#: wp-admin/includes/dashboard.php:105
+msgid "http://planet.wordpress.org/feed/"
+msgstr "http://planet.wordpress.org/feed/"
+
+#: wp-admin/includes/dashboard.php:91 wp-admin/includes/upgrade.php:154
+msgid "WordPress Blog"
+msgstr "WordPress site"
+
+#: wp-admin/includes/dashboard.php:89 wp-admin/includes/upgrade.php:153
+msgid "http://wordpress.org/news/"
+msgstr "http://wordpress.org/news/"
+
+#: wp-admin/includes/dashboard.php:90 wp-admin/includes/upgrade.php:155
+msgid "http://wordpress.org/news/feed/"
+msgstr "http://wordpress.org/news/feed/"
+
+#: wp-admin/includes/dashboard.php:83
+msgid "Recent Drafts"
+msgstr "Recente concepten"
+
+#: wp-admin/includes/dashboard.php:79
+msgid "QuickPress"
+msgstr "QuickPress"
+
+#: wp-admin/includes/dashboard.php:70
+msgid "Incoming Links"
+msgstr "Binnengekomen links"
+
+#: wp-admin/includes/dashboard.php:40 wp-admin/includes/dashboard.php:43
+msgid "Right Now"
+msgstr "Op dit moment"
+
+#: wp-admin/includes/dashboard.php:35
+msgid "Your browser is out of date!"
+msgstr "Je maakt gebruik van een verouderde browser!"
+
+#: wp-admin/includes/dashboard.php:33
+msgid "You are using an insecure browser!"
+msgstr "Je maakt gebruik van een onveilige browser!"
+
+#: wp-admin/includes/class-wp-users-list-table.php:300
+msgid "View posts by this author"
+msgstr "Berichten van deze auteur bekijken"
+
+#: wp-admin/includes/class-wp-users-list-table.php:166
+#: wp-admin/user-new.php:275 wp-admin/user-new.php:355
+msgid "Role"
+msgstr "Rol"
+
+#: wp-admin/includes/class-wp-users-list-table.php:148
+msgid "Change"
+msgstr "Bijwerken"
+
+#: wp-admin/includes/class-wp-users-list-table.php:143
+#: wp-admin/includes/class-wp-users-list-table.php:145
+msgid "Change role to&hellip;"
+msgstr "Rol wijzigen naar&hellip;"
+
+#: wp-admin/includes/class-wp-users-list-table.php:79
+msgid "No matching users were found."
+msgstr "Er zijn geen passende gebruikers gevonden!"
+
+#: wp-admin/includes/class-wp-users-list-table.php:115
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr "%1$s <span class=\"count\">(%2$s)</span>"
+
+#: wp-admin/includes/class-wp-upgrader.php:1622
+#: wp-admin/includes/class-wp-upgrader.php:1656
+msgid "Please select a file"
+msgstr "Selecteer aub een bestand"
+
+#: wp-admin/includes/class-wp-upgrader.php:1586 wp-admin/themes.php:126
+msgid "Customize &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; aanpassen"
+
+#: wp-admin/includes/class-wp-upgrader.php:1530
+msgid "Return to Theme Installer"
+msgstr "Terug naar de thema installatiehulp."
+
+#: wp-admin/includes/class-wp-upgrader.php:1532
+msgid "Themes page"
+msgstr "Thema&#39;s pagina"
+
+#: wp-admin/includes/class-wp-upgrader.php:1556 wp-admin/update.php:157
+msgid "Update Theme"
+msgstr "Thema bijwerken"
+
+#: wp-admin/includes/class-wp-upgrader.php:1454
+msgid "Return to Plugin Installer"
+msgstr "Terug naar de plugininstallatie."
+
+#: wp-admin/includes/class-wp-upgrader.php:1527
+msgid "Enable this theme for all sites in this network"
+msgstr "Schakel dit thema in voor alle sites in dit netwerk"
+
+#: wp-admin/includes/class-wp-upgrader.php:1452
+msgid "Return to Importers"
+msgstr "Terug naar de importeerfuncties"
+
+#: wp-admin/includes/class-wp-upgrader.php:1442
+msgid "Activate Plugin &amp; Run Importer"
+msgstr "Plugin activeren &amp; importeren uitvoeren"
+
+#: wp-admin/includes/class-wp-upgrader.php:1430
+msgid "Successfully installed the plugin <strong>%s %s</strong>."
+msgstr "Plugin <strong>%s %s</strong> is succesvol ge&#239;nstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:1395
+#: wp-admin/includes/class-wp-upgrader.php:1532
+#: wp-admin/includes/class-wp-upgrader.php:1597
+msgid "Return to Themes page"
+msgstr "Terug naar de thema&#39;s pagina"
+
+#: wp-admin/includes/class-wp-upgrader.php:1395
+msgid "Go to themes page"
+msgstr "Ga naar de thema&#39;s pagina."
+
+#: wp-admin/includes/class-wp-upgrader.php:1363
+#: wp-admin/includes/class-wp-upgrader.php:1396
+msgid "Return to WordPress Updates"
+msgstr "Terug naar WordPress bijwerken"
+
+#: wp-admin/includes/class-wp-upgrader.php:1381
+msgid "Updating Theme %1$s (%2$d/%3$d)"
+msgstr "Thema %1$s (%2$d/%3$d) bijwerken"
+
+#: wp-admin/includes/class-wp-upgrader.php:1363
+#: wp-admin/includes/class-wp-upgrader.php:1396
+msgid "Go to WordPress Updates page"
+msgstr "Ga naar de WordPress Updates pagina"
+
+#: wp-admin/includes/class-wp-upgrader.php:1349
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s bijwerken (%2$d/%3$d)"
+
+#: wp-admin/includes/class-wp-upgrader.php:1249
+msgid "Hide Details"
+msgstr "Details verbergen"
+
+#: wp-admin/includes/class-wp-upgrader.php:1250
+msgid "All updates have been completed."
+msgstr "Alle updates zijn klaar."
+
+#: wp-admin/includes/class-wp-upgrader.php:1249
+msgid "%1$s updated successfully."
+msgstr "%1$s succesvol bijgewerkt."
+
+#: wp-admin/includes/class-wp-upgrader.php:1249
+msgid "Show Details"
+msgstr "Details tonen"
+
+#: wp-admin/includes/class-wp-upgrader.php:1248
+msgid "The update of %1$s failed."
+msgstr "Het bijwerken van %1$s is mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:1247
+msgid "An error occurred while updating %1$s: <strong>%2$s</strong>."
+msgstr "Een fout tijdens het updaten %1$s: <strong>%2$s</strong>."
+
+#: wp-admin/includes/class-wp-upgrader.php:1246
+msgid "The update process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het bijwerken proces gaat starten. Dit proces kan op sommige hosts enige tijd duren, even geduld."
+
+#: wp-admin/includes/class-wp-upgrader.php:1207
+#: wp-admin/includes/class-wp-upgrader.php:1362
+#: wp-admin/includes/class-wp-upgrader.php:1456
+msgid "Return to Plugins page"
+msgstr "Terug naar de plugin pagina"
+
+#: wp-admin/includes/class-wp-upgrader.php:1207
+#: wp-admin/includes/class-wp-upgrader.php:1362
+msgid "Go to plugins page"
+msgstr "Ga naar de plugin pagina."
+
+#: wp-admin/includes/class-wp-upgrader.php:1206
+#: wp-admin/includes/class-wp-upgrader.php:1444
+msgid "Activate Plugin"
+msgstr "Plugin activeren"
+
+#: wp-admin/includes/class-wp-upgrader.php:1188 wp-admin/update.php:54
+msgid "Update Plugin"
+msgstr "Plugin bijwerken"
+
+#: wp-admin/includes/class-wp-upgrader.php:1025
+msgid "Could not copy files. You may have run out of disk space."
+msgstr "Niet mogelijk om bestanden te kopi&#235;ren. Mogelijk is de diskruimte onvoldoende."
+
+#: wp-admin/includes/class-wp-upgrader.php:1024
+msgid "Could not copy files."
+msgstr "Kan bestanden niet kopi&#235;ren."
+
+#: wp-admin/includes/class-wp-upgrader.php:1020
+msgid "WordPress is at the latest version."
+msgstr "Dit is de meest recente versie van WordPress."
+
+#: wp-admin/includes/class-wp-upgrader.php:931
+msgid "The <code>style.css</code> stylesheet doesn't contain a valid theme header."
+msgstr "De <code>style.css</code> stylesheet bevat geen of een ongeldige thema header."
+
+#: wp-admin/includes/class-wp-upgrader.php:935
+msgid "The theme is missing the <code>index.php</code> file."
+msgstr "Het thema mist het <code>index.php</code> bestand."
+
+#: wp-admin/includes/class-wp-upgrader.php:926
+msgid "The theme is missing the <code>style.css</code> stylesheet."
+msgstr "Het thema mist de <code>style.css</code> stylesheet."
+
+#: wp-admin/includes/class-wp-upgrader.php:675
+msgid "<strong>The parent theme could not be found.</strong> You will need to install the parent theme, <strong>%s</strong>, before you can use this child theme."
+msgstr "<strong>Het parent thema kon niet worden gevonden.</strong> Je moet het parent thema installeren, <strong>%s</strong>, voordat je dit child thema kunt gebruiken."
+
+#: wp-admin/includes/class-wp-upgrader.php:674
+msgid "Successfully installed the parent theme, <strong>%1$s %2$s</strong>."
+msgstr "Succesvol het parent theme ge&#239;nstaleerd, <strong>%1$s %2$s</strong>."
+
+#: wp-admin/includes/class-wp-upgrader.php:672
+msgid "The parent theme, <strong>%1$s %2$s</strong>, is currently installed."
+msgstr "Het hoofd thema, <strong>%1$s %2$s</strong>, is op dit moment ge&iuml;nstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:670
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Installatie van <strong>%1$s %2$s</strong> voorbereiden."
+
+#: wp-admin/includes/class-wp-upgrader.php:665
+msgid "Theme installed successfully."
+msgstr "Thema succesvol ge&#239;nstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:667
+msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
+msgstr "Thema <strong>%1$s %2$s</strong> is succesvol ge&#239;nstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:668
+msgid "This theme requires a parent theme. Checking if it is installed&#8230;"
+msgstr "Dit thema vereist een moeder thema. Controleren of deze is geïnstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:656
+msgid "Theme updated successfully."
+msgstr "Thema succesvol bijgewerkt."
+
+#: wp-admin/includes/class-wp-upgrader.php:663
+msgid "Installing the theme&#8230;"
+msgstr "Thema installeren&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:664
+msgid "Theme install failed."
+msgstr "Thema installatie mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:655
+msgid "Theme update failed."
+msgstr "Bijwerken thema mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:653
+msgid "Removing the old version of the theme&#8230;"
+msgstr "Verwijderen van oudere versie van het thema&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:654
+msgid "Could not remove the old theme."
+msgstr "Kan het oude thema niet verwijderen."
+
+#: wp-admin/includes/class-wp-upgrader.php:649
+msgid "The theme is at the latest version."
+msgstr "Het thema is bijgewerkt tot de meest recente versie."
+
+#: wp-admin/includes/class-wp-upgrader.php:389
+msgid "Plugin installed successfully."
+msgstr "Plugin is succesvol ge&#239;nstalleerd."
+
+#: wp-admin/includes/class-wp-upgrader.php:567
+msgid "No valid plugins were found."
+msgstr "Er zijn geen geldige plugins gevonden."
+
+#: wp-admin/includes/class-wp-upgrader.php:386
+#: wp-admin/includes/class-wp-upgrader.php:662
+msgid "Unpacking the package&#8230;"
+msgstr "Uitpakken van pakket&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:387
+msgid "Installing the plugin&#8230;"
+msgstr "De plugin installeren&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:388
+msgid "Plugin install failed."
+msgstr "Plugin installatie mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:384
+#: wp-admin/includes/class-wp-upgrader.php:660
+msgid "Install package not available."
+msgstr "Installatiepakket niet beschikbaar."
+
+#: wp-admin/includes/class-wp-upgrader.php:385
+#: wp-admin/includes/class-wp-upgrader.php:661
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloaden installatiepakket van <span class=\"code\">%s</span>&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:380
+msgid "Plugin updated successfully."
+msgstr "Plugin succesvol bijgewerkt."
+
+#: wp-admin/includes/class-wp-upgrader.php:379
+msgid "Plugin update failed."
+msgstr "Bijwerken plugin mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:377
+msgid "Removing the old version of the plugin&#8230;"
+msgstr "Verwijderen van oudere versie van de plugin&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:378
+msgid "Could not remove the old plugin."
+msgstr "Kan de oude plugin niet verwijderen."
+
+#: wp-admin/includes/class-wp-upgrader.php:376
+#: wp-admin/includes/class-wp-upgrader.php:652
+#: wp-admin/includes/class-wp-upgrader.php:1023
+msgid "Unpacking the update&#8230;"
+msgstr "Uitpakken update&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:375
+#: wp-admin/includes/class-wp-upgrader.php:651
+#: wp-admin/includes/class-wp-upgrader.php:1022
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloaden update van <span class=\"code\">%s</span>&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:374
+#: wp-admin/includes/class-wp-upgrader.php:650
+#: wp-admin/includes/class-wp-upgrader.php:1021
+msgid "Update package not available."
+msgstr "Update pakket niet beschikbaar."
+
+#: wp-admin/includes/class-wp-upgrader.php:373
+msgid "The plugin is at the latest version."
+msgstr "De plugin is bijgewerkt tot de meest recente versie."
+
+#: wp-admin/includes/class-wp-upgrader.php:196
+msgid "The plugin contains no files."
+msgstr "De plugin bevat geen bestanden."
+
+#: wp-admin/includes/class-wp-upgrader.php:58
+msgid "Disabling Maintenance mode&#8230;"
+msgstr "Onderhoudsmode deactiveren&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:57
+msgid "Enabling Maintenance mode&#8230;"
+msgstr "Onderhoudsmode activeren&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:55
+msgid "The package could not be installed."
+msgstr "Het pakket kan niet ge&#239;nstalleerd worden."
+
+#: wp-admin/includes/class-wp-upgrader.php:54 wp-admin/includes/file.php:612
+#: wp-admin/includes/file.php:704 wp-admin/includes/file.php:763
+#: wp-admin/includes/update-core.php:662
+msgid "Could not create directory."
+msgstr "Map kan niet aangemaakt worden."
+
+#: wp-admin/includes/class-wp-upgrader.php:51
+msgid "Download failed."
+msgstr "Download mislukt."
+
+#: wp-admin/includes/class-wp-upgrader.php:52
+#: wp-admin/includes/update-core.php:512
+msgid "Installing the latest version&#8230;"
+msgstr "De laatste versie installeren&#8230;"
+
+#: wp-admin/includes/class-wp-upgrader.php:53
+msgid "Destination folder already exists."
+msgstr "Doelmap bestaat al."
+
+#: wp-admin/includes/class-wp-upgrader.php:49
+msgid "Unable to locate needed folder (%s)."
+msgstr "Kan de desbetreffende map (%s) niet localiseren."
+
+#: wp-admin/includes/class-wp-upgrader.php:47
+msgid "Unable to locate WordPress Theme directory."
+msgstr "Kan de WordPress themasite niet lokaliseren."
+
+#: wp-admin/includes/class-wp-upgrader.php:46 wp-admin/includes/plugin.php:718
+msgid "Unable to locate WordPress Plugin directory."
+msgstr "Kan de WordPress pluginmap niet lokaliseren."
+
+#: wp-admin/includes/class-wp-upgrader.php:44
+msgid "Unable to locate WordPress Root directory."
+msgstr "Kan de WordPressmap niet localiseren."
+
+#: wp-admin/includes/class-wp-upgrader.php:45
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "Kan de WordPress contentmap (wp-content) niet lokaliseren."
+
+#: wp-admin/includes/class-wp-upgrader.php:43 wp-admin/includes/plugin.php:713
+#: wp-admin/includes/theme.php:56
+msgid "Filesystem error."
+msgstr "Bestandssysteemfout."
+
+#: wp-admin/includes/class-wp-upgrader.php:41
+msgid "Invalid Data provided."
+msgstr "Ongeldig data verstrekt."
+
+#: wp-admin/includes/class-wp-upgrader.php:42 wp-admin/includes/file.php:518
+#: wp-admin/includes/plugin.php:710 wp-admin/includes/theme.php:53
+msgid "Could not access filesystem."
+msgstr "Kan geen toegang krijgen tot het bestandssysteem."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:190
+msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
+msgstr "All deze themabestanden bevinden zich in <code>%2$s</code>."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:182
+msgid "Version: "
+msgstr "Versie:"
+
+#: wp-admin/includes/class-wp-themes-list-table.php:186
+msgid "The template files are located in <code>%2$s</code>. The stylesheet files are located in <code>%3$s</code>. <strong>%4$s</strong> uses templates from <strong>%5$s</strong>. Changes made to the templates will affect both themes."
+msgstr "De template bestanden bevinden zich in <code>%2$s</code>. De stylesheet bestanden bevinden zich in <code>%3$s</code>. <strong>%4$s</strong> maakt gebruik van templates van <strong>%5$s</strong>. Wijzigingen in de templates zullen gevolgen hebben voor beide thema&#39;s."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:147
+msgid ""
+"You are about to delete this theme '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Je staat op het punt het thema '%s' te verwijderen.\n"
+"  'Annuleren' om te stoppen, 'OK' om te verwijderen."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:143
+#: wp-admin/includes/class-wp-upgrader.php:1523
+#: wp-admin/includes/class-wp-upgrader.php:1589
+msgid "Live Preview"
+msgstr "Live voorbeeld"
+
+#: wp-admin/includes/class-wp-themes-list-table.php:136
+#: wp-admin/includes/class-wp-upgrader.php:1524
+#: wp-admin/includes/class-wp-upgrader.php:1590
+msgid "Activate &#8220;%s&#8221;"
+msgstr "Activeer &#8220;%s&#8221;"
+
+#: wp-admin/includes/class-wp-themes-list-table.php:84
+msgid "Only the current theme is available to you. Contact the %s administrator for information about accessing additional themes."
+msgstr "Alleen het huidige thema is beschikbaar. Neem contact op met de beheerder van %s voor meer informatie over de toegang tot aanvullende thema&#39;s."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:78
+msgid "You only have one theme installed right now. Live a little! You can choose from over 1,000 free themes in the WordPress.org Theme Directory at any time: just click on the <a href=\"%s\">Install Themes</a> tab above."
+msgstr "Je hebt op dit moment slechts &#233;&#233;n thema ge&#239;nstalleerd. Kom op, leef een beetje! Je kunt op elk moment kiezen uit meer dan 1000 gratis thema&#039;s bij de WordPress.org thema directory. Je hoeft alleen op de <a href=\"%s\">Thema&#039;s installeren</a> tab hierboven te klikken."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:71
+msgid "You only have one theme enabled for this site right now. Visit the Network Admin to <a href=\"%1$s\">enable</a> more themes."
+msgstr "Je hebt maar een thema geactiveerd voor deze site nu. Bezoek het netwerk Admin <a href=\"%1$s\">staat</a> meer thema&#39;s."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:67
+msgid "You only have one theme enabled for this site right now. Visit the Network Admin to <a href=\"%1$s\">enable</a> or <a href=\"%2$s\">install</a> more themes."
+msgstr "Je hebt maar een thema geactiveerd voor deze site nu. Bezoek het netwerk Admin <a href=\"%1$s\">staat</a> of <a href=\"%2$s\">installeer</a> meer thema&#39;s."
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:325
+#: wp-admin/includes/dashboard.php:977
+msgid "Install"
+msgstr "Installeren"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:256
+msgid "&larr; Close"
+msgstr "&larr; Sluiten"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:223
+msgid "Preview %s"
+msgstr "%s voorvertonen"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:219
+#: wp-admin/includes/class-wp-theme-install-list-table.php:332
+msgctxt "theme"
+msgid "Installed"
+msgstr "Ge&#239;nstalleerd "
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:219
+#: wp-admin/includes/class-wp-theme-install-list-table.php:332
+msgid "This theme is already installed and is up to date"
+msgstr "Dit thema is al ge&#239;nstalleerd en up-to-date."
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:113
+msgid "No themes match your request."
+msgstr "Geen thema&#39;s gevonden die overeenkomen met je criteria."
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:47
+msgctxt "Theme Installer"
+msgid "Recently Updated"
+msgstr "Onlangs bijgewerkt"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:46
+msgctxt "Theme Installer"
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:44
+msgctxt "Theme Installer"
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: wp-admin/includes/class-wp-terms-list-table.php:100
+#: wp-admin/includes/class-wp-terms-list-table.php:340
+msgctxt "term name"
+msgid "Name"
+msgstr "Naam"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:975
+#: wp-admin/includes/class-wp-posts-list-table.php:978
+#: wp-admin/includes/template.php:1482
+msgid "Sticky"
+msgstr "Sticky"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:979
+msgid "Not Sticky"
+msgstr "Niet sticky"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:987
+msgid "Make this post sticky"
+msgstr "Dit bericht sticky maken"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:938
+msgid "Allow Comments"
+msgstr "Reacties toestaan"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:943
+msgid "Allow Pings"
+msgstr "Pings toestaan"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:917
+#: wp-admin/includes/class-wp-posts-list-table.php:926
+msgid "Do not allow"
+msgstr "Niet toestaan"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:883
+#: wp-admin/includes/meta-boxes.php:582
+msgid "Default Template"
+msgstr "Standaard template"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:916
+#: wp-admin/includes/class-wp-posts-list-table.php:925
+msgid "Allow"
+msgstr "Toestaan"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:868
+#: wp-admin/includes/media.php:954 wp-admin/includes/media.php:1661
+#: wp-admin/includes/meta-boxes.php:587 wp-admin/includes/meta-boxes.php:588
+msgid "Order"
+msgstr "Volgorde"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:850
+msgid "Main Page (no parent)"
+msgstr "Hoofdpagina (geen sub)"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:844
+#: wp-admin/includes/meta-boxes.php:571 wp-admin/includes/meta-boxes.php:572
+msgid "Parent"
+msgstr "Hoofd"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:820
+msgid "[less]"
+msgstr "[minder]"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:819
+msgid "[more]"
+msgstr "[meer]"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:799
+msgid "&ndash;OR&ndash;"
+msgstr "&ndash; OF &ndash;"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:594
+msgid "Last Modified"
+msgstr "Laatst bijgewerkt"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:728
+msgid "Bulk Edit"
+msgstr "Bulkbewerken"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:773
+#: wp-admin/includes/class-wp-posts-list-table.php:856
+#: wp-admin/includes/class-wp-posts-list-table.php:881
+#: wp-admin/includes/class-wp-posts-list-table.php:915
+#: wp-admin/includes/class-wp-posts-list-table.php:924
+#: wp-admin/includes/class-wp-posts-list-table.php:956
+#: wp-admin/includes/class-wp-posts-list-table.php:977
+#: wp-admin/includes/class-wp-posts-list-table.php:1006
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Geen wijzigingen &mdash;"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:590
+msgid "Missed schedule"
+msgstr "Planning mislukt"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:550
+#: wp-admin/includes/class-wp-theme-install-list-table.php:189
+#: wp-admin/includes/class-wp-themes-list-table.php:139
+#: wp-admin/includes/class-wp-upgrader.php:1522
+#: wp-admin/includes/class-wp-upgrader.php:1523
+#: wp-admin/includes/class-wp-upgrader.php:1588
+#: wp-admin/includes/class-wp-upgrader.php:1589
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Voorbeeld &#8220;%s&#8221;"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:545
+msgid "Delete this item permanently"
+msgstr "Dit item permanent verwijderen"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:543
+msgid "Move this item to the Trash"
+msgstr "Dit item naar de prullenbak verplaatsen."
+
+#: wp-admin/includes/class-wp-posts-list-table.php:541
+msgid "Restore this item from the Trash"
+msgstr "Dit item herstellen vanuit de prullenbak"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:537
+msgid "Edit this item inline"
+msgstr "Dit item inline bewerken"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:536
+msgid "Edit this item"
+msgstr "Dit item bewerken"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:267
+msgctxt "column name"
+msgid "Title"
+msgstr "Titel"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:174
+msgctxt "posts"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] "Sticky <span class=\"count\">(%s)</span>"
+msgstr[1] "Sticky <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:152
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:424
+msgid "Visit plugin site"
+msgstr "Bezoek plugin site"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:141
+msgctxt "posts"
+msgid "Mine <span class=\"count\">(%s)</span>"
+msgid_plural "Mine <span class=\"count\">(%s)</span>"
+msgstr[0] "Mijn <span class=\"count\">(%s)</span>"
+msgstr[1] "Mijn <span class=\"count\">(%s)</span> "
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:372
+msgid "Open this file in the Plugin Editor"
+msgstr "Deze plugin openen in de plugineditor"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:364
+#: wp-admin/includes/class-wp-upgrader.php:1206
+#: wp-admin/includes/class-wp-upgrader.php:1442
+#: wp-admin/includes/class-wp-upgrader.php:1444
+msgid "Activate this plugin"
+msgstr "Deze plugin activeren"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:358
+#: wp-admin/includes/class-wp-plugins-list-table.php:367
+msgid "Delete this plugin"
+msgstr "Verwijderen deze plugin"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:356
+#: wp-admin/includes/class-wp-upgrader.php:1447
+msgid "Activate this plugin for all sites in this network"
+msgstr "Deze plugin activeren voor alle sites in je netwerk"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:353
+#: wp-admin/includes/class-wp-plugins-list-table.php:362
+msgid "Deactivate this plugin"
+msgstr "Deze plugin deactiveren"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:340
+msgid "Requires <code>%s</code> in <code>wp-config.php</code>."
+msgstr "<code>%s</code> vereist in <code>wp-config.php</code>."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:340
+msgid "Inactive:"
+msgstr "Niet actief:"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:282
+msgid "Clear List"
+msgstr "Lijst wissen"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:284
+msgid "Files in the <code>%s</code> directory are executed automatically."
+msgstr "Bestanden in de <code>%s</code> map worden automatisch uitgevoerd."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:286
+msgid "Drop-ins are advanced plugins in the <code>%s</code> directory that replace WordPress functionality when present."
+msgstr "Drop-ins zijn geavanceerde plugins in de <code>%s</code> map die bepaalde WordPress functionaliteit kunnen vervangen."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:250
+#: wp-admin/includes/class-wp-plugins-list-table.php:353
+msgid "Network Deactivate"
+msgstr "Netwerk deactiveren"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:220
+msgid "Drop-ins <span class=\"count\">(%s)</span>"
+msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
+msgstr[0] "Drop-ins <span class=\"count\">(%s)</span>"
+msgstr[1] "Drop-ins <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:247
+#: wp-admin/includes/class-wp-plugins-list-table.php:356
+#: wp-admin/includes/class-wp-upgrader.php:1447
+msgid "Network Activate"
+msgstr "Netwerk activeren"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:217
+msgid "Must-Use <span class=\"count\">(%s)</span>"
+msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
+msgstr[0] "Beslist-gebruik <span class=\"count\">(%s)</span>"
+msgstr[1] "Beslist-gebruik <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:214
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] "Inactief <span class=\"count\">(%s)</span>"
+msgstr[1] "Inactief <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:211
+msgid "Recently Active <span class=\"count\">(%s)</span>"
+msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Recentelijk actief <span class=\"count\">(%s)</span>"
+msgstr[1] "Recentelijk actief <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:205
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:208
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Actieve <span class=\"count\">(%s)</span>"
+msgstr[1] "Actieve <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:178
+msgid "You do not appear to have any plugins available at this time."
+msgstr "Je hebt op dit moment blijkbaar geen plugins beschikbaar."
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:176
+msgid "No plugins found."
+msgstr "Geen plugins gevonden."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:219
+#: wp-admin/includes/class-wp-theme-install-list-table.php:306
+#: wp-admin/includes/plugin-install.php:344
+#: wp-admin/includes/plugin-install.php:347
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "(Gebaseerd op %s waardering)"
+msgstr[1] "(Gebaseerd op %s waarderingen)"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:206
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Ge&#239;nstalleerd"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:206
+msgid "This plugin is already installed and is up to date"
+msgstr "Deze plugin is al ge&#239;nstalleerd en is volledig bijgewerkt."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:202
+#: wp-admin/update-core.php:33
+msgid "Update Now"
+msgstr "Nu bijwerken"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:202
+#: wp-admin/includes/class-wp-theme-install-list-table.php:215
+#: wp-admin/includes/class-wp-theme-install-list-table.php:328
+msgid "Update to version %s"
+msgstr "Bijwerken naar versie %s"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:198
+#: wp-admin/includes/class-wp-theme-install-list-table.php:212
+#: wp-admin/includes/plugin-install.php:151
+#: wp-admin/includes/plugin-install.php:305
+#: wp-admin/includes/theme-install.php:126
+msgid "Install Now"
+msgstr "Nu installeren"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:198
+#: wp-admin/includes/class-wp-theme-install-list-table.php:212
+msgid "Install %s"
+msgstr "%s installeren"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:190
+#: wp-admin/includes/class-wp-theme-install-list-table.php:240
+#: wp-admin/includes/class-wp-themes-list-table.php:174
+msgid "Details"
+msgstr "Details"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:139
+msgctxt "plugin name"
+msgid "Name"
+msgstr "Naam"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:190
+msgid "More information about %s"
+msgstr "Meer informatie over %s"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:95
+msgid "No plugins match your request."
+msgstr "Geen plugins gevonden die overeenkomen met je criteria."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:84
+#: wp-admin/includes/class-wp-theme-install-list-table.php:101
+msgid "Try again"
+msgstr "Opnieuw proberen"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:35
+msgctxt "Plugin Installer"
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:33
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:34
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "Populairste"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:31
+#: wp-admin/includes/class-wp-theme-install-list-table.php:42
+#: wp-admin/includes/file.php:26
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:184
+#: wp-admin/user-edit.php:269
+msgid "Super Admin"
+msgstr "Superbeheerder"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:118
+msgctxt "user"
+msgid "Registered"
+msgstr "Geregistreerd"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:98
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Super Admin <span class=\"count\">(%s)</span>"
+msgstr[1] "Super Admins <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:96
+#: wp-admin/includes/class-wp-users-list-table.php:101
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:83
+msgid "No users found."
+msgstr "Geen gebruikers gevonden."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:77
+msgctxt "user"
+msgid "Not Spam"
+msgstr "Geen spam"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:76
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "Als spam markeren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:348
+msgid "Visit Theme Site"
+msgstr "Themawebsite bezoeken"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:348
+msgid "Visit theme homepage"
+msgstr "Themahomepage bezoeken"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:345
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:183
+#: wp-admin/includes/class-wp-plugins-list-table.php:421
+#: wp-admin/includes/class-wp-theme-install-list-table.php:233
+#: wp-admin/includes/class-wp-theme-install-list-table.php:336
+#: wp-admin/includes/class-wp-themes-list-table.php:168 wp-admin/themes.php:146
+msgid "By %s"
+msgstr "Door %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+msgid "Broken Theme:"
+msgstr "Kapot thema:"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:306
+#: wp-admin/includes/class-wp-plugins-list-table.php:381
+#: wp-admin/includes/template.php:1331 wp-admin/nav-menus.php:505
+#: wp-admin/plugin-editor.php:200 wp-admin/theme-editor.php:156
+msgid "Select"
+msgstr "Selecteren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:299
+msgid "Delete this theme"
+msgstr "Dit thema verwijderen"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:296
+msgid "Open this theme in the Theme Editor"
+msgstr "Dit thema openen in de thema-editor"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
+msgid "Disable this theme"
+msgstr "Dit thema deactiveren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgid "Enable this theme"
+msgstr "Dit thema activeren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:241
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
+msgid "Network Disable"
+msgstr "Netwerk uitschakelen"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:241
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:239
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+#: wp-admin/includes/class-wp-upgrader.php:1527
+msgid "Network Enable"
+msgstr "Netwerk activeren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:213
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Incompleet <span class=\"count\">(%s)</span>"
+msgstr[1] "Incomplete <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:239
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:210
+#: wp-admin/includes/class-wp-plugins-list-table.php:223
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
+msgstr[1] "Updates beschikbaar <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:207
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Uitgeschakeld <span class=\"count\">(%s)</span>"
+msgstr[1] "Uitgeschakeld <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:204
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Ingeschakeld <span class=\"count\">(%s)</span>"
+msgstr[1] "Ingeschakeld <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:201
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:180
+msgid "Theme"
+msgstr "Thema"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:172
+msgid "You do not appear to have any themes available at this time."
+msgstr "Het lijkt erop dat er geen thema&#39;s beschikbaar zijn op dit moment."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:170
+msgid "No themes found."
+msgstr "Geen thema&#39;s gevonden."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:303
+msgid "More"
+msgstr "Meer"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:303
+msgid "Only showing first 5 users."
+msgstr "Alleen de eerste 5 gebruikers."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:282
+msgid "Never"
+msgstr "Nooit"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:267
+#: wp-admin/my-sites.php:105
+msgid "Visit"
+msgstr "Bezoek"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:264
+msgid "You are about to delete the site %s."
+msgstr "Je staat op het punt om de website %s te verwijderen."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:261
+msgid "You are about to mark the site %s as spam."
+msgstr "Je staat op het punt de site %s te markeren als geen spam. "
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:259
+msgid "You are about to unspam the site %s."
+msgstr "Je staat op het punt de site %s te markeren als geen spam."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:256
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Archiveren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:254
+msgid "Unarchive"
+msgstr "Dearchiveren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:256
+msgid "You are about to archive the site %s."
+msgstr "Je staat op het punt de site %s te archiveren."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:254
+msgid "You are about to unarchive the site %s."
+msgstr "Je staat op het punt de website %s te herstellen vanuit het archief."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:251
+msgid "You are about to deactivate the site %s"
+msgstr "Je staat op het punt website %s te deactiveren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:251
+#: wp-admin/includes/class-wp-plugins-list-table.php:250
+#: wp-admin/includes/class-wp-plugins-list-table.php:362
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:249
+msgid "You are about to activate the site %s"
+msgstr "Je staat op het punt website %s te activeren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:176
+msgid "Mature"
+msgstr "Volwassen"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:233
+msgctxt "%1$s: site name. %2$s: site tagline."
+msgid "%1$s &#8211; <em>%2$s</em>"
+msgstr "%1$s &#8211; <em>%2$s</em>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:175
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:174
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:261
+msgctxt "site"
+msgid "Spam"
+msgstr "Spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:173
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:149
+msgctxt "site"
+msgid "Registered"
+msgstr "Geregistreerd"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:148
+msgid "Last Updated"
+msgstr "Laatst bijgewerkt"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:144
+msgid "Domain"
+msgstr "Domein"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:129
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:259
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Geen spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:128
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "Als spam markeren"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:121
+msgid "No sites found."
+msgstr "Geen websites gevonden."
+
+#: wp-admin/includes/class-wp-media-list-table.php:367
+#: wp-admin/includes/class-wp-media-list-table.php:386
+#: wp-admin/includes/class-wp-posts-list-table.php:552
+msgid "View &#8220;%s&#8221;"
+msgstr "Toon &#8220;%s&#8221;"
+
+#: wp-admin/includes/class-wp-media-list-table.php:362
+#: wp-admin/includes/class-wp-media-list-table.php:378
+#: wp-admin/includes/class-wp-posts-list-table.php:543
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: wp-admin/includes/class-wp-media-list-table.php:284
+msgid "%s from now"
+msgstr "%s vanaf nu"
+
+#: wp-admin/includes/class-wp-media-list-table.php:314
+msgid "(Unattached)"
+msgstr "Niet gekoppeld"
+
+#: wp-admin/includes/class-wp-media-list-table.php:319
+#: wp-admin/includes/class-wp-media-list-table.php:369
+msgid "Attach"
+msgstr "Bijvoegen"
+
+#: wp-admin/includes/class-wp-media-list-table.php:277
+#: wp-admin/includes/class-wp-posts-list-table.php:565
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+#: wp-admin/includes/class-wp-media-list-table.php:279
+#: wp-admin/includes/class-wp-posts-list-table.php:568
+#: wp-admin/includes/dashboard.php:568
+msgid "Y/m/d g:i:s A"
+msgstr "j F Y H:i"
+
+#: wp-admin/includes/class-wp-media-list-table.php:142
+msgctxt "column name"
+msgid "Date"
+msgstr "Datum"
+
+#: wp-admin/includes/class-wp-media-list-table.php:262
+#: wp-admin/includes/class-wp-posts-list-table.php:635
+msgid "No Tags"
+msgstr "Geen tags"
+
+#: wp-admin/includes/class-wp-media-list-table.php:137
+msgctxt "column name"
+msgid "Attached to"
+msgstr "Gekoppeld aan"
+
+#: wp-admin/includes/class-wp-media-list-table.php:132
+msgctxt "column name"
+msgid "File"
+msgstr "Bestand"
+
+#: wp-admin/includes/class-wp-media-list-table.php:98
+msgid "Scan for lost attachments"
+msgstr "Zoeken naar verloren bijlagen"
+
+#: wp-admin/includes/class-wp-media-list-table.php:124
+msgid "No media attachments found."
+msgstr "Geen media bijlagen gevonden."
+
+#: wp-admin/includes/class-wp-media-list-table.php:81
+msgid "Attach to a post"
+msgstr "Toevoegen aan bericht"
+
+#: wp-admin/includes/class-wp-media-list-table.php:72
+msgctxt "uploaded files"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "Prullenbak <span class=\"count\">(%s)</span>"
+msgstr[1] "Prullenbak <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-media-list-table.php:69
+msgctxt "detached files"
+msgid "Unattached <span class=\"count\">(%s)</span>"
+msgid_plural "Unattached <span class=\"count\">(%s)</span>"
+msgstr[0] "Losse <span class=\"count\">(%s)</span>"
+msgstr[1] "Losse <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-list-table.php:540
+msgid "Go to the last page"
+msgstr "Ga naar de laatste pagina"
+
+#: wp-admin/includes/class-wp-media-list-table.php:57
+msgctxt "uploaded files"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-list-table.php:533
+msgid "Go to the next page"
+msgstr "Ga naar de volgende pagina"
+
+#: wp-admin/includes/class-wp-list-table.php:529
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s van %2$s"
+
+#: wp-admin/includes/class-wp-list-table.php:523
+msgid "Current page"
+msgstr "Huidige pagina"
+
+#: wp-admin/includes/class-wp-list-table.php:514
+msgid "Go to the previous page"
+msgstr "Ga naar de vorige pagina"
+
+#: wp-admin/includes/class-wp-list-table.php:507
+msgid "Go to the first page"
+msgstr "Ga naar de eerste pagina"
+
+#: wp-admin/includes/class-wp-list-table.php:407
+msgid "Excerpt View"
+msgstr "Samenvatting bekijken"
+
+#: wp-admin/includes/class-wp-list-table.php:433
+msgid "%s pending"
+msgstr "%s wachtend"
+
+#: wp-admin/includes/class-wp-list-table.php:377
+#: wp-admin/includes/media.php:1867
+msgid "Show all dates"
+msgstr "Alles tonen"
+
+#: wp-admin/includes/class-wp-list-table.php:406
+msgid "List View"
+msgstr "Lijst"
+
+#: wp-admin/includes/class-wp-links-list-table.php:146
+msgid "Visit %s"
+msgstr "%s bezoeken"
+
+#: wp-admin/includes/class-wp-list-table.php:190
+#: wp-admin/includes/class-wp-themes-list-table.php:61
+msgid "No items found."
+msgstr "Geen items gevonden."
+
+#: wp-admin/includes/class-wp-links-list-table.php:140
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Je staat op het punt de link '%s' te verwijderen.\n"
+"  'Annuleren' om te stoppen, 'OK' om te verwijderen."
+
+#: wp-admin/includes/class-wp-links-list-table.php:136
+#: wp-admin/includes/class-wp-media-list-table.php:209
+#: wp-admin/includes/class-wp-media-list-table.php:227
+#: wp-admin/includes/class-wp-posts-list-table.php:522
+#: wp-admin/includes/class-wp-posts-list-table.php:528
+#: wp-admin/includes/class-wp-terms-list-table.php:254
+#: wp-admin/includes/dashboard.php:568
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Bewerk &#8220;%s&#8221;"
+
+#: wp-admin/includes/class-wp-links-list-table.php:64
+#: wp-admin/includes/class-wp-posts-list-table.php:211
+msgid "View all categories"
+msgstr "Alle categorie&#235;n tonen"
+
+#: wp-admin/includes/class-wp-links-list-table.php:83
+msgid "Relationship"
+msgstr "Relatie (XFN)"
+
+#: wp-admin/includes/class-wp-links-list-table.php:84
+msgid "Visible"
+msgstr "Wysiwyg"
+
+#: wp-admin/includes/class-wp-links-list-table.php:85
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:141
+#: wp-admin/includes/meta-boxes.php:894
+msgid "Rating"
+msgstr "Waardering"
+
+#: wp-admin/includes/class-wp-links-list-table.php:42
+msgid "No links found."
+msgstr "Geen links gevonden."
+
+#: wp-admin/includes/class-wp-links-list-table.php:47
+#: wp-admin/includes/class-wp-links-list-table.php:140
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:127
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:264
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:244
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:299
+#: wp-admin/includes/class-wp-ms-users-list-table.php:75
+#: wp-admin/includes/class-wp-ms-users-list-table.php:192
+#: wp-admin/includes/class-wp-plugins-list-table.php:256
+#: wp-admin/includes/class-wp-plugins-list-table.php:358
+#: wp-admin/includes/class-wp-plugins-list-table.php:367
+#: wp-admin/includes/class-wp-terms-list-table.php:83
+#: wp-admin/includes/class-wp-terms-list-table.php:262
+#: wp-admin/includes/class-wp-themes-list-table.php:148
+#: wp-admin/includes/class-wp-users-list-table.php:130
+#: wp-admin/includes/class-wp-users-list-table.php:252
+#: wp-admin/includes/media.php:1161 wp-admin/includes/meta-boxes.php:635
+#: wp-admin/includes/template.php:495 wp-admin/includes/widgets.php:206
+#: wp-admin/widgets.php:293
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:138
+msgid "Unable to perform command: %s"
+msgstr "Niet mogelijk om commando %s uit te voeren"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:111
+msgid "Failed to connect to SSH2 Server %1$s:%2$s"
+msgstr "Verbinden met SSH2-server %1$s:%2$s mislukt"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:122
+msgid "Public and Private keys incorrect for %s"
+msgstr "Publieke en priv&#233; sleutels onjuist voor %s"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:96
+msgid "SSH2 password is required"
+msgstr "SSH2-wachtwoord is verplicht"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:88
+msgid "SSH2 username is required"
+msgstr "SSH2-gebruikersnaam is verplicht"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:72
+msgid "SSH2 hostname is required"
+msgstr "SSH2-hostnaam is verplicht"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:61
+msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
+msgstr "De SSH2 PHP-extensie is beschikbaar, echter vereist dit de PHP5 functie: <code>stream_get_contents()</code>"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:57
+msgid "The ssh2 PHP extension is not available"
+msgstr "De SSH2 PHP-extensie is niet beschikbaar"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:74
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:64
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:69
+msgid "Failed to connect to FTP Server %1$s:%2$s"
+msgstr "Verbinden met FTP-server %1$s:%2$s mislukt"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:79
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:74
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:117
+msgid "Username/Password incorrect for %s"
+msgstr "Gebruikersnaam/wachtwoord onjuist voor %s"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:58
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:52
+msgid "FTP password is required"
+msgstr "FTP-wachtwoord is verplicht"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:53
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:47
+msgid "FTP username is required"
+msgstr "FTP-gebruikersnaam is verplicht"
+
+#: wp-admin/includes/class-wp-filesystem-base.php:221
+msgid "Found %s"
+msgstr " %s gevonden"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:28
+msgid "The ftp PHP extension is not available"
+msgstr "De FTP PHP-extensie is niet beschikbaar"
+
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:44
+#: wp-admin/includes/class-wp-filesystem-ftpsockets.php:38
+msgid "FTP hostname is required"
+msgstr "FTP-hostnaam is verplicht"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:475
+msgid "Y/m/d \\a\\t g:ia"
+msgstr "j F Y \\o\\m H:i"
+
+#: wp-admin/includes/class-wp-filesystem-base.php:212
+msgid "Changing to %s"
+msgstr "Over naar %s"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:417
+#: wp-admin/includes/dashboard.php:663
+msgid "Reply to this comment"
+msgstr "Deze reactie beantwoorden"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:416
+#: wp-admin/includes/class-wp-posts-list-table.php:537
+#: wp-admin/includes/class-wp-terms-list-table.php:259
+msgid "Quick&nbsp;Edit"
+msgstr "Snel&nbsp;bewerken"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:411
+#: wp-admin/includes/dashboard.php:668
+msgid "Move this comment to the trash"
+msgstr "Deze reactie naar de prullenbak verplaatsen"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:411
+#: wp-admin/includes/dashboard.php:668
+msgctxt "verb"
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:416
+#: wp-admin/includes/class-wp-posts-list-table.php:728
+#: wp-admin/includes/class-wp-terms-list-table.php:337
+msgid "Quick Edit"
+msgstr "Snel bewerken"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:401
+#: wp-admin/includes/dashboard.php:664
+msgid "Mark this comment as spam"
+msgstr "Deze reactie markeren als spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:401
+#: wp-admin/includes/dashboard.php:664
+msgctxt "verb"
+msgid "Spam"
+msgstr "Spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:392
+#: wp-admin/includes/class-wp-comments-list-table.php:397
+#: wp-admin/includes/dashboard.php:661
+msgid "Unapprove this comment"
+msgstr "Deze reactie weigeren"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:394
+#: wp-admin/includes/class-wp-comments-list-table.php:396
+#: wp-admin/includes/dashboard.php:660
+msgid "Approve this comment"
+msgstr "Deze reactie toelaten"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:355
+msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "Geplaatst op <a href=\"%1$s\">%2$s at %3$s</a>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:363
+msgid "In reply to <a href=\"%1$s\">%2$s</a>."
+msgstr "In antwoord op <a href=\"%1$s\">%2$s</a>."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:255
+#: wp-admin/includes/class-wp-comments-list-table.php:527
+msgctxt "column name"
+msgid "Comment"
+msgstr "Reactie"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:258
+msgctxt "column name"
+msgid "In Response To"
+msgstr "Reacties"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:336
+msgid "Y/m/d \\a\\t g:i A"
+msgstr "j F Y \\o\\m H:i"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:232
+msgid "Empty Spam"
+msgstr "Spam leegmaken"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:232
+#: wp-admin/includes/class-wp-media-list-table.php:100
+#: wp-admin/includes/class-wp-posts-list-table.php:225
+msgid "Empty Trash"
+msgstr "Prullenbak leegmaken"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:227
+#: wp-admin/includes/class-wp-links-list-table.php:71
+#: wp-admin/includes/class-wp-media-list-table.php:94
+#: wp-admin/includes/class-wp-posts-list-table.php:221
+msgid "Filter"
+msgstr "Filter"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:197
+#: wp-admin/includes/class-wp-comments-list-table.php:403
+msgctxt "comment"
+msgid "Not Spam"
+msgstr "Geen spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:215
+msgid "Show all comment types"
+msgstr "Alle reacties tonen"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:219
+#: wp-admin/includes/class-wp-posts-list-table.php:922
+msgid "Pings"
+msgstr "Pings"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:190
+#: wp-admin/includes/class-wp-comments-list-table.php:394
+#: wp-admin/includes/class-wp-comments-list-table.php:396
+#: wp-admin/includes/dashboard.php:660
+msgid "Approve"
+msgstr "Toelaten"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:192
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr "Als spam markeren"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:150
+msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[0] "Prullenbak <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[1] "Prullenbak <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:188
+#: wp-admin/includes/class-wp-comments-list-table.php:392
+#: wp-admin/includes/class-wp-comments-list-table.php:397
+#: wp-admin/includes/dashboard.php:661
+msgid "Unapprove"
+msgstr "Weigeren"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:149
+msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:148
+msgid "Approved"
+msgid_plural "Approved"
+msgstr[0] "Toegelaten"
+msgstr[1] "Toegelaten"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:135
+msgid "No comments found."
+msgstr "Geen reacties gevonden."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:146
+msgctxt "comments"
+msgid "All"
+msgid_plural "All"
+msgstr[0] "Alle"
+msgstr[1] "Alle"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:147
+msgid "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgid_plural "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[0] "Wachtend <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[1] "Wachtend <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+
+#: wp-admin/includes/bookmark.php:200
+msgid "Could not insert link into the database"
+msgstr "Kan de link niet invoegen in de database"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:133
+msgid "No comments awaiting moderation."
+msgstr "Geen reactie in afwachting van moderatie."
+
+#: wp-admin/includes/bookmark.php:193
+msgid "Could not update link in the database"
+msgstr "Kan de link in de database niet bijwerken"
+
+#: wp-admin/includes/ajax-actions.php:1722
+msgid "Save failed"
+msgstr "Opslaan mislukt"
+
+#: wp-admin/includes/ajax-actions.php:1461
+#: wp-admin/includes/class-wp-posts-list-table.php:592
+#: wp-admin/includes/class-wp-posts-list-table.php:960
+#: wp-admin/includes/meta-boxes.php:71 wp-admin/includes/meta-boxes.php:94
+msgid "Scheduled"
+msgstr "Gepland"
+
+#: wp-admin/includes/ajax-actions.php:1452
+#: wp-admin/includes/class-wp-posts-list-table.php:282
+#: wp-admin/includes/class-wp-posts-list-table.php:753
+msgid "Date"
+msgstr "Datum"
+
+#: wp-admin/includes/ajax-actions.php:1336
+msgid "Saving is disabled: %s is currently editing this post."
+msgstr "Autosave uitgeschakeld: %s bewerkt dit bericht momenteel."
+
+#: wp-admin/includes/ajax-actions.php:1336
+msgid "Saving is disabled: %s is currently editing this page."
+msgstr "Autosave uitgeschakeld: %s bewerkt deze pagina momenteel."
+
+#: wp-admin/includes/ajax-actions.php:1082
+#: wp-admin/includes/ajax-actions.php:1325 wp-admin/includes/post.php:156
+#: wp-admin/includes/post.php:1317
+msgid "You are not allowed to edit this page."
+msgstr "Je hebt geen toestemming om deze pagina te bewerken."
+
+#: wp-admin/includes/ajax-actions.php:1085
+#: wp-admin/includes/ajax-actions.php:1328 wp-admin/includes/post.php:158
+#: wp-admin/includes/post.php:1320 wp-admin/press-this.php:35
+#: wp-admin/upload.php:62
+msgid "You are not allowed to edit this post."
+msgstr "Je hebt geen toestemming om dit bericht te bewerken."
+
+#: wp-admin/includes/ajax-actions.php:1074
+msgid "Autosave disabled."
+msgstr "Automatisch opslaan uitgeschakeld."
+
+#: wp-admin/includes/ajax-actions.php:1077
+msgid "%s is currently editing this article. If you update it, you will overwrite the changes."
+msgstr "%s is momenteel dit onderdeel aan het bewerken. Als jij dit nu nu opslaat, zullen de wijzigingen worden overschreven."
+
+#: wp-admin/includes/ajax-actions.php:1059
+msgid "Your login has expired. Please open a new browser window and <a href=\"%s\" target=\"_blank\">log in again</a>. "
+msgstr "Je loginsessie is verlopen. Open een nieuw browservenster of <a href=\"%s\" target=\"_blank\">probeer opnieuw in te loggen</a>."
+
+#: wp-admin/includes/ajax-actions.php:1073
+#: wp-admin/includes/ajax-actions.php:1335
+msgid "Someone"
+msgstr "Iemand"
+
+#: wp-admin/includes/ajax-actions.php:975
+msgid "Please provide a custom field name."
+msgstr "Geen een aangepaste veldnaam."
+
+#: wp-admin/includes/ajax-actions.php:1030
+msgid "User <a href=\"#%s\">%s</a> added"
+msgstr "Gebruiker <a href=\"#%s\">%s</a> toegevoegd"
+
+#: wp-admin/includes/ajax-actions.php:1053
+msgid "g:i:s a"
+msgstr "H:i"
+
+#: wp-admin/includes/ajax-actions.php:1055
+msgid "Draft saved at %s."
+msgstr "Concept opgeslagen op %s."
+
+#: wp-admin/includes/ajax-actions.php:753
+msgid "Sorry, you must be logged in to reply to a comment."
+msgstr "Helaas, je moet ingelogd zijn om een reactie te geven."
+
+#: wp-admin/includes/ajax-actions.php:757
+#: wp-admin/includes/ajax-actions.php:821
+msgid "ERROR: please type a comment."
+msgstr "MISLUKT: wel een reactie ingeven."
+
+#: wp-admin/includes/ajax-actions.php:952
+#: wp-admin/includes/ajax-actions.php:957
+#: wp-admin/includes/ajax-actions.php:977
+msgid "Please provide a custom field value."
+msgstr "Geef een waarden voor een aangepast veld."
+
+#: wp-admin/includes/ajax-actions.php:607
+#: wp-admin/includes/ajax-actions.php:1542
+msgid "An error has occurred. Please reload the page and try again."
+msgstr "Er is een fout opgetreden. Ververs de pagina en probeer opnieuw."
+
+#: wp-admin/includes/ajax-actions.php:272
+#: wp-admin/includes/class-wp-list-table.php:489
+#: wp-admin/includes/class-wp-list-table.php:890
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 item"
+msgstr[1] "%s items"
+
+#: wp-admin/includes/ajax-actions.php:661
+msgid "No tags found!"
+msgstr "Geen tags gevonden!"
+
+#: wp-admin/includes/ajax-actions.php:737
+msgid "ERROR: you are replying to a comment on a draft post."
+msgstr "MISLUKT: je geeft een reactie op een bericht die in concept staat."
+
+#: wp-admin/includes/ajax-actions.php:530
+msgid "Comment %d does not exist"
+msgstr "Reactie %d bestaat niet"
+
+#: wp-admin/includes/ajax-actions.php:19
+msgid "<strong>ALERT: You are logged out!</strong> Could not save draft. <a href=\"%s\" target=\"_blank\">Please log in again.</a>"
+msgstr "<strong>WAARSCHUWING: Je bent uitgelogd!</strong> Concept kon niet worden opgeslagen. <a href=\"%s\" target=\"_blank\">Opnieuw inloggen.</a>"
+
+#: wp-admin/includes/ajax-actions.php:187
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: wp-admin/import.php:132
+msgid "If the importer you need is not listed, <a href=\"%s\">search the plugin directory</a> to see if an importer is available."
+msgstr "Als de importer zich niet in de lijst bevindt, <a href=\"%s\">zoek in de plugin bibliotheek</a>, misschien is daar de importer beschikbaar."
+
+#: wp-admin/import.php:100
+msgid "Activate importer"
+msgstr "Importeerfunctie activeren"
+
+#: wp-admin/import.php:107
+msgid "Install importer"
+msgstr "Importeerfunctie installeren"
+
+#: wp-admin/import.php:110
+msgid "This importer is not installed. Please install importers from <a href=\"%s\">the main site</a>."
+msgstr "De importeerfunctie is niet ge&#239;nstalleerd. Installeer de iimporteerfuncties vanaf de<a href=\"%s\">hoofdsite</a>."
+
+#: wp-admin/import.php:80
+msgid "No importers are available."
+msgstr "Geen importers beschikbaar."
+
+#: wp-admin/import.php:63
+msgid "If you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:"
+msgstr "Je kunt berichten of reacties uit andere systemen importeren naar je huidige site. Kies hieronder uit welk systeem je wilt importeren."
+
+#: wp-admin/import.php:61
+msgid "ERROR:"
+msgstr "FOUT:"
+
+#: wp-admin/import.php:61
+msgid "The <strong>%s</strong> importer is invalid or is not installed."
+msgstr "De <strong>%s</strong> importeerfunctie is ongeldig of niet ge&#239;nstalleerd."
+
+#: wp-admin/import.php:41
+msgid "Install the Tumblr importer to import posts &amp; media from Tumblr using their API."
+msgstr "Installeer de Tumblr importeerfunctie om berichten &amp; media van Tumblr met gebruik van hun API te importeren."
+
+#: wp-admin/import.php:42
+msgid "Install the WordPress importer to import posts, pages, comments, custom fields, categories, and tags from a WordPress export file."
+msgstr "Installeer de WordPress importeerfunctie voor het importeren van berichten, pagina&#39;s, reacties, aangepaste velden, categorie&#235;n en tags van een Wordpress exportbestand."
+
+#: wp-admin/import.php:39
+msgid "Install the blogroll importer to import links in OPML format."
+msgstr "De blogroll importeerfunctie installeren om links in OPML-format te importeren."
+
+#: wp-admin/import.php:40
+msgid "Install the RSS importer to import posts from an RSS feed."
+msgstr "De RSS importeerfunctie installeren om RSS berichten te importeren."
+
+#: wp-admin/import.php:41
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: wp-admin/import.php:39 wp-admin/includes/upgrade.php:127
+msgid "Blogroll"
+msgstr "Links"
+
+#: wp-admin/import.php:37
+msgid "LiveJournal"
+msgstr "LiveJournal"
+
+#: wp-admin/import.php:37
+msgid "Install the LiveJournal importer to import posts from LiveJournal using their API."
+msgstr "Installeer de LiveJournal importeerfunctie om berichten uit LiveJournal met behulp van hun API te importeren."
+
+#: wp-admin/import.php:38
+msgid "Install the Movable Type importer to import posts and comments from a Movable Type or TypePad blog."
+msgstr "De Movable Type importeerfunctie installeren om berichten en reacties van een Movable Type of TypePad blog te importeren."
+
+#: wp-admin/import.php:38
+msgid "Movable Type and TypePad"
+msgstr "Movable Type en Typepad"
+
+#: wp-admin/import.php:36
+msgid "Install the category/tag converter to convert existing categories to tags or tags to categories, selectively."
+msgstr "Installeer de categorie/tag omvormer om bestaande categorie&#235;n naar tags of tags naar categorie&#235;n selectief om te vormen."
+
+#: wp-admin/import.php:35
+msgid "Install the Blogger importer to import posts, comments, and users from a Blogger blog."
+msgstr "De Blogger importeerfunctie installeren om berichten, reacties en gebruikers van een Blogger blog te importeren."
+
+#: wp-admin/import.php:36 wp-admin/tools.php:21 wp-admin/tools.php:60
+msgid "Categories and Tags Converter"
+msgstr "Categorie&#235;n en tags converteren"
+
+#: wp-admin/import.php:28
+msgid "<a href=\"http://codex.wordpress.org/Tools_Import_Screen\" target=\"_blank\">Documentation on Import</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Import_Screen\" target=\"_blank\">Documentatie over importeren</a>"
+
+#: wp-admin/import.php:35
+msgid "Blogger"
+msgstr "Blogger"
+
+#: wp-admin/custom-header.php:922
+msgid "You do not have permission to customize headers."
+msgstr "Je hebt onvoldoende rechten om headers te aan te passen."
+
+#: wp-admin/custom-header.php:790
+msgid "Image Upload Error"
+msgstr "Afbeeldingsupload fout"
+
+#: wp-admin/custom-header.php:771
+msgid "Skip Cropping, Publish Image as Is"
+msgstr "Bijsnijden overslaan en publiceer afbeelding zoals hij nu is"
+
+#: wp-admin/custom-header.php:768
+msgid "Crop and Publish"
+msgstr "Bijsnijden en publiceren"
+
+#: wp-admin/custom-header.php:750
+msgid "You need Javascript to choose a part of the image."
+msgstr "Je hebt Javascript nodig om een deel van een afbeelding te kiezen."
+
+#: wp-admin/custom-header.php:749
+msgid "Choose the part of the image you want to use as your header."
+msgstr "Kies het deel van de afbeelding wat je als header wilt gebruiken."
+
+#: wp-admin/custom-header.php:746
+msgid "Crop Header Image"
+msgstr "Header afbeelding bijsnijden"
+
+#: wp-admin/custom-header.php:732 wp-admin/custom-header.php:864
+msgid "Image Processing Error"
+msgstr "Afbeeldingsverwerkingsfout"
+
+#: wp-admin/custom-header.php:732 wp-admin/custom-header.php:864
+msgid "Image could not be processed. Please go back and try again."
+msgstr "Verwerking van de afbeelding niet mogelijk. Ga terug en probeer opnieuw."
+
+#: wp-admin/custom-header.php:660
+msgid "Restore Original Header Text"
+msgstr "Originele header tekst herstellen"
+
+#: wp-admin/custom-header.php:659
+msgid "This will restore the original header text. You will not be able to restore any customizations."
+msgstr "Hiermee herstel je de standaard header tekst. Het is niet mogelijk om aanpassingen te herstellen."
+
+#: wp-admin/custom-header.php:657
+msgid "Reset Text Color"
+msgstr "Tekstkleur herstellen"
+
+#: wp-admin/custom-header.php:641
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: wp-admin/custom-header.php:635
+msgid "Show header text with your image."
+msgstr "Laat de header tekst en je afbeelding zien."
+
+#: wp-admin/custom-header.php:618
+msgid "Restore Original Header Image"
+msgstr "Originele header afbeelding herstellen"
+
+#: wp-admin/custom-header.php:617
+msgid "This will restore the original header image. You will not be able to restore any customizations."
+msgstr "Dit zal de standaard header afbeelding terugzetten. Het is niet mogelijk aanpassingen te herstellen. "
+
+#: wp-admin/custom-header.php:607
+msgid "Remove Header Image"
+msgstr "Header afbeelding verwijderen"
+
+#: wp-admin/custom-header.php:615
+msgid "Reset Image"
+msgstr "Afbeelding herstellen"
+
+#: wp-admin/custom-header.php:606
+msgid "This will remove the header image. You will not be able to restore any customizations."
+msgstr "Dit verwijdert de header afbeelding. Het is niet mogelijk aanpassingen te herstellen."
+
+#: wp-admin/custom-header.php:594
+msgid "You can use one of these cool headers or show a random one on each page."
+msgstr "Je kunt &#233;&#233;n van deze colle afbeeldingen gebruiken of deze random tonen op elke pagina."
+
+#: wp-admin/custom-header.php:592
+msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
+msgstr "Als je geen eigen afbeelding wilt uploaden, kan je &#233;&#233;n van deze fantastische afbeeldingen gebruiken of een willekeurige laten tonen."
+
+#: wp-admin/custom-header.php:589
+msgid "Default Images"
+msgstr "Standaard afbeeldingen"
+
+#: wp-admin/custom-header.php:580
+msgid "You can choose one of your previously uploaded headers, or show a random one."
+msgstr "Je kunt &#233;&#233;n van de eerdere ge&#252;ploade afbeeldingen gebruiken of deze random tonen"
+
+#: wp-admin/custom-header.php:578
+msgid "Uploaded Images"
+msgstr "Ge&#252;ploade afbeeldingen"
+
+#: wp-admin/custom-header.php:546
+msgid "Suggested height is <strong>%1$d pixels</strong>."
+msgstr "Voorgestelde hoogte is <strong>%1$d pixels</strong>."
+
+#: wp-admin/custom-header.php:544
+msgid "Suggested width is <strong>%1$d pixels</strong>."
+msgstr "Voorgestelde breedte is <strong>%1$d pixels</strong>."
+
+#: wp-admin/custom-header.php:537
+msgid "Images should be at least <strong>%1$d pixels</strong> wide."
+msgstr "Afbeeldingen moeten minimaal <strong>%1$d pixels</strong> breed zijn."
+
+#: wp-admin/custom-header.php:540
+msgid "Images should be at least <strong>%1$d pixels</strong> tall."
+msgstr "Afbeeldingen moeten minstens <strong>%1$d pixels</strong> hoog zijn."
+
+#: wp-admin/custom-header.php:534
+msgid "Images of exactly <strong>%1$d &times; %2$d pixels</strong> will be used as-is."
+msgstr "Afbeeldingen die precies <strong>%1$d &times; %2$d pixels</strong> zijn worden gebruikt zoals ze zijn."
+
+#: wp-admin/custom-header.php:531
+msgid "You can upload a custom header image to be shown at the top of your site instead of the default one. On the next screen you will be able to crop the image."
+msgstr "Je kunt een aangepaste header afbeelding uploaden om bovenin je site te tonen in plaats van de standaard afbeelding. In het volgende scherm kan de afbeelding worden bijgesneden."
+
+#: wp-admin/custom-header.php:498
+msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr "Header bijgewerkt. <a href=\"%s\">Bezoek je site</a> om te zien hoe het er uit ziet."
+
+#: wp-admin/custom-header.php:293
+msgid "<strong>Random:</strong> Show a different image on each page."
+msgstr "<strong>Willekeurig:</strong> Toon een andere afbeelding op iedere pagina."
+
+#: wp-admin/custom-header.php:134
+msgid "Don&#8217;t forget to Save Changes when you&#8217;re done!"
+msgstr "Zorg ervoor dat je wijzigingen opslaat wanneer je klaar bent!"
+
+#: wp-admin/custom-header.php:139
+msgid "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Documentation on Custom Header</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Documentatie over aangepaste kopafbeeldingen</a>"
+
+#: wp-admin/custom-header.php:133
+msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by typing in a legitimate HTML hex value (eg: &#8220;#ff0000&#8221; for red) or by clicking &#8220;Select a Color&#8221; and dialing in a color using the color picker."
+msgstr "In het Header tekst gedeelte van deze pagina kun je kiezen of je tekst wilt tonen of niet. Je kunt er ook voor kiezen om een tekstkleur te kiezen door een geldige HTML hex waarde (bijvoorbeeld: &#8220;#ff0000&#8221; voor rood) in te vullen of door op &#8220;Selecteer een kleur&#8221; te klikken en zelf een kleur te kiezen."
+
+#: wp-admin/custom-header.php:132
+msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%1$s\">General Settings</a> section."
+msgstr "Voor de meeste thema&#39;s bestaat de header tekst uit je Sitetitel en Site omschrijving zoals ingesteld bij de <a href=\"%1$s\">Algemene instellingen</a>"
+
+#: wp-admin/custom-header.php:130 wp-admin/custom-header.php:627
+#: wp-admin/custom-header.php:632
+msgid "Header Text"
+msgstr "Koptekst"
+
+#: wp-admin/custom-header.php:125
+msgid "If you don&#8217;t want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
+msgstr "Als je geen header afbeelding wilt tonen op je site, klik dan op de &#8220;Verwijder Header Afbeelding&#8221; knop onderaan het Header afbeelding gedeelte van deze pagina. Indien je deze optie later weer wilt toevoegen hoef je enkel een andere optie te selecteren en op &#8220;Opslaan&#8221; te klikken."
+
+#: wp-admin/custom-header.php:124
+msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
+msgstr "Indien je thema maar dan &#233;&#233;n standaard header afbeelding heeft, of wanneer je meer dan &#233;&#233;n afbeelding hebt ge&#252;ploadt, dan kun je ervoor kiezen dat WordPress willekeurig  een andere afbeelding toont op elke pagina van je site. Klik op de knop &#8220;Willekeurig&#8221; naast de afbeelding om deze optie aan te zetten."
+
+#: wp-admin/custom-header.php:123
+msgid "Some themes come with additional header images bundled. If you see multiple images displayed, select the one you&#8217;d like and click the &#8220;Save Changes&#8221; button."
+msgstr "Sommige thema&#8217; hebben zelf header afbeeldingen toegevoegd. Wanneer je meerdere afbeeldingen ziet, selecteer dan degene die je wilt en klik op de &#8220;Opslaan&#8221; knop."
+
+#: wp-admin/custom-header.php:122
+msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
+msgstr "Je kan een aangepaste Image Header voor je site instellen. Upload een afbeelding en snij deze  op maat. Daarna wordt deze afbeelding direct gebruikt als Image Header. Je kan als alternatief ook een afbeelding gebruiken die je al eerder hebt geupload naar je Media Bibliotheek. Klik daarvoor op het &#8220;Kies afbeelding&#8221; knop."
+
+#: wp-admin/custom-header.php:115
+msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
+msgstr "Je kunt kiezen uit de standaard afbeeldingen van een thema, of je kunt een afbeelding van jezelf gebruiken. Je kunt ook aanpassen hoe je site titel en slogan worden weergegeven."
+
+#: wp-admin/custom-header.php:114
+msgid "This screen is used to customize the header section of your theme."
+msgstr "Dit scherm wordt gebruikt om de header van je thema aan te passen."
+
+#: wp-admin/custom-background.php:420 wp-admin/includes/media.php:715
+msgid "Large"
+msgstr "Groot"
+
+#: wp-admin/custom-background.php:414 wp-admin/custom-header.php:958
+#: wp-admin/includes/media.php:21 wp-admin/upload.php:139
+msgid "Media Library"
+msgstr "Media bibliotheek"
+
+#: wp-admin/custom-background.php:402
+msgid "Set as background"
+msgstr "Instellen als achtergrond"
+
+#: wp-admin/custom-background.php:332
+msgid "Clear"
+msgstr "Leegmaken"
+
+#: wp-admin/custom-background.php:332 wp-admin/custom-header.php:649
+msgid "Select a Color"
+msgstr "Een kleur kiezen"
+
+#: wp-admin/custom-background.php:314
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: wp-admin/custom-background.php:304
+msgid "Repeat"
+msgstr "Herhalen"
+
+#: wp-admin/custom-background.php:286 wp-admin/widgets.php:257
+msgid "Position"
+msgstr "Positie"
+
+#: wp-admin/custom-background.php:280
+msgid "Display Options"
+msgstr "Weergave-instellingen"
+
+#: wp-admin/custom-background.php:272 wp-admin/custom-header.php:564
+msgid "Choose Image"
+msgstr "Afbeelding selecteren"
+
+#: wp-admin/custom-background.php:271 wp-admin/custom-header.php:563
+msgid "Or choose an image from your media library:"
+msgstr "Of kies een afbeelding uit de mediabibliotheek:"
+
+#: wp-admin/custom-background.php:259 wp-admin/custom-header.php:551
+msgid "Choose an image from your computer:"
+msgstr "Kies een afbeelding van je computer:"
+
+#: wp-admin/custom-background.php:256 wp-admin/custom-header.php:529
+msgid "Select Image"
+msgstr "Afbeelding selecteren"
+
+#: wp-admin/custom-background.php:249
+msgid "This will restore the original background image. You will not be able to restore any customizations."
+msgstr "Dit zal de originele achtergrondafbeelding herstellen. Het is niet mogelijk om aanpassingen te herstellen."
+
+#: wp-admin/custom-background.php:244 wp-admin/custom-background.php:248
+#: wp-admin/includes/image-edit.php:97
+msgid "Restore Original Image"
+msgstr "Oorspronkelijke afbeelding herstellen"
+
+#: wp-admin/custom-background.php:235
+msgid "This will remove the background image. You will not be able to restore any customizations."
+msgstr "Hierdoor wordt de achtergrondafbeelding verwijderd. Eventuele aanpassingen gaan definitief verloren."
+
+#: wp-admin/custom-background.php:234
+msgid "Remove Background Image"
+msgstr "Verwijder achtergrondafbeelding"
+
+#: wp-admin/custom-background.php:193
+msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr "Achtergrond bijgewerkt. <a href=\"%s\">Bezoek je site</a> om het resultaat te zien."
+
+#: wp-admin/custom-background.php:190 wp-admin/includes/theme.php:189
+msgid "Custom Background"
+msgstr "Aangepaste achtergrond"
+
+#: wp-admin/custom-background.php:104
+msgid "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Documentation on Custom Background</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Documentatie over aangepaste achtergrond</a>"
+
+#: wp-admin/custom-background.php:99
+msgid "Don&#8217;t forget to click on the Save Changes button when you are finished."
+msgstr "Vergeet niet op de Wijzigingen opslaan-knop te klikken als je klaar bent."
+
+#: wp-admin/custom-background.php:98
+msgid "You can also choose a background color. If you know the hexadecimal code for the color you want, enter it in the Background Color field. If not, click on the Select a Color link, and a color picker will allow you to choose the exact shade you want."
+msgstr "Je kunt ook een achtergrondkleur kiezen. Als je de hexadecimale code weet van de kleur die je wilt gebruiken, geef dit dan in, in het kleuren veld. Weet je de kleurencode niet, klik dan op de Selecteer een kleur link, en een kleurenpicker wordt zichtbaar, waar vanaf je de kleur kunt kiezendie je wilt gebruiken."
+
+#: wp-admin/custom-background.php:97
+msgid "To use a background image, simply upload it, then choose your display options below. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
+msgstr "Om een achtergrondafbeelding te gebruiken, upload deze en kies dan je weergaveopties hieronder. Je kunt de afbeelding een enkele keer tonen of meerdere keren naast elkaar plaatsen om het scherm te vullen. Je kunt de achtergrond fixeren zodat je site inhoud eroverheen beweegt of je kunt je achtergrond laten scrollen met je site."
+
+#: wp-admin/custom-background.php:96
+msgid "You can customize the look of your site without touching any of your theme&#8217;s code by using a custom background. Your background can be an image or a color."
+msgstr "Je kunt het uiterlijk van je site, zonder de broncode van je thema&#39;s te bewerken, aanpassen met behulp van een eigen achtergrond. Je achtergrond kan een afbeelding of een kleur zijn."
+
+#: wp-admin/credits.php:161
+msgid "Icon Design"
+msgstr "Icoon ontwerp"
+
+#: wp-admin/credits.php:159
+msgid "Internationalization"
+msgstr "Internationalisatie"
+
+#: wp-admin/credits.php:158 wp-admin/options-writing.php:178
+#: wp-admin/options-writing.php:179
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: wp-admin/credits.php:157
+msgid "Designer"
+msgstr "Ontwerper"
+
+#: wp-admin/credits.php:156
+msgid "Developer"
+msgstr "Ontwikkelaar"
+
+#: wp-admin/credits.php:154
+msgid "Core Committer"
+msgstr "Belangrijke ontwikkelaar"
+
+#: wp-admin/credits.php:155
+msgid "Guest Committer"
+msgstr "Gast ontwikkelaar"
+
+#: wp-admin/credits.php:153
+msgid "Core Developer"
+msgstr "Hoofdontwikkelaar"
+
+#: wp-admin/credits.php:152
+msgid "User Experience Lead"
+msgstr "Hoofd gebruikerslab"
+
+#: wp-admin/credits.php:151
+msgid "Lead Developer"
+msgstr "Hoofdontwikkelaar"
+
+#: wp-admin/credits.php:150
+msgid "Cofounder, Project Lead"
+msgstr "Mede-oprichter, projectleider"
+
+#: wp-admin/credits.php:149
+msgid "Contributing Developers"
+msgstr "Meewerkende ontwikkelaar"
+
+#: wp-admin/credits.php:148
+msgid "Core Contributors to WordPress %s"
+msgstr "Belangrijke bijdragers van WordPress %s"
+
+#: wp-admin/credits.php:147
+msgid "Recent Rockstars"
+msgstr "Recente rockers"
+
+#: wp-admin/credits.php:145
+msgid "Extended Core Team"
+msgstr "Uitgebreid kernteam"
+
+#: wp-admin/credits.php:146
+msgid "Core Developers"
+msgstr "Hoofdontwikkelaars"
+
+#: wp-admin/credits.php:144
+msgid "Project Leaders"
+msgstr "Projectleiders"
+
+#: wp-admin/credits.php:132
+msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
+msgstr "Wil jij jouw naam uitgelicht zien staan op deze pagina? <a href=\"%s\">Zorg er dan voor dat je betrokken raakt bij WordPress</a>."
+
+#: wp-admin/credits.php:90
+msgctxt "Translate this to be the equivalent of English Translators in your language for the credits page Translators section"
+msgid "Translators"
+msgstr "Vertalers"
+
+#: wp-admin/credits.php:82
+msgid "WordPress is created by a worldwide team of passionate individuals."
+msgstr "WordPress is gemaakt door een wereldwijd team van enhousiaste en gepassioneerde mensen."
+
+#: wp-admin/credits.php:77 wp-admin/credits.php:134
+msgid "http://codex.wordpress.org/Contributing_to_WordPress"
+msgstr "http://codex.wordpress.org/Contributing_to_WordPress"
+
+#: wp-admin/credits.php:74
+msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
+msgstr "WordPress is gemaakt door een <a href=\"%1$s\">wereldwijd team</a> van gepassioneerde individuen. <a href=\"%2$s\">Help mee aan WordPress</a>."
+
+#: wp-admin/comment.php:289
+msgid "Unknown action."
+msgstr "Onbekende actie."
+
+#: wp-admin/comment.php:224 wp-admin/edit-comments.php:168
+#: wp-admin/includes/comment.php:37
+msgid "You are not allowed to edit comments on this post."
+msgstr "Je hebt geen rechten om reacties bij dit bericht te bewerken."
+
+#: wp-admin/comment.php:151
+msgid "This comment is currently in the Trash."
+msgstr "Deze reactie bevindt zich momenteel in de prullenbak."
+
+#: wp-admin/comment.php:158 wp-admin/plugins.php:261
+#: wp-admin/theme-editor.php:217
+msgid "Caution:"
+msgstr "Waarschuwing:"
+
+#: wp-admin/comment.php:148
+msgid "This comment is currently marked as spam."
+msgstr "Deze reactie is momenteel gemarkeerd als spam."
+
+#: wp-admin/comment.php:145
+msgid "This comment is currently approved."
+msgstr "Deze reactie is momenteel toegelaten."
+
+#: wp-admin/comment.php:136
+msgid "You are about to approve the following comment:"
+msgstr "Je staat op het punt de volgende reactie toe te laten:"
+
+#: wp-admin/comment.php:137
+msgid "Approve Comment"
+msgstr "Reactie toelaten"
+
+#: wp-admin/comment.php:133
+msgid "Permanently Delete Comment"
+msgstr "Reactie permanent verwijderen"
+
+#: wp-admin/comment.php:132
+msgid "You are about to delete the following comment:"
+msgstr "Je staat op het punt de volgende reactie te verwijderen:"
+
+#: wp-admin/comment.php:129
+msgid "Trash Comment"
+msgstr "Reactie naar prullenbak verplaatsen"
+
+#: wp-admin/comment.php:125
+msgid "Spam Comment"
+msgstr "Spam reactie"
+
+#: wp-admin/comment.php:128
+msgid "You are about to move the following comment to the Trash:"
+msgstr "Je staat op het punt de volgende reactie naar de prullenbak te verplaatsen:"
+
+#: wp-admin/comment.php:124
+msgid "You are about to mark the following comment as spam:"
+msgstr "Je staat op het punt de volgende reactie als spam te markeren:"
+
+#: wp-admin/comment.php:87
+msgid "Moderate Comment"
+msgstr "Reactie modereren"
+
+#: wp-admin/comment.php:74
+msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
+msgstr "Deze reactie bevindt zich in de prullenbak. Haal het uit de prullenbak als je deze wilt bewerken."
+
+#: wp-admin/comment.php:71
+msgid "You are not allowed to edit this comment."
+msgstr "Het is niet toegestaan om deze reactie te bewerken."
+
+#: wp-admin/comment.php:68 wp-admin/comment.php:222
+msgid "Go back"
+msgstr "Ga terug"
+
+#: wp-admin/comment.php:68 wp-admin/comment.php:222
+#: wp-admin/edit-comments.php:165
+msgid "Oops, no comment with this ID."
+msgstr "Geen reactie met dit ID."
+
+#: wp-admin/comment.php:58 wp-admin/edit-comments.php:133
+msgid "<a href=\"http://codex.wordpress.org/Administration_Screens#Comments\" target=\"_blank\">Documentation on Comments</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Administration_Screens#Comments\" target=\"_blank\">Documentatie over reacties</a>"
+
+#: wp-admin/comment.php:59 wp-admin/custom-background.php:105
+#: wp-admin/custom-header.php:140 wp-admin/edit-comments.php:136
+#: wp-admin/edit-form-advanced.php:213 wp-admin/edit-form-advanced.php:239
+#: wp-admin/edit-link-form.php:54 wp-admin/edit-tags.php:243
+#: wp-admin/edit.php:193 wp-admin/edit.php:214 wp-admin/export.php:51
+#: wp-admin/import.php:29 wp-admin/index.php:92 wp-admin/link-manager.php:61
+#: wp-admin/media-upload.php:85 wp-admin/media.php:84 wp-admin/my-sites.php:49
+#: wp-admin/nav-menus.php:466 wp-admin/options-discussion.php:28
+#: wp-admin/options-general.php:81 wp-admin/options-media.php:41
+#: wp-admin/options-permalink.php:46 wp-admin/options-privacy.php:28
+#: wp-admin/options-reading.php:56 wp-admin/options-writing.php:58
+#: wp-admin/plugin-editor.php:129 wp-admin/plugin-install.php:56
+#: wp-admin/plugins.php:351 wp-admin/theme-editor.php:42
+#: wp-admin/theme-install.php:63 wp-admin/themes.php:88 wp-admin/tools.php:29
+#: wp-admin/update-core.php:450 wp-admin/upload.php:171
+#: wp-admin/user-edit.php:54 wp-admin/user-new.php:174 wp-admin/users.php:63
+#: wp-admin/widgets.php:68
+msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://nl.forums.wordpress.org/\" target=\"_blank\">Nederlandstalige ondersteuningsforums</a>"
+
+#: wp-admin/comment.php:53
+msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
+msgstr "Je kunt de reactie modereren vanaf dit scherm via het Status vak, waar je ook de datum en het tijdstip van de reactie kunt veranderen."
+
+#: wp-admin/comment.php:57 wp-admin/custom-background.php:103
+#: wp-admin/custom-header.php:138 wp-admin/edit-comments.php:132
+#: wp-admin/edit-form-advanced.php:211 wp-admin/edit-form-advanced.php:236
+#: wp-admin/edit-link-form.php:52 wp-admin/edit-tags.php:234
+#: wp-admin/edit.php:191 wp-admin/edit.php:212 wp-admin/export.php:49
+#: wp-admin/import.php:27 wp-admin/index.php:90 wp-admin/link-manager.php:59
+#: wp-admin/media-upload.php:83 wp-admin/media.php:82 wp-admin/my-sites.php:47
+#: wp-admin/nav-menus.php:464 wp-admin/options-discussion.php:26
+#: wp-admin/options-general.php:79 wp-admin/options-media.php:39
+#: wp-admin/options-permalink.php:43 wp-admin/options-privacy.php:26
+#: wp-admin/options-reading.php:54 wp-admin/options-writing.php:56
+#: wp-admin/plugin-editor.php:126 wp-admin/plugin-install.php:54
+#: wp-admin/plugins.php:349 wp-admin/theme-editor.php:37
+#: wp-admin/theme-install.php:61 wp-admin/themes.php:86 wp-admin/tools.php:27
+#: wp-admin/update-core.php:448 wp-admin/upload.php:169
+#: wp-admin/user-edit.php:52 wp-admin/user-new.php:172 wp-admin/users.php:60
+#: wp-admin/widgets.php:66
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: wp-admin/comment.php:52
+msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
+msgstr "Je kunt een reactie bewerken. Dit is kan handig zijn bij gemaakte typefouten."
+
+#: wp-admin/comment.php:50 wp-admin/custom-background.php:94
+#: wp-admin/custom-header.php:112 wp-admin/edit-comments.php:116
+#: wp-admin/edit-link-form.php:44 wp-admin/edit-tags.php:204
+#: wp-admin/edit.php:154 wp-admin/edit.php:199 wp-admin/export.php:43
+#: wp-admin/import.php:21 wp-admin/includes/screen.php:732
+#: wp-admin/index.php:37 wp-admin/link-manager.php:45
+#: wp-admin/media-upload.php:72 wp-admin/media.php:73 wp-admin/my-sites.php:40
+#: wp-admin/nav-menus.php:450 wp-admin/options-discussion.php:20
+#: wp-admin/options-general.php:74 wp-admin/options-media.php:34
+#: wp-admin/options-permalink.php:20 wp-admin/options-privacy.php:20
+#: wp-admin/options-reading.php:46 wp-admin/options-writing.php:20
+#: wp-admin/plugin-editor.php:116 wp-admin/plugin-install.php:40
+#: wp-admin/plugins.php:335 wp-admin/theme-editor.php:25
+#: wp-admin/theme-install.php:46 wp-admin/themes.php:49
+#: wp-admin/update-core.php:433 wp-admin/upload.php:150
+#: wp-admin/user-edit.php:47 wp-admin/user-new.php:154 wp-admin/users.php:25
+#: wp-admin/widgets.php:44
+msgid "Overview"
+msgstr "Overzicht"
+
+#: wp-admin/comment.php:46 wp-admin/edit-form-comment.php:17
+msgid "Edit Comment"
+msgstr "Reactie bewerken"
+
+#: wp-admin/async-upload.php:56
+msgid "&#8220;%s&#8221; has failed to upload due to an error"
+msgstr "Uploaden van \"%s\" is niet gelukt als gevolg van een fout"
+
+#: wp-admin/async-upload.php:38 wp-admin/edit-tags.php:253
+#: wp-admin/post.php:141
+msgid "You are not allowed to edit this item."
+msgstr "Je hebt geen toestemming om dit item te bewerken."
+
+#: wp-admin/async-upload.php:35 wp-admin/post.php:138
+msgid "Unknown post type."
+msgstr "Onbekend posttype."
+
+#: wp-admin/admin.php:192 wp-admin/import.php:17 wp-admin/menu.php:191
+msgid "Import"
+msgstr "Importeren"
+
+#: wp-admin/admin.php:178
+msgid "You are not allowed to import."
+msgstr "Je hebt geen rechten om te importeren."
+
+#: wp-admin/admin.php:157
+msgid "Cannot load %s."
+msgstr "Kan %s niet laden."
+
+#: wp-admin/admin-header.php:34
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: wp-admin/admin.php:154
+msgid "Invalid plugin page"
+msgstr "Ongeldige plugin pagina"
+
+#: wp-admin/admin-header.php:27
+msgid "Global Dashboard"
+msgstr "Algemeen dashboard"
+
+#: wp-admin/admin-header.php:32 wp-admin/customize.php:60
+msgid "%1$s &#8212; WordPress"
+msgstr "%1$s &#8212; WordPress"
+
+#: wp-admin/admin-footer.php:23
+msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
+msgstr "Bedankt voor het gebruiken van <a href=\"http://wordpress.org/\">WordPress</a>"
+
+#: wp-admin/about.php:161
+msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
+msgstr[0] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en een bepaalde %2$s bug."
+msgstr[1] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en bepaalde %2$s bugs."
+
+#: wp-admin/about.php:157
+msgid "<strong>Version %1$s</strong> addressed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
+msgstr[0] "<strong>Versie %1$s</strong> bevat %2$s bug."
+msgstr[1] "<strong>Versie %1$s</strong> bevat %2$s bugs."
+
+#: wp-admin/about.php:148
+msgid "Maintenance Release"
+msgid_plural "Maintenance Releases"
+msgstr[0] "Onderhoudsversie"
+msgstr[1] "Onderhoudsversies"
+
+#: wp-admin/about.php:149
+msgid "Security Release"
+msgid_plural "Security Releases"
+msgstr[0] "Beveiligingsversie"
+msgstr[1] "Beveiligingsversies"
+
+#: wp-admin/about.php:153
+msgid "<strong>Version %1$s</strong> addressed a security issue."
+msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
+msgstr[0] "<strong>Versie %1$s</strong>  bevat beveiligingskwestie."
+msgstr[1] "<strong>Versie %1$s</strong>  bevatten beveiligingskwesties."
+
+#: wp-admin/about.php:137
+msgid "Go to Dashboard"
+msgstr "Naar het dashboard"
+
+#: wp-admin/about.php:137
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ga naar Dashboard &rarr; Home"
+
+#: wp-admin/about.php:133
+msgid "Return to Updates"
+msgstr "Terug naar updates"
+
+#: wp-admin/about.php:133
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Terugkeren naar het Dashboard &rarr; Updates"
+
+#: wp-admin/about.php:125
+msgid "jQuery, jQuery UI, TinyMCE, Plupload, PHPMailer, SimplePie, and other libraries were updated. jQuery UI Touch Punch was introduced."
+msgstr "jQuery, jQuery UI, TinyMCE, Plupload, PHPMailer, SimplePie en andere bibliotheken zijn bijgewerkt. jQuery UI Touch Punch is toegevoegd."
+
+#: wp-admin/about.php:124 wp-admin/credits.php:160
+msgid "External Libraries"
+msgstr "Externe bibliotheken"
+
+#: wp-admin/about.php:122
+msgid "http://codex.wordpress.org/XML-RPC_WordPress_API"
+msgstr "http://codex.wordpress.org/XML-RPC_WordPress_API"
+
+#: wp-admin/about.php:122
+msgid "A new <a href=\"%s\">WordPress API</a> that supports custom content types and taxonomies, as well as dozens of other bug fixes and improvements."
+msgstr "Een nieuwe <a href=\"%s\">WordPress API</a> die ondersteuning biedt voor aangepaste inhoud typen en taxonomie&#235;n, en verder een vrachtlading aan bugfixes en verbeteringen."
+
+#: wp-admin/about.php:121
+msgid "XML-RPC API"
+msgstr "XML-RPC API"
+
+#: wp-admin/about.php:118
+msgid "Custom header and background API relocated into the theme support API."
+msgstr "Aangepaste header en achtergrond API zijn verplaatst naar thema support API."
+
+#: wp-admin/about.php:117
+msgid "Custom Header and Background API"
+msgstr "Aangepast header en achtergrond API"
+
+#: wp-admin/about.php:114
+msgid "Themes API"
+msgstr "Thema API"
+
+#: wp-admin/about.php:115
+msgid "WP_Theme, wp_get_themes(), wp_get_theme(). Faster, uses less memory, makes use of persistent caching."
+msgstr "WP_Theme, wp_get_themes(), wp_get_theme(). Sneller, gebruikt minder geheugen, maakt gebruikt van constante caching."
+
+#: wp-admin/about.php:111
+msgid "Also, better support for East Asian languages, right-to-left languages, theme translations, and more."
+msgstr "Daarbij ook betere ondersteuning voor Oost-Aziatische talen, rechts-naar-links talen, thema vertalingen en veel meer."
+
+#: wp-admin/about.php:111
+msgid "The number of strings loaded on the front end was greatly reduced, resulting in faster front page load times for localized installations."
+msgstr "De hoeveelheid textstrings die aan de front-end geladen werden zijn sterk teruggebracht wat in het sneller laden van de front pagina heeft geresulteerd."
+
+#: wp-admin/about.php:110
+msgid "Faster Translations"
+msgstr "Snellere vertalingen"
+
+#: wp-admin/about.php:107
+msgid "Faster WP_Query"
+msgstr "Snellere WP_Query"
+
+#: wp-admin/about.php:108
+msgid "Post queries have been optimized to improve performance, especially for sites with large databases."
+msgstr "Post queries zijn ge&#246;ptimaliseerd om performance te verbeteren; met name voor sites met grote databases."
+
+#: wp-admin/about.php:103
+msgid "Under the Hood"
+msgstr "Andere verbeteringen:"
+
+#: wp-admin/about.php:98
+msgid "Basic HTML support has been added to the caption field in the image uploader. This allows you to add links &mdash; great for photo credits or licensing details &mdash; and basic formatting such as bold and italicized text."
+msgstr "Basis HTML support is toegevoegd aan het caption veld in de uploader voor afbeeldingen. Hier kun je links toevoegen &mdash; perfect voor foto credits of licentie details &mdash; en ook basis opmaak zoals bold en italic text."
+
+#: wp-admin/about.php:92
+msgid "Better Captions"
+msgstr "Betere onderschriften"
+
+#: wp-admin/about.php:97
+msgid "HTML Support"
+msgstr "HTML ondersteuning"
+
+#: wp-admin/about.php:85
+msgid "http://codex.wordpress.org/Embeds"
+msgstr "http://codex.wordpress.org/Embeds"
+
+#: wp-admin/about.php:84
+msgid "You can now embed individual tweets in posts. It includes action links that allow readers to reply to, retweet, and favorite the tweet without leaving your site. Just paste a tweet URL on its own line."
+msgstr "Het is nu mogelijk om individuele tweets toe te voegen in berichten. Het geeft de mogelijkheden om de berichten te beantwoorden, retweeten of favoriet te maken zonder de site te verlaten. Plak de tweet URL gewoon in je bericht."
+
+#: wp-admin/about.php:85
+msgid "This works with URLs from some other sites, too. For more, see the Codex article on <a href=\"%s\">Embeds</a>."
+msgstr "Dit werkt ook voor URL&#39;s van sommige andere websites. Voor meer informatie, lees het Codex artikel over <a href=\"%s\">Embeds</a>"
+
+#: wp-admin/about.php:83
+msgid "Share Tweets with Style"
+msgstr "Je tweets delen inclusief stijl"
+
+#: wp-admin/about.php:78
+msgid "Twitter Embeds"
+msgstr "Twitter Embeds"
+
+#: wp-admin/about.php:72
+msgid "Choose from Media Library"
+msgstr "Kies uit Media bibliotheek"
+
+#: wp-admin/about.php:73
+msgid "Tired of re-uploading the same custom header image every time you check out a new theme? Now you can choose header images from your media library for easier customization."
+msgstr "Ben je het opnieuw uploaden van dezelfde header afbeelding bij het bekijken van een ander thema beu? Je kan nu header afbeeldingen uit je media bibliotheek kiezen zodat aanpassen nog makkelijker wordt."
+
+#: wp-admin/about.php:62
+msgid "You can decide for yourself how tall or wide your custom header image should be. From now on, themes will provide a recommended image size for custom headers rather than a fixed requirement. Note: this feature requires <a href=\"http://codex.wordpress.org/Custom_Headers\">theme support</a>."
+msgstr "Je kunt zelf bepalen hoe hoog of breed je custom header afbeelding moet zijn. Vanaf nu zullen thema&#8217;s afbeeldingsmaten aanbevelen voor een custom header in plaats van een vaste afmeting. Nb: deze features heeft de optie <a href=\"http://codex.wordpress.org/Custom_Headers\">theme support</a> nodig."
+
+#: wp-admin/about.php:61
+msgid "Flexible Sizes"
+msgstr "Flexibele afmetingen"
+
+#: wp-admin/about.php:58
+msgid "Custom Headers"
+msgstr "Aangepaste headers"
+
+#: wp-admin/about.php:53
+msgid "Satisfy your curiosity and try on a fresh coat of paint &mdash; you can also use the live preview mode to customize your current theme. Look for the Customize link on the Themes screen."
+msgstr "Bevredig je nieuwsgierigheid door een nieuw kleurenpalet te gebruiken &mdash; je kan ook de voorbeeldmodus gebruiken om je huidige thema te wijzigen. Kijk naar de Bewerken-link op het themascherm."
+
+#: wp-admin/about.php:52
+msgid "Customize Current Theme"
+msgstr "Huidig thema aanpassen"
+
+#: wp-admin/about.php:50
+msgid "Gone are the days of rushing to update your header, background, and the like as soon as you activate a new theme. You can now customize these options <strong>before</strong> activating a new theme. Note: this feature is available for installed themes only."
+msgstr "De dagen dat je zich moest haasten om een header afbeelding of achtergrond in te stellen wanneer je een nieuw thema activeerde zijn voorbij. Je kunt deze vanaf nu instellen <strong>voordat</strong> je een nieuw thema activeert. NB: dit is alleen mogelijk voor ge&#239;nstalleerde thema's."
+
+#: wp-admin/about.php:45
+msgid "Live Theme Previews"
+msgstr "Live thema voorbeelden"
+
+#: wp-admin/about.php:49
+msgid "Try on New Themes"
+msgstr "Probeer nieuwe thema&#39;s"
+
+#: wp-admin/about.php:40 wp-admin/about.php:168
+msgid "For more information, see <a href=\"%s\">the release notes</a>."
+msgstr "Voor meer informatie, bezoek de  <a href=\"%s\">versie opmerkingen</a>."
+
+#: wp-admin/about.php:38 wp-admin/about.php:165
+msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
+msgstr[0] "<strong>Versie%1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bug."
+msgstr[1] "<strong>Versie %1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bugs."
+
+#: wp-admin/about.php:37 wp-admin/about.php:150
+msgid "Maintenance and Security Release"
+msgid_plural "Maintenance and Security Releases"
+msgstr[0] "Onderhouds- en veiligheidsversie"
+msgstr[1] "Onderhouds- en veiligheidsversies"
+
+#: wp-admin/about.php:32 wp-admin/credits.php:65 wp-admin/freedoms.php:12
+#: wp-admin/freedoms.php:32
+msgid "Freedoms"
+msgstr "Vrijheden"
+
+#: wp-admin/about.php:30 wp-admin/credits.php:12 wp-admin/credits.php:63
+#: wp-admin/freedoms.php:30
+msgid "Credits"
+msgstr "Credits"
+
+#: wp-admin/about.php:28 wp-admin/credits.php:61 wp-admin/freedoms.php:28
+msgid "What&#8217;s New"
+msgstr "Wat is nieuw"
+
+#: wp-admin/about.php:24 wp-admin/credits.php:57 wp-admin/freedoms.php:24
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:343
+#: wp-admin/includes/class-wp-plugins-list-table.php:416
+#: wp-admin/includes/dashboard.php:1255 wp-admin/includes/update.php:86
+#: wp-admin/includes/update.php:109 wp-admin/themes.php:147
+msgid "Version %s"
+msgstr "Versie: %s"
+
+#: wp-admin/about.php:20 wp-admin/credits.php:53 wp-admin/freedoms.php:20
+msgid "Welcome to WordPress %s"
+msgstr "Welkom bij WordPress %s"
+
+#: wp-admin/about.php:22 wp-admin/credits.php:55 wp-admin/freedoms.php:22
+msgid "Thank you for updating to the latest version! WordPress %s is already making your website better, faster, and more attractive, just like you!"
+msgstr "Bedankt voor het updaten naar de laatste versie! WordPress %s maakt je website nu al beter, sneller en meer aantrekkelijk, net als jij!"
+
+#: wp-admin/custom-header.php:946
+msgid "Set as header"
+msgstr "Instellen als kop"
+
+#: wp-admin/customize.php:60
+msgid "Customize %s"
+msgstr "%s aanpassen"
+
+#: wp-admin/customize.php:91
+msgid "You are previewing %s"
+msgstr "Je bekijkt %s als voorbeeld"
+
+#: wp-admin/export.php:128
+msgid "Once you&#8217;ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site."
+msgstr "Zodra je het gedownloade bestand hebt opgeslagen, kun je de Importeerfunctie van een andere WordPress installatie gebruiken om de inhoud van deze site te importeren."
+
+#: wp-admin/export.php:127
+msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
+msgstr "Dit format, dat we WordPress eXtended RSS ofwel WXR noemen, bevat al je berichten, pagina&#39;s, reacties, extra velden, categorie&#235;n en tags."
+
+#: wp-admin/export.php:126
+msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
+msgstr "Als je op onderstaande knop klikt, zal WordPress een XML-bestand aanmaken dat je op je computer kunt opslaan."
+
+#: wp-admin/export.php:50
+msgid "<a href=\"http://codex.wordpress.org/Tools_Export_Screen\" target=\"_blank\">Documentation on Export</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Export_Screen\" target=\"_blank\">Documentatie over exporteren</a>"
+
+#: wp-admin/export.php:45
+msgid "Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
+msgstr "Zodra het WXR bestand is gegenereerd kan je het importeren op een andere WordPress site of ander blogplatform die overweg kan met dit format."
+
+#: wp-admin/export.php:17 wp-admin/menu.php:192
+msgid "Export"
+msgstr "Exporteren"
+
+#: wp-admin/export.php:44
+msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
+msgstr "Je kunt een bestand exporteren van je site content om het te importeren naar een andere installatie of platform. Het export bestand wordt een XML bestandsformat en WXR genoemd. Berichten, pagina&#39;s, reacties, aangepaste velden, categorie&#235;n en tags kunnen ingesloten worden. Je kunt kiezen of het WXR bestand alleen bepaalde berichten of pagina&#39;s bevat door de dropdown filters in te stellen om de export te limiteren op categorie, auteur, datumbereik op maand, of publicatie status. "
+
+#: wp-admin/export.php:13
+msgid "You do not have sufficient permissions to export the content of this site."
+msgstr "Je hebt onvoldoende rechten om de inhoud van deze site te exporteren."
+
+#: wp-admin/edit.php:252
+msgid "Item restored from the Trash."
+msgid_plural "%s items restored from the Trash."
+msgstr[0] "Item hersteld vanuit de prullenbak."
+msgstr[1] "%s items hersteld vanuit de prullenbak."
+
+#: wp-admin/edit.php:242
+msgid "Item permanently deleted."
+msgid_plural "%s items permanently deleted."
+msgstr[0] "Item is permanent verwijderd."
+msgstr[1] "%s items zijn permanent verwijderd."
+
+#: wp-admin/edit.php:246
+msgid "Item moved to the Trash."
+msgid_plural "%s items moved to the Trash."
+msgstr[0] "Het item is verplaatst naar de prullenbak."
+msgstr[1] "%s items zijn verplaatst naar de prullenbak."
+
+#: wp-admin/edit.php:238
+msgid "%s item not updated, somebody is editing it."
+msgid_plural "%s items not updated, somebody is editing them."
+msgstr[0] "%s item kan niet bijgewerkt worden, het wordt momenteel door iemand bewerkt."
+msgstr[1] "%s items kunnen niet bijgewerkt worden, ze worden momenteel door iemand bewerkt."
+
+#: wp-admin/edit.php:234
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s bericht bijgewerkt."
+msgstr[1] "%s berichten bijgewerkt."
+
+#: wp-admin/edit.php:213
+msgid "<a href=\"http://codex.wordpress.org/Pages_Screen\" target=\"_blank\">Documentation on Managing Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Pages_Screen\" target=\"_blank\">Documentatie over paginabeheer</a>"
+
+#: wp-admin/edit.php:208
+msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk Actions menu to edit the metadata for multiple pages at once."
+msgstr "Je kunt ook hetzelfde soort acties uitvoeren, inclusief het verkleinen van de lijst met behulp van de filters, die op een pagina met de actielinks  worden weergegeven. Je kunt dit doen d.m.v. het hoveren over een rij gaan, of met behulp van het Actiesmenu om de metadata van meerdere pagina&#39;s tegelijk te bewerken."
+
+#: wp-admin/edit.php:205
+msgid "Managing Pages"
+msgstr "Pagina&#39;s beheren"
+
+#: wp-admin/edit.php:207
+msgid "Managing pages is very similar to managing posts, and the screens can be customized in the same way."
+msgstr "Pagina&#39;s beheren lijkt erg op Berichten beheren en de schermen kunnen op dezelfde manier worden aangepast."
+
+#: wp-admin/edit.php:192
+msgid "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentation on Managing Posts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentatie over berichtenbeheer</a>"
+
+#: wp-admin/edit.php:201
+msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
+msgstr "Pagina&#39;s zijn gelijk aan berichten op een manier van dat ze een titel, tekstinhoud en geassocieerde metadata bevatten. Ze zijn echter verschillend omdat ze geen deel uitmaken van de chronologische sitestream, je kunt het vergelijken met statische berichten. Pagina&#39;s hebben geen categorie of tags, maar ze kunnen wel een hi&#235;rarchie bevatten. Pagina&#39;s kunnen genest worden door er &#233;&#233;n &#8220;Hoofd&#8221; te maken van de ander, bij het maken van een groep pagina&#39;s."
+
+#: wp-admin/edit.php:187
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr "Als je voor meerdere bewerkingen tegelijk uitvoeren kiest, kun je de matadata (categorie&#235;n, auteur, enz.) voor alle geselecteerde berichten in &#233;&#233;n keer bewerken. Om een bericht van deze selectie te verwijderen, klik dan op de x naast de naam in het Acties menu ruimte."
+
+#: wp-admin/edit.php:184 wp-admin/includes/class-wp-list-table.php:293
+msgid "Bulk Actions"
+msgstr "Acties"
+
+#: wp-admin/edit.php:186
+msgid "You can also edit or move multiple posts to the trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Je kunt ook meerdere berichten tegelijk bewerken of verplaatsen. Selecteer de berichten door de aanvinkboxen te klikken, selecteer vervolgens de actie die je wilt uitvoeren via het Acties menu en klik Toepassen."
+
+#: wp-admin/edit.php:179
+msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
+msgstr "<strong>Vooraf</strong> bekijken toont hoe je concept bericht eruit ziet als je het gaat publiceren. Bekijken brengt je naar de voorkant van de site om je bericht te bekijken. Welke link beschikbaar is hangt af van de berichtstatus."
+
+#: wp-admin/edit.php:178
+msgid "<strong>Trash</strong> removes your post from this list and places it in the trash, from which you can permanently delete it."
+msgstr "<strong>Prullenbak</strong> verwijdert je bericht van deze lijst en plaatst het in de prullenbak. Van daar uit kun je het permanent verwijderen."
+
+#: wp-admin/edit.php:177
+msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
+msgstr "<strong>Snel bewerken</strong> geeft toegang tot de metadata van je bericht, en laat je berichtdetails bijwerken zonder het scherm te verlaten."
+
+#: wp-admin/edit.php:176
+msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
+msgstr "<strong>Bewerk</strong> brengt je naar het bewerkscherm van dat bericht. Je kunt dat scherm ook bereiken door op de bericht titel te klikken."
+
+#: wp-admin/edit.php:174
+msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
+msgstr "Hover over een rij in de lijst van berichten om actielinks weer te geven om je bericht te beheren. Je kunt de volgende acties uitvoeren:"
+
+#: wp-admin/edit.php:172 wp-admin/upload.php:157
+msgid "Available Actions"
+msgstr "Beschikbare acties"
+
+#: wp-admin/edit.php:166
+msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr "Je kunt berichten bekijken in een eenvoudige lijst met titels of met een samenvatting. Geef je voorkeur op door op de icoontjes te klikken bovenin de lijst rechts."
+
+#: wp-admin/edit.php:167
+msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
+msgstr "Je kunt deze lijst verder verfijnen om enkel berichten in een specifieke categorie of in een specifieke maand te tonen door gebruik te maken van de dropdown menu&#39;s boven de lijst van berichten. Klik op de Filter knop nadat je je keuze hebt gemaakt. Je kunt ook dit ook doen door op de bericht auteur, categorie of tag in de lijst te klikken."
+
+#: wp-admin/edit.php:165
+msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
+msgstr "Je kunt de lijst van berichten filteren op berichtstatus met gebruik van de tekstlinks links bovenin om alles, gepubliceerde berichten, concepten of berichten in de prullenbak weer te geven. Standaard worden alle berichten weergegeven."
+
+#: wp-admin/edit.php:164
+msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
+msgstr "Je kunt kolommen tonen of verbergen afhankelijk van wat je gebruikt en kiezen hoeveel berichten per scherm worden weergegeven met het Scherminstellingen tabblad."
+
+#: wp-admin/edit.php:160
+msgid "Screen Content"
+msgstr "Scherminhoud"
+
+#: wp-admin/edit.php:162
+msgid "You can customize the display of this screen&#8217;s contents in a number of ways:"
+msgstr "Je kunt dit scherm op een aantal manieren wijzigen:"
+
+#: wp-admin/edit.php:156
+msgid "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow."
+msgstr "Dit scherm geeft je toegang naar al je berichten. Je kunt de weergave van dit scherm aanpassen."
+
+#: wp-admin/edit.php:109 wp-admin/post.php:234
+msgid "You are not allowed to delete this item."
+msgstr "Je hebt onvoldoende rechten om dit item te verwijderen. "
+
+#: wp-admin/edit.php:113 wp-admin/edit.php:116 wp-admin/upload.php:124
+msgid "Error in deleting..."
+msgstr "Fout bij verwijderen..."
+
+#: wp-admin/edit.php:97 wp-admin/post.php:224
+msgid "Error in restoring from Trash."
+msgstr "Fout tijdens herstellen vanuit de prullenbak."
+
+#: wp-admin/edit.php:94
+msgid "You are not allowed to restore this item from the Trash."
+msgstr "Je bent niet geautoriseerd om dit item te herstellen uit de prullenbak."
+
+#: wp-admin/edit.php:84 wp-admin/post.php:211
+msgid "Error in moving to Trash."
+msgstr "Fout tijdens verplaatsen naar de prullenbak."
+
+#: wp-admin/edit.php:81 wp-admin/post.php:208
+msgid "You are not allowed to move this item to the Trash."
+msgstr "Je bent niet geautoriseerd om dit item te verplaatsen naar de prullenbak."
+
+#: wp-admin/edit-tags.php:383
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "De beschrijving is standaard niet prominent maar wordt door sommige thema&#39;s getoond."
+
+#: wp-admin/edit-tags.php:308
+msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>"
+msgstr "Tags kunnen selectief worden geconverteerd naar categorie&#235;n met behulp van de tag <a href=\"%s\">omzetten naar categorie</a>"
+
+#: wp-admin/edit-tags.php:303
+msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
+msgstr "Categorie&#235;n kunnen geselecteerd worden geconverteerd naar tags door van de <a href=\"%s\">categorie naar tag converter</a>."
+
+#: wp-admin/edit-tags.php:260
+msgid "Items deleted."
+msgstr "Items verwijderd."
+
+#: wp-admin/edit-tags.php:301
+msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
+msgstr "<strong>Opmerking:</strong><br />Als je een categorie verwijdert, worden de berichten in die categorie niet verwijderd. Berichten die uitsluitend toebehoren aan de verwijderde categorie, komen terecht in de categorie <strong>%s</strong>."
+
+#: wp-admin/edit-tags.php:256
+msgid "Item deleted."
+msgstr "Item verwijderd."
+
+#: wp-admin/edit-tags.php:257
+msgid "Item updated."
+msgstr "Items bijgewerkt."
+
+#: wp-admin/edit-tags.php:258
+msgid "Item not added."
+msgstr "Item niet toegevoegd."
+
+#: wp-admin/edit-tags.php:259 wp-admin/includes/ajax-actions.php:1405
+#: wp-admin/includes/ajax-actions.php:1412
+msgid "Item not updated."
+msgstr "Item is niet bijgewerkt."
+
+#: wp-admin/edit-tags.php:241
+msgid "<a href=\"http://codex.wordpress.org/Posts_Tags_Screen\" target=\"_blank\">Documentation on Tags</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Tags_Screen\" target=\"_blank\">Documentation over tags</a>"
+
+#: wp-admin/edit-tags.php:255
+msgid "Item added."
+msgstr "Items toegevoegd."
+
+#: wp-admin/edit-tags.php:239
+msgid "<a href=\"http://codex.wordpress.org/Links_Link_Categories_Screen\" target=\"_blank\">Documentation on Link Categories</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Links_Link_Categories_Screen\" target=\"_blank\">Documentatie over linkcategorie&#235;n</a>"
+
+#: wp-admin/edit-tags.php:237
+msgid "<a href=\"http://codex.wordpress.org/Posts_Categories_Screen\" target=\"_blank\">Documentation on Categories</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Categories_Screen\" target=\"_blank\">Documentatie over categorie&#235;n</a>"
+
+#: wp-admin/edit-tags.php:229
+msgid "Adding Tags"
+msgstr "Tags toevoegen"
+
+#: wp-admin/edit-tags.php:229
+msgid "Adding Categories"
+msgstr "Categorie&#235;n toevoegen"
+
+#: wp-admin/edit-tags.php:225
+msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
+msgstr "Je kunt de weergave van dit scherm wijzigen met het Scherminstellingen tabblad door te kiezen hoeveel items per scherm worden weergegeven en door kolommen in de tabel te tonen of verbergen."
+
+#: wp-admin/edit-tags.php:223
+msgid "<strong>Description</strong> - The description is not prominent by default; however, some themes may display it."
+msgstr "<strong>Omschrijving</strong> - De omschrijving wordt standaard niet gebruikt; er zijn echter thema&#39;s die dit wel doen."
+
+#: wp-admin/edit-tags.php:221
+msgid "<strong>Parent</strong> - Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
+msgstr "<strong>Hoofd</strong> - Categorie&#235;n kunnen, in tegenstelling tot tags, een hi&#235;rarchie hebben. Je zou een categorie Muziek kunnen hebben en daaronder subcategorie&#235;n voor Classic Rock en Hardrock. Dit is volledig optioneel, de keuze is aan jou. Om een subcategorie te maken, kies je een andere categorie uit het Hoofd dropdown menu."
+
+#: wp-admin/edit-tags.php:215
+msgid "<strong>Name</strong> - The name is how it appears on your site."
+msgstr "<strong>Naam</strong> - De naam zoals het wordt getoond op de site."
+
+#: wp-admin/edit-tags.php:218
+msgid "<strong>Slug</strong> - The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "<strong>Slug</strong> - De &#8220;slug&#8221; is de URL-vriendelijke versie van de naam. Het bestaat gewoonlijk uit alleen kleine letters en bevat alleen letters, cijfers en koppeltekens."
+
+#: wp-admin/edit-tags.php:210
+msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
+msgstr "Wanneer je een nieuwe categorie toevoegt op dit scherm dienen de volgende velden te worden gevuld:"
+
+#: wp-admin/edit-tags.php:212
+msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
+msgstr "Wanneer je een nieuwe tag toevoegt in dit venster, moet je de volgende velden invullen:"
+
+#: wp-admin/edit-tags.php:200
+msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
+msgstr "Wat is het verschil tussen de categorie&#235;n en tags? Normaal gesproken zijn tags ad-hoc trefwoorden die belangrijke informatie in je bericht (namen, onderwerpen, enz.) bevatten. Die kunnen al dan niet voorkomen in andere berichten. Categorie&#235;n zijn vooraf bepaalde secties. Als je je site vergelijkt met een boek, zijn de categorie&#235;n de inhoudsopgave en de tags termen in de index."
+
+#: wp-admin/edit-tags.php:198
+msgid "You can delete Link Categories in the Bulk Action pulldown, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
+msgstr "Je kunt Linkcategorie&#235;n verwijderen via het actiesmenu, maar deze actie zal de links in deze categorie niet verwijderen. De links in de categorie zullen verplaatst worden naar de standaard categorie."
+
+#: wp-admin/edit-tags.php:195
+msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
+msgstr "Je kunt sleutelwoorden aan je berichten meegeven met gebruik van <strong>tags</strong>. Anders dan in categorie&#235;n hebben tags geen hi&#235;rarchie, dit betekent dat er geen relatie hoeft te zijn tussen de ene tag en de andere."
+
+#: wp-admin/edit-tags.php:193
+msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
+msgstr "Je kunt groepen van links maken met het gebruik van Linkcategorie&#235;n. Linkcategorienamen moeten uniek zijn. Linkcategorie&#235;n zijn gescheiden van de categorie&#235;n die je gebruikt voor berichten."
+
+#: wp-admin/edit-tags.php:191
+msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
+msgstr "Je kunt categorie&#235;n gebruiken om onderverdelingen te maken in je site en verwante berichten te groeperen. De standaard bericht categorie is &#8220;Geen categorie&#8221; totdat je deze verandert in de <a href=\"%s\">instellingen voor schrijven</a>."
+
+#: wp-admin/edit-tags.php:128 wp-admin/edit-tags.php:143 wp-admin/post.php:135
+msgid "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was deleted?"
+msgstr "Je probeerde iets te bewerken dat niet bestaat. Misschien is het verwijderd?"
+
+#: wp-admin/edit-tag-form.php:63 wp-admin/edit-tags.php:381
+msgctxt "Taxonomy Description"
+msgid "Description"
+msgstr "Omschrijving"
+
+#: wp-admin/edit-tag-form.php:65
+msgid "The description is not prominent by default, however some themes may show it."
+msgstr "De beschrijving is standaard niet prominent maar wordt door sommige thema&#39;s getoond."
+
+#: wp-admin/edit-tag-form.php:57 wp-admin/edit-tags.php:376
+msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
+msgstr "Categorie&#235;n kunnen, in tegenstelling tot tags, een hi&#235;rarchie hebben. Je zou een categorie Muziek kunnen hebben en daaronder subcategorie&#235;n voor Classic Rock en Hardrock. Dit is optioneel."
+
+#: wp-admin/edit-tag-form.php:53 wp-admin/edit-tags.php:373
+msgctxt "Taxonomy Parent"
+msgid "Parent"
+msgstr "Hoofd"
+
+#: wp-admin/edit-tag-form.php:48 wp-admin/edit-tags.php:368
+msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "De &#8220;slug&#8221; is de URL-vriendelijke versie van de naam. Een slug bevat alleen (kleine) letters, cijfers en koppeltekens."
+
+#: wp-admin/edit-tag-form.php:46 wp-admin/edit-tags.php:366
+msgctxt "Taxonomy Slug"
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-admin/edit-tag-form.php:40 wp-admin/edit-tags.php:360
+msgctxt "Taxonomy Name"
+msgid "Name"
+msgstr "Naam"
+
+#: wp-admin/edit-tag-form.php:42 wp-admin/edit-tags.php:362
+msgid "The name is how it appears on your site."
+msgstr "De naam zoals het getoond wordt op de site."
+
+#: wp-admin/edit-tag-form.php:14
+msgid "You did not select an item for editing."
+msgstr "Geen item geselecteerd om te bewerken."
+
+#: wp-admin/edit-link-form.php:102
+msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
+msgstr "Dit wordt getoond als iemand in het blok met links over of vlak onder de link beweegt hovert."
+
+#: wp-admin/edit-link-form.php:99
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:181
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:142
+#: wp-admin/includes/class-wp-plugins-list-table.php:187
+#: wp-admin/includes/class-wp-terms-list-table.php:101
+#: wp-admin/includes/media.php:943 wp-admin/includes/nav-menu.php:166
+#: wp-admin/includes/nav-menu.php:1140 wp-admin/press-this.php:146
+#: wp-admin/press-this.php:642 wp-admin/themes.php:284
+msgid "Description"
+msgstr "Beschrijving"
+
+#: wp-admin/edit-link-form.php:94
+msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
+msgstr "Voorbeeld: <code>http://wordpress.org/</code> &mdash; vergeet de <code>http://</code> niet."
+
+#: wp-admin/edit-link-form.php:91
+msgid "Web Address"
+msgstr "Webadres"
+
+#: wp-admin/edit-link-form.php:86
+msgid "Example: Nifty blogging software"
+msgstr "Voorbeeld: Handige software"
+
+#: wp-admin/edit-link-form.php:83
+#: wp-admin/includes/class-wp-links-list-table.php:80
+msgctxt "link name"
+msgid "Name"
+msgstr "Naam"
+
+#: wp-admin/edit-link-form.php:65
+msgid "Link added."
+msgstr "Link toegevoegd."
+
+#: wp-admin/edit-link-form.php:62 wp-admin/link-manager.php:73
+#: wp-admin/menu.php:64
+msgctxt "link"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: wp-admin/edit-link-form.php:53
+msgid "<a href=\"http://codex.wordpress.org/Links_Add_New_Screen\" target=\"_blank\">Documentation on Creating Links</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Links_Add_New_Screen\" target=\"_blank\">Documentatie over het aanmaken van links</a>"
+
+#: wp-admin/edit-link-form.php:48
+msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
+msgstr "XFN staat voor <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network</a>, deze is optioneel. WordPress accepteert het genereren van XFN attributen om te laten zien hoe je gerelateerd bent aan de auteurs/eigenaars van de site waar je naar linkt."
+
+#: wp-admin/edit-link-form.php:47
+msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
+msgstr "De vakken voor de naam van de link, het webadres en de beschrijving hebben een vaste plaats, terwijl je de andere kunt verslepen d.m.v. drag en drop. Je kunt de vakken die je niet gebruikt verbergen in de Scherminstellingen tab, of de vakken minimaliseren door op de titelbalk van de box te klikken."
+
+#: wp-admin/edit-link-form.php:46
+msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s web address and name (the text you want to display on your site as the link) are required fields."
+msgstr "Je kunt links toevoegen of bewerken op dit scherm door het invoeren van gegevens in elk van de vakken. Alleen het link webadres en de naam (de tekst die je wilt weergeven op je site als de link) zijn verplichte velden."
+
+#: wp-admin/edit-link-form.php:30 wp-admin/includes/nav-menu.php:160
+#: wp-admin/includes/nav-menu.php:1139
+msgid "Link Relationship (XFN)"
+msgstr "Link relatie (XFN)"
+
+#: wp-admin/edit-link-form.php:15 wp-admin/includes/meta-boxes.php:641
+msgid "Update Link"
+msgstr "Link bijwerken"
+
+#: wp-admin/edit-link-form.php:19
+msgid "<a href=\"%s\">Links</a> / Add New Link"
+msgstr "<a href=\"%s\">Links</a> / Nieuwe link toevoegen"
+
+#: wp-admin/edit-link-form.php:14
+msgid "<a href=\"%s\">Links</a> / Edit Link"
+msgstr "<a href=\"%s\">Links</a> / Link bewerken"
+
+#: wp-admin/edit-form-comment.php:110
+#: wp-admin/includes/class-wp-comments-list-table.php:202
+#: wp-admin/includes/class-wp-posts-list-table.php:195
+#: wp-admin/includes/media.php:1167 wp-admin/includes/meta-boxes.php:198
+msgid "Move to Trash"
+msgstr "Naar de prullenbak verplaatsen"
+
+#: wp-admin/edit-form-comment.php:110
+#: wp-admin/includes/class-wp-comments-list-table.php:200
+#: wp-admin/includes/class-wp-comments-list-table.php:409
+#: wp-admin/includes/class-wp-media-list-table.php:79
+#: wp-admin/includes/class-wp-media-list-table.php:365
+#: wp-admin/includes/class-wp-media-list-table.php:381
+#: wp-admin/includes/class-wp-posts-list-table.php:193
+#: wp-admin/includes/class-wp-posts-list-table.php:545
+#: wp-admin/includes/dashboard.php:666 wp-admin/includes/media.php:1159
+#: wp-admin/includes/meta-boxes.php:196
+msgid "Delete Permanently"
+msgstr "Permanent verwijderen"
+
+#: wp-admin/edit-form-comment.php:98
+msgid "Submitted on: <b>%1$s</b>"
+msgstr "Toevoegd op: <strong>%1$s</strong>"
+
+#: wp-admin/edit-form-comment.php:101
+#: wp-admin/includes/class-wp-comments-list-table.php:415
+#: wp-admin/includes/class-wp-links-list-table.php:139
+#: wp-admin/includes/class-wp-media-list-table.php:359
+#: wp-admin/includes/class-wp-media-list-table.php:373
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:245
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:296
+#: wp-admin/includes/class-wp-ms-users-list-table.php:189
+#: wp-admin/includes/class-wp-ms-users-list-table.php:232
+#: wp-admin/includes/class-wp-plugins-list-table.php:372
+#: wp-admin/includes/class-wp-posts-list-table.php:190
+#: wp-admin/includes/class-wp-posts-list-table.php:536
+#: wp-admin/includes/class-wp-terms-list-table.php:258
+#: wp-admin/includes/class-wp-users-list-table.php:246
+#: wp-admin/includes/dashboard.php:662 wp-admin/includes/meta-boxes.php:84
+#: wp-admin/includes/meta-boxes.php:130 wp-admin/includes/meta-boxes.php:180
+#: wp-admin/includes/post.php:1123 wp-admin/includes/widgets.php:182
+msgid "Edit"
+msgstr "Bewerken"
+
+#: wp-admin/edit-form-comment.php:90
+msgctxt "adjective"
+msgid "Pending"
+msgstr "Wachtend"
+
+#: wp-admin/edit-form-comment.php:81
+msgid "View Comment"
+msgstr "Reactie tonen"
+
+#: wp-admin/edit-form-comment.php:54
+msgid "URL:"
+msgstr "URL:"
+
+#: wp-admin/edit-form-comment.php:74 wp-admin/includes/ajax-actions.php:1452
+#: wp-admin/includes/class-wp-posts-list-table.php:953
+msgid "Status"
+msgstr "Status"
+
+#: wp-admin/edit-form-comment.php:42
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: wp-admin/edit-form-comment.php:51
+msgid "visit site"
+msgstr "Site bekijken"
+
+#: wp-admin/edit-form-comment.php:52
+msgid "URL (%s):"
+msgstr "URL (%s):"
+
+#: wp-admin/edit-form-comment.php:40
+msgid "E-mail (%s):"
+msgstr "E-mail (%s):"
+
+#: wp-admin/edit-form-comment.php:40
+msgid "send e-mail"
+msgstr "e-mail verzenden:"
+
+#: wp-admin/edit-form-comment.php:33
+msgid "Name:"
+msgstr "Naam:"
+
+#: wp-admin/edit-form-advanced.php:328 wp-admin/includes/ajax-actions.php:1742
+msgid "Last edited on %1$s at %2$s"
+msgstr "Laatst bewerkt op %1$s om %2$s"
+
+#: wp-admin/edit-form-advanced.php:326 wp-admin/includes/ajax-actions.php:1740
+msgid "Last edited by %1$s on %2$s at %3$s"
+msgstr "Laatst bewerkt door %1$s op %2$s om %3$s"
+
+#: wp-admin/edit-form-advanced.php:293
+msgid "Get Shortlink"
+msgstr "Verkorte URL verkrijgen"
+
+#: wp-admin/edit-form-advanced.php:238
+msgid "<a href=\"http://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\" target=\"_blank\">Documentation on Editing Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\" target=\"_blank\">Documentatie over page&#39;s bewerken</a>"
+
+#: wp-admin/edit-form-advanced.php:237
+msgid "<a href=\"http://codex.wordpress.org/Pages_Add_New_Screen\" target=\"_blank\">Documentation on Adding New Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Pages_Add_New_Screen\" target=\"_blank\">Documentatie over het toevoegen van nieuwe pagina&#39;s</a>"
+
+#: wp-admin/edit-form-advanced.php:227
+msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
+msgstr "<strong>Volgorde</strong> - Pagina&#39;s zijn meestal op alfabetische volgorde gesorteerd, maar je kunt hier je eigen volgorde kiezen door een nummer in te voeren (1 voor de eerste enz.)."
+
+#: wp-admin/edit-form-advanced.php:226
+msgid "<strong>Template</strong> - Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them in this dropdown menu."
+msgstr "<strong>Template</strong> - Sommige thema&#39;s hebben aangepaste templates die je kunt gebruiken voor bepaalde pagina&#39;s met extra functies of aangepaste lay-outs. Als dit het geval is, vind je deze in dit dropdown menu."
+
+#: wp-admin/edit-form-advanced.php:221
+msgid "About Pages"
+msgstr "Over pagina&#39;s"
+
+#: wp-admin/edit-form-advanced.php:225
+msgid "<strong>Parent</strong> - You can arrange your pages in hierarchies. For example, you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how many levels you can nest pages."
+msgstr "<strong>Hoofd</strong> - Je kunt de pagina&#39;s in hi&#235;rarchie&#235;n onderbrengen (nesten). Je kunt bijvoorbeeld een &#8220;Over mij&#8221; pagina hebben met daaronder de pagina&#39;s &#8220;Levensverhaal&#8221; en &#8220;Mijn hond&#8221;. Er zijn geen limieten op het aantal niveau&#39;s waarin pagina&#39;s genest kunnen zijn."
+
+#: wp-admin/edit-form-advanced.php:217
+msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and HTML modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box:"
+msgstr "Een pagina maken lijkt erg op een bericht maken. De schermen kunnen op dezelfde manier aangepast worden met het gebruik van drag en drop, de schermopties tab, en het in- en uitvouwen van de boxen zoals je dit kiest. Dit scherm heeft een afleidingsvrije schrijfruimte, zowel beschikbaar in de Wysiwig als in de HTML modus via de &#39;Volledig scherm&#39; knop. De paginabewerker werkt bijna hetzelfde als de berichtbewerker, maar er zijn enkele pagina-specifieke mogelijkheden die je kunt vinden in de &#39;Pagina attributen&#39; box:"
+
+#: wp-admin/edit-form-advanced.php:216
+msgid "Pages are similar to Posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest Pages under other Pages by making one the &#8220;Parent&#8221; of the other, creating a group of Pages."
+msgstr "Pagina&#39;s zijn vergelijkbaar met berichten. Ze hebben een titel, body tekst, en de bijbehorende metadata, het verschil zit erin dat zij geen deel uitmaken van de chronologische site stroom, net zoiets als permanente berichten. Pagina&#39;s worden niet gecategoriseerd of getagd, maar kunnen een hi&#235;rarchie hebben. Je kunt pagina&#39;s onder andere pagina&#39;s onderbrengen (nesten) door een pagina &#34;hoofd&#34; te maken van een andere pagina, en zo pagina&#39;s te groeperen."
+
+#: wp-admin/edit-form-advanced.php:212
+msgid "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentation on Writing and Editing Posts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentatie over het schrijven en bewerken van berichten</a>"
+
+#: wp-admin/edit-form-advanced.php:205 wp-admin/options-discussion.php:15
+msgid "Discussion Settings"
+msgstr "Instellingen | Reacties"
+
+#: wp-admin/edit-form-advanced.php:210
+msgid "You can also create posts with the <a href=\"%s\">Press This bookmarklet</a>."
+msgstr "Het is mogelijk berichten aan te maken met de <a href=\"%s\">Publiceer dit</a> favoriet."
+
+#: wp-admin/edit-form-advanced.php:201
+msgid "<strong>Discussion</strong> - You can turn comments and pings on or off, and if there are comments on the post, you can see them here and moderate them."
+msgstr "<strong>Reacties</strong> - Je kunt reacties en pings aan en uit zetten, als er reacties op het bericht zijn, worden deze hier getoond en kun je direct modereren. "
+
+#: wp-admin/edit-form-advanced.php:200
+msgid "<strong>Send Trackbacks</strong> - Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to send trackbacks. If you link to other WordPress sites they&#8217;ll be notified automatically using pingbacks, and this field is unnecessary."
+msgstr "<strong>Trackbacks verzenden</strong> - Met trackbacks kan je andere blogsystemen inlichten dat je naar hen linkt. Voer de links in waarnaar je trackbacks wilt verzenden. Andere WordPress sites waar je naar verwijst, worden automatisch ingelicht met behulp van pingbacks. Voor deze sites is dit veld niet nodig."
+
+#: wp-admin/edit-form-advanced.php:196
+msgid "Publish Box"
+msgstr "Publicatiebox"
+
+#: wp-admin/edit-form-advanced.php:191
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the featured image as a post thumbnail on the home page, a custom header, etc."
+msgstr "<strong>Uitgelichte afbeelding</strong> - Dit stelt je in staat om een afbeelding te associ&#235;ren met een bericht zonder het in te voegen. Dit is alleen nuttig wanneer een thema geschikt is om een uitgelichte afbeelding als een thumbnail te tonen op de homepagina, een aangepaste header enz."
+
+#: wp-admin/edit-form-advanced.php:184
+msgid "<strong>Publish</strong> - You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
+msgstr "<strong>Publiceren</strong> - Je kunt de voorwaarden voor publicatie van je bericht instellen in het Publiceren vak. Voor Status, Zichtbaarheid en (Onmiddellijk) publiceren klik je op de Bewerken link om meer opties weer te geven. Zichtbaarheid bevat opties om je bericht te beschermen met een wachtwoord of om het op de voorpagina van je site te plakken (sticky). (Onmiddellijk) publiceren laat je toe om een datum en tijdstip in de toekomst of in het verleden in te stellen, zodat je de publicatie op een later tijdstip kunt plannen of een bericht kunt terugdateren."
+
+#: wp-admin/edit-form-advanced.php:180
+msgid "Title and Post Editor"
+msgstr "Titel- en berichtbewerker"
+
+#: wp-admin/edit-form-advanced.php:58
+msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+msgstr "Pagina ingediend. <a target=\"_blank\" href=\"%s\">Voorbeeld tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:167
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Het titelveld en de grote bericht bewerkschermruimte hebben een vaste plaats, maar je kunt al de andere boxen herschikken met gebruik van drag en drop, en ze in- en uitvouwen door te klikken op de titelbalk van elke box. Gebruik de &#39;Schermopties&#39; tab om meer boxen te tonen (samenvatting, verzend trackbacks, aan te passen velden, discussie, slug, auteur) of om een 1- of 2 kolommen layout voor dit scherm te kiezen."
+
+#: wp-admin/edit-form-advanced.php:176
+msgid "<strong>Post editor</strong> - Enter the text for your post. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your post text. You can insert media files by clicking the icons above the post editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular post editor."
+msgstr "<strong>Bericht bewerker</strong> - Geef de tekst voor je bericht. Er zijn twee manieren van bewerken: via de WYSIWYG(What-You-See-Is-What-You-Get: zonder code toe te voegen, je ziet direct wat je doet) of via de HTML. Kies via de tab waar je voorkeur naar uitgaat. Bij de Wysiwyg kun je op het laatste icoon klikken om nog een rij instellingen voor je bericht te voorschijn te toveren. De HTML maakt dat je ruwe HTML code kunt toevoegen aan je berichttekst. Je kunt media bestanden toevoegen door te klikken op de icoontjes boven het berichtvak en de aanwijzingen te volgen. Je kunt ook in volledig scherm bewerken door op het Volledig scherm icoon te klikken in de wysiwyg(in de bovenste rij van iconen, 2e van rechts) of op de Volledig scherm knop te klikken in de HTML (laatste in de rij). Eenmaal in het volledige scherm, kun je de bewerkknoppen zichtbaar maken door over de bovenkant in het scherm te hoveren. Klikken in het volledig scherm op Volledig scherm verlaten, brengt je weer terug naar de normale berichtbewerker."
+
+#: wp-admin/edit-form-advanced.php:40
+msgid "Post restored to revision from %s"
+msgstr "Bericht hersteld naar revisie van %s"
+
+#: wp-admin/edit-form-advanced.php:51
+msgid "Page updated. <a href=\"%s\">View page</a>"
+msgstr "Pagina bijgewerkt. <a href=\"%s\">Pagina tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:175
+msgid "<strong>Title</strong> - Enter a title for your post. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Titel</strong> - Vul in titel in voor je bericht. Nadat je een titel in hebt gevuld, zie je de permalink hieronder welke je kunt wijzigen. "
+
+#: wp-admin/edit-form-advanced.php:187
+msgid "<strong>Post Format</strong> - This designates how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
+msgstr "<strong>Bericht format</strong> - Dit geeft aan hoe je thema getoond wordt in een specifiek bericht. Als voorbeeld: Je kunt een <em>standaard</em> sitebericht met een titel en paragrafen hebben, of een kort <em>aside</em> bericht dat de titel weglaat en een korte tekstaantekening bevat. Bezoek de Codex voor <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">omschrijvingen van elk berichtformat</a>. Je thema kan alle, of enkele van de 10  mogelijke postformats ingeschakeld hebben"
+
+#: wp-admin/edit-form-advanced.php:171
+msgid "Customizing This Display"
+msgstr "Dit scherm aanpassen"
+
+#: wp-admin/edit-form-advanced.php:147
+#: wp-admin/includes/class-wp-posts-list-table.php:745
+#: wp-admin/includes/class-wp-terms-list-table.php:102
+#: wp-admin/includes/class-wp-terms-list-table.php:345
+#: wp-admin/includes/meta-boxes.php:510
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-admin/edit-form-advanced.php:35
+msgid "Post updated. <a href=\"%s\">View post</a>"
+msgstr "Bericht bijgewerkt. <a  href=\"%s\">Bericht tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:141 wp-admin/includes/dashboard.php:306
+#: wp-admin/menu.php:202
+msgid "Discussion"
+msgstr "Reacties"
+
+#: wp-admin/edit-form-advanced.php:137
+msgid "Custom Fields"
+msgstr "Extra velden"
+
+#: wp-admin/edit-form-advanced.php:125
+msgid "Attributes"
+msgstr "Attributen"
+
+#: wp-admin/edit-form-advanced.php:128
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: wp-admin/edit-form-advanced.php:134
+msgid "Send Trackbacks"
+msgstr "Trackbacks verzenden"
+
+#: wp-admin/edit-form-advanced.php:125 wp-admin/edit-form-advanced.php:231
+msgid "Page Attributes"
+msgstr "Pagina-attributen"
+
+#: wp-admin/edit-form-advanced.php:44
+msgid "Post scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview post</a>"
+msgstr "Bericht gepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Voorbeeld bekijken</a>"
+
+#: wp-admin/edit-form-advanced.php:46 wp-admin/edit-form-advanced.php:59
+#: wp-admin/edit-form-comment.php:97 wp-admin/includes/meta-boxes.php:157
+msgid "M j, Y @ G:i"
+msgstr "j F Y @ H:i"
+
+#: wp-admin/edit-form-advanced.php:47
+msgid "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "Conceptbericht bijgewerkt. <a target=\"_blank\" href=\"%s\">Bericht tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:60
+msgid "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+msgstr "Conceptpagina bijgewerkt. <a target=\"_blank\" href=\"%s\">Voorbeeld tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:59
+msgid "Page scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview page</a>"
+msgstr "Pagina gepland voor: <strong>%1$s</strong>, <a target=\"_blank\" href=\"%2$s\">Paginavoorbeeld</a>"
+
+#: wp-admin/edit-form-advanced.php:41
+msgid "Post published. <a href=\"%s\">View post</a>"
+msgstr "Bericht gepubliceerd. <a href=\"%s\">Bericht tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:42
+msgid "Post saved."
+msgstr "Bericht opgeslagen."
+
+#: wp-admin/edit-form-advanced.php:43
+msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "Bericht ingediend. <a target=\"_blank\" href=\"%s\">Bericht tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:55
+msgid "Page restored to revision from %s"
+msgstr "Bericht hersteld naar revisie van %s"
+
+#: wp-admin/edit-form-advanced.php:56
+msgid "Page published. <a href=\"%s\">View page</a>"
+msgstr "Pagina gepubliceerd. <a href=\"%s\">Pagina tonen</a>"
+
+#: wp-admin/edit-form-advanced.php:57
+msgid "Page saved."
+msgstr "Pagina opgeslagen."
+
+#: wp-admin/edit-form-advanced.php:54
+msgid "Page updated."
+msgstr "Pagina bijgewerkt."
+
+#: wp-admin/edit-form-advanced.php:93
+msgid "There is an autosave of this post that is more recent than the version below. <a href=\"%s\">View the autosave</a>"
+msgstr "Er is een automatisch opgeslagen versie van dit bericht dat recenter is dan onderstaande versie. <a href=\"%s\">Toon de automatisch opgeslagen versie</a>"
+
+#: wp-admin/edit-form-advanced.php:38
+msgid "Post updated."
+msgstr "Bericht bijgewerkt."
+
+#: wp-admin/edit-comments.php:230
+msgid "Search Comments"
+msgstr "Reacties zoeken"
+
+#: wp-admin/edit-comments.php:216
+msgid "This comment is already marked as spam."
+msgstr "Deze reactie is al als spam gemarkeerd."
+
+#: wp-admin/edit-comments.php:213
+msgid "View Trash"
+msgstr "Prullenbak bekijken"
+
+#: wp-admin/edit-comments.php:205
+msgid "%s comment permanently deleted"
+msgid_plural "%s comments permanently deleted"
+msgstr[0] "%1$s reactie permanent verwijderd"
+msgstr[1] "%1$s reacties permanent verwijderd"
+
+#: wp-admin/edit-comments.php:210
+msgid "This comment is already approved."
+msgstr "Deze reactie is al toegelaten."
+
+#: wp-admin/edit-comments.php:213
+msgid "This comment is already in the Trash."
+msgstr "Deze reactie bevindt zich al in de prullenbak."
+
+#: wp-admin/edit-comments.php:202
+msgid "%s comment restored from the Trash"
+msgid_plural "%s comments restored from the Trash"
+msgstr[0] "%s reactie hersteld vanuit de prullenbak."
+msgstr[1] "%s reacties hersteld vanuit de prullenbak."
+
+#: wp-admin/edit-comments.php:190
+msgid "%s comment marked as spam."
+msgid_plural "%s comments marked as spam."
+msgstr[0] "%s reactie gemarkeerd als spam."
+msgstr[1] "%s reacties gemarkeerd als spam."
+
+#: wp-admin/edit-comments.php:186
+msgid "%s comment approved"
+msgid_plural "%s comments approved"
+msgstr[0] "%s reactie toegelaten"
+msgstr[1] "%s reacties toegelaten"
+
+#: wp-admin/edit-form-advanced.php:36 wp-admin/edit-form-advanced.php:52
+msgid "Custom field updated."
+msgstr "Extra veld bijgewerkt."
+
+#: wp-admin/edit-form-advanced.php:37 wp-admin/edit-form-advanced.php:53
+msgid "Custom field deleted."
+msgstr "Extra veld verwijderd."
+
+#: wp-admin/edit-comments.php:156 wp-admin/edit-tags.php:268
+#: wp-admin/edit.php:226 wp-admin/link-manager.php:75 wp-admin/plugins.php:410
+#: wp-admin/upload.php:186 wp-admin/users.php:410
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Zoekresultaten voor &#8220;%s&#8221;"
+
+#: wp-admin/edit-comments.php:135
+msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">Documentation on Keyboard Shortcuts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">Documentatie over sneltoetsen</a>"
+
+#: wp-admin/edit-comments.php:134
+msgid "<a href=\"http://codex.wordpress.org/Comment_Spam\" target=\"_blank\">Documentation on Comment Spam</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Comment_Spam\" target=\"_blank\">Documentatie over reactie spam</a>"
+
+#: wp-admin/edit-comments.php:128
+msgid "Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
+msgstr "Veel mensen maken gebruik van de sneltoetsen om de reacties sneller te modereren. Gebruik de aan de zijkant voor meer informatie."
+
+#: wp-admin/edit-comments.php:194
+msgid "%s comment restored from the spam"
+msgid_plural "%s comments restored from the spam"
+msgstr[0] "%s reactie hersteld vanuit spam"
+msgstr[1] "%s reacties hersteld vanuit spam"
+
+#: wp-admin/edit-comments.php:198
+msgid "%s comment moved to the Trash."
+msgid_plural "%s comments moved to the Trash."
+msgstr[0] "%s reactie verplaatst naar de prullenbak."
+msgstr[1] "%s reacties verplaatst naar de prullenbak."
+
+#: wp-admin/edit-comments.php:127
+msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows how many comments that post has received. If the bubble is gray, you have moderated all comments for that post. If it is blue, there are pending comments. Clicking the bubble will filter the comments screen to show only comments on that post."
+msgstr "In de <strong>In antwoord op</strong>  kolom, bevinden zich drie elementen. De tekst is de naam van het bericht waarop gereageerd is en linkt naar de editor(waar je de inhoud schrijft) van het bericht. De Bekijk bericht linkt naar het bericht aan de voorkant van je site. Het ballonnetje met een getal erin toont hoeveel reacties op het bericht zijn binnengekomen. Als het ballonnetje grijs is, dan zijn alle reacties gemodereerd. Als het blauw is, zijn er reacties die wachten op moderatie. Klikken op het ballonnetje zal de reacties filteren die alleen op dat bericht gegeven zijn."
+
+#: wp-admin/edit-comments.php:125
+msgid "In the <strong>Author</strong> column, in addition to the author&#8217;s name, email address, and blog URL, the commenter&#8217;s IP address is shown. Clicking on this link will show you all the comments made from this IP address."
+msgstr "In de <strong>Auteur</strong> kolom, naast de auteursnaam, e-mailadres, en site URL,  wordt het IP adres van de afzender getoond. Als je op deze link klikt worden alle reacties die op dit  IP adres gemaakt zijn, getoond."
+
+#: wp-admin/edit-comments.php:126
+msgid "In the <strong>Comment</strong> column, above each comment it says &#8220;Submitted on,&#8221; followed by the date and time the comment was left on your site. Clicking on the date/time link will take you to that comment on your live site. Hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment."
+msgstr "In de <strong>Reactie</strong> kolom, boven elke reactie, waar vermeld wordt -Verzonden op-  vind je  de datum en tijd terug wanneer de reactie is verzenden naar je site. Klikken op de datum/tijd link brengt je naar de reactie aan de voorkant van de site. Als je over een reactie hovert, geeft je dit opties om de reactie toe te laten, beantwoorden (en toe te laten), snel te bewerken, te bewerken, te markeren als spam, of de reactie naar de prullenbak te verplaatsen."
+
+#: wp-admin/edit-comments.php:122
+msgid "Moderating Comments"
+msgstr "Reacties modereren"
+
+#: wp-admin/edit-comments.php:124
+msgid "A yellow row means the comment is waiting for you to moderate it."
+msgstr "Een gele regel betekent dat de reactie wacht op moderatie."
+
+#: wp-admin/edit-comments.php:118
+msgid "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the Bulk Actions."
+msgstr "Je kunt reacties op je site beheren net zoals je berichten en andere inhoud beheert. Dit scherm is aanpasbaar op dezelfde manier als de andere beheerschermen, en je kunt werken met de reacties met gebruik van de hover-actielinks of de Acties."
+
+#: wp-admin/custom-header.php:494 wp-admin/includes/theme.php:191
+msgid "Custom Header"
+msgstr "Header aanpassen"
+
+#: wp-admin/import.php:23
+msgid "In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
+msgstr "In voorgaande versies van WordPress, alle importeerders waren ingebouwd. Het zijn nu plugins, omdat meeste mensen ze niet vaak of eenmalig gebruiken."
+
+#: wp-admin/export.php:130
+msgid "Choose what to export"
+msgstr "Kies wat je wilt exporteren"
+
+#: wp-admin/freedoms.php:52
+msgid "Every plugin and theme in WordPress.org&#8217;s directory is 100%% GPL or a similarly free and compatible license, so you can feel safe finding <a href=\"%1$s\">plugins</a> and <a href=\"%2$s\">themes</a> there. If you get a plugin or theme from another source, make sure to <a href=\"%3$s\">ask them if it&#8217;s GPL</a> first. If they don&#8217;t respect the WordPress license, we don&#8217;t recommend them."
+msgstr "Elke plugin en elk thema in de WordPress.org&#8217;s map is 100%% GPL of heeft een gelijkwaardige vrije en compatibele licentie. Je kunt daar veilig <a href=\"%1$s\">plugins</a> en <a href=\"%2$s\">thema&#39;s</a> vinden. Als je een plugin of thema vanaf een andere bron haalt, <a href=\"%3$s\">vraag ze eerst of het GPL</a> is.  Als ze de WordPress licentie niet respecteren, bevelen we ze niet aan."
+
+#: wp-admin/freedoms.php:39
+msgid "You have the freedom to run the program, for any purpose."
+msgstr "Jij hebt de vrijheid om het programma voor elk doel te gebruiken."
+
+#: wp-admin/export.php:161 wp-admin/export.php:193
+#: wp-admin/includes/meta-boxes.php:60
+msgid "Status:"
+msgstr "Status:"
+
+#: wp-admin/customize.php:118
+#: wp-admin/includes/class-wp-theme-install-list-table.php:263
+msgid "Collapse"
+msgstr "Inklappen"
+
+#: wp-admin/export.php:207
+msgid "Download Export File"
+msgstr "Exportbestand downloaden"
+
+#: wp-admin/freedoms.php:36
+msgid "WordPress is Free and open source software, built by a distributed community of mostly volunteer developers from around the world. WordPress comes with some awesome, worldview-changing rights courtesy of its <a href=\"%s\">license</a>, the GPL."
+msgstr "WordPress is vrije en open software, gebouwd door een gedistribueerde community van veelal ontwikkelaars die zich vrijwillig inzetten van over de hele wereld. WordPress wordt geleverd met een aantal geweldige, wereldbeeld veranderende rechten, dankzij de <a href=\"%s\">licentie</a> van de GPL."
+
+#: wp-admin/import.php:15
+msgid "You do not have sufficient permissions to import content in this site."
+msgstr "Je hebt onvoldoende rechten om inhoud te importeren naar deze site."
+
+#: wp-admin/export.php:156 wp-admin/export.php:188
+msgid "End Date"
+msgstr "Einddatum"
+
+#: wp-admin/freedoms.php:40
+msgid "You have access to the source code, the freedom to study how the program works, and the freedom to change it to make it do what you wish."
+msgstr "Je hebt toegang tot de broncode en de vrijheid om te bestuderen hoe het programma werkt. Ook heb je de vrijheid om zelf aanpassingen door te voeren."
+
+#: wp-admin/freedoms.php:45
+msgid "WordPress grows when people like you tell their friends about it, and the thousands of businesses and services that are built on and around WordPress share that fact with their users. We&#8217;re flattered every time someone spreads the good word, just make sure to <a href=\"%s\">check out our trademark guidelines</a> first."
+msgstr "WordPress groeit als mensen zoals jij erover vertellen aan hun vrienden, en de duizenden bedrijven en services die gebouwd zijn met en rond WordPress dit delen (en te kennen geven) met hun gebruikers. We voelen ons iedere keer vereerd als de naam WordPress gebruikt en verspreid wordt. Bekijk eerst onze <a href=\"%s\">handelsmerken richtlijnen</a>."
+
+#: wp-admin/freedoms.php:42
+msgid "You have the freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes."
+msgstr "Je bent vrij om kopie&#235;n te verspreiden van je aangepaste versies aan anderen. Als je dit doet, kan je de hele community de kans geven om te profiteren van je aanpassingen. "
+
+#: wp-admin/export.php:136 wp-admin/includes/class-wp-terms-list-table.php:109
+#: wp-admin/includes/class-wp-users-list-table.php:167 wp-admin/menu.php:42
+msgid "Posts"
+msgstr "Berichten"
+
+#: wp-admin/freedoms.php:41
+msgid "You have the freedom to redistribute copies of the original program so you can help your neighbor."
+msgstr "Je hebt de vrijheid om kopie&#235;n van het oorspronkelijke programma te distribueren om zo mensen te helpen."
+
+#: wp-admin/export.php:133
+msgid "All content"
+msgstr "Gehele inhoud"
+
+#: wp-admin/freedoms.php:54
+msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
+msgstr "Zou je niet willen dat alle software met deze vrijheden zal komen? Wij in ieder geval wel. Voor meer informatie bekijk de informatie op: <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
+
+#: wp-admin/export.php:152 wp-admin/export.php:184
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: wp-admin/export.php:143 wp-admin/export.php:175
+msgid "Authors:"
+msgstr "Auteurs:"
+
+#: wp-admin/export.php:139
+msgid "Categories:"
+msgstr "Categorie&#235;n:"
+
+#: wp-admin/export.php:134
+msgid "This will contain all of your posts, pages, comments, custom fields, terms, navigation menus and custom posts."
+msgstr "Dit bevat al je berichten, pagina&#39;s, reacties, aangepaste velden, voorwaarden, navigatie menu&#39;s en aangepaste berichttypen."
+
+#: wp-admin/export.php:150 wp-admin/export.php:182
+msgid "Date range:"
+msgstr "Datumbereik:"
+
+#: wp-admin/customize.php:116
+#: wp-admin/includes/class-wp-theme-install-list-table.php:262
+msgid "Collapse Sidebar"
+msgstr "Sidebar inklappen"
+
+#: wp-admin/edit-comments.php:112
+msgctxt "comments per page (screen options)"
+msgid "Comments"
+msgstr "Reacties"
+
+#: wp-admin/edit-comments.php:108 wp-admin/edit-comments.php:146
+msgid "Comments on &#8220;%s&#8221;"
+msgstr "Reacties op &#8220;%s&#8221;"
+
+#: wp-admin/import.php:22
+msgid "This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform."
+msgstr "Dit scherm toont links naar plugins om gegevens uit sites en content management platformen te importeren. Kies vanuit welk platform je wilt importeren en klik op Nu installeren wanneer hierom wordt gevraagd in het popup-venster. Indien je platform niet in de lijst voorkomt, klik op de link om de plugin directory voor andere importeerfunctie plugins zoeken."
