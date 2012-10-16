@@ -4,6 +4,7 @@ xmlrpc.php
 /local-config.php
 /sql-dump-*.sql
 /db-sync
+/.c9revisions
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
