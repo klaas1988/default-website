@@ -5,7 +5,7 @@ xmlrpc.php
 /sql-dump-*.sql
 /db-sync
 /.c9revisions
-wp-content/uploads/
+wp-content/uploads/*
 wp-content/blogs.dir/
 wp-content/upgrade/*
 wp-content/backup-db/*
@@ -17,3 +17,4 @@ sitemap.xml
 sitemap.xml.gz
 readme.html
 license.txt
+!empty
