@@ -24,7 +24,7 @@
 
 			<div id="site-generator">
 				<?php do_action( 'twentyeleven_credits' ); ?>
-    			<a href="<?php echo esc_url( __( 'http://heidstra.com/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Go to the developers website', 'twentyeleven' ); ?>" rel="generator"><?php printf( '&copy; 2013 Heidstra Multimedia & Webdesign' ); ?></a>, <?php wp_loginout(); ?>
+    			&copy; 2013 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>, <a href="<?php echo esc_url( __( 'http://heidstra.com/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Go to the developers website', 'twentyeleven' ); ?>" rel="generator"><?php printf( 'Heidstra Multimedia & Webdesign' ); ?></a> | <?php wp_loginout(); ?>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
