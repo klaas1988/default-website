@@ -1,0 +1,2463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-09 23:35+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: PrimaThemes <admin@primathemes.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ primathemes
+#: ../comments.php:19
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+# @ primathemes
+#: ../comments.php:32
+#, php-format
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ primathemes
+#: ../comments.php:39 ../comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+# @ primathemes
+#: ../comments.php:40 ../comments.php:52
+msgid "&larr; Older Comments"
+msgstr ""
+
+# @ primathemes
+#: ../comments.php:41 ../comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+# @ primathemes
+#: ../content-404.php:1
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+# @ primathemes
+#: ../content-404.php:1
+msgid "a mistyped address"
+msgstr ""
+
+# @ primathemes
+#: ../content-404.php:1
+msgid "an out-of-date link"
+msgstr ""
+
+# @ primathemes
+#: ../content-404.php:1
+msgid "Perhaps searching can help."
+msgstr ""
+
+# @ primathemes
+#: ../content.php:26 ../inc/theme/frontend.php:328
+msgid "Read More &rarr;"
+msgstr ""
+
+# @ primathemes
+#: ../content.php:27 ../image.php:102 ../image.php:216 ../page.php:39
+#: ../single.php:39
+msgid "Pages:"
+msgstr ""
+
+#: ../image.php:46 ../image.php:150
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+# @ primathemes
+#: ../image.php:57 ../image.php:161 ../page.php:40
+#: ../core/admin/sidebar-settings.php:226 ../core/shortcodes/theme.php:166
+msgid "Edit"
+msgstr ""
+
+# @ primathemes
+#: ../image.php:111 ../navigation-oldernewer.php:31 ../navigation.php:31
+#: ../single.php:48
+msgid "Post navigation"
+msgstr ""
+
+# @ primathemes
+#: ../image.php:112 ../image.php:165 ../navigation-numeric.php:39
+msgid "&larr; Previous"
+msgstr ""
+
+# @ primathemes
+#: ../image.php:113 ../image.php:166 ../navigation-numeric.php:59
+msgid "Next &rarr;"
+msgstr ""
+
+# @ primathemes
+#: ../navigation-oldernewer.php:22
+msgid "&larr; Older Posts"
+msgstr ""
+
+# @ primathemes
+#: ../navigation-oldernewer.php:25
+msgid "Newer Posts &rarr;"
+msgstr ""
+
+# @ primathemes
+#: ../navigation.php:22
+msgid "&larr; Previous Page"
+msgstr ""
+
+# @ primathemes
+#: ../navigation.php:25
+msgid "Next Page &rarr;"
+msgstr ""
+
+#: ../prima-footer-widgets.php:27 ../prima-footer-widgets.php:29
+#: ../inc/theme/setup.php:206
+msgid "Footer Widget #1"
+msgstr ""
+
+# @ primathemes
+#: ../prima-footer-widgets.php:29 ../prima-footer-widgets.php:44
+#: ../prima-footer-widgets.php:59 ../prima-footer-widgets.php:74
+#: ../sidebar-mini.php:25 ../sidebar.php:25
+#, php-format
+msgid ""
+"This is <strong>\"%1$s\"</strong> widget area. Visit your <a href=\"%2$s"
+"\">Widgets Page</a> to add new widget to this area."
+msgstr ""
+
+#: ../prima-footer-widgets.php:42 ../prima-footer-widgets.php:44
+#: ../inc/theme/setup.php:217
+msgid "Footer Widget #2"
+msgstr ""
+
+#: ../prima-footer-widgets.php:57 ../prima-footer-widgets.php:59
+#: ../inc/theme/setup.php:228
+msgid "Footer Widget #3"
+msgstr ""
+
+#: ../prima-footer-widgets.php:72 ../prima-footer-widgets.php:74
+#: ../inc/theme/setup.php:239
+msgid "Footer Widget #4"
+msgstr ""
+
+#: ../prima-header-topnav.php:26
+msgid "My Account"
+msgstr ""
+
+# @ primathemes
+#: ../prima-header-topnav.php:31
+msgid "Logout"
+msgstr ""
+
+#: ../prima-header-topnav.php:33
+msgid "Login"
+msgstr ""
+
+#: ../prima-header-topnav.php:40 ../inc/woocommerce/functions.php:262
+#, php-format
+msgid "My Cart (%d)"
+msgstr ""
+
+#: ../prima-shortcode-shop.php:31
+msgid "Visit Shop &rarr;"
+msgstr ""
+
+# @ primathemes
+#: ../prima-shortcode-shop.php:91
+msgid "No products found which match your selection."
+msgstr ""
+
+# @ primathemes
+#: ../single.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+# @ primathemes
+#: ../single.php:50
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/design-settings.php:27 ../core/admin/sidebar-settings.php:77
+#: ../core/admin/theme-settings.php:410
+msgid "Design Settings"
+msgstr ""
+
+#: ../core/admin/design-settings.php:42 ../core/admin/design-settings.php:50
+msgid "Reset Design Settings"
+msgstr ""
+
+#: ../core/admin/design-settings.php:45
+msgid "You can reset theme customizer (design settings) value."
+msgstr ""
+
+#: ../core/admin/design-settings.php:86
+msgid "Design settings successfully reset!"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:28
+msgid "Page Template Settings"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:30
+msgid "Content Settings"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:32
+msgid "Header Settings"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:34
+msgid "Footer Settings"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:184
+#: ../core/admin/theme-settings.php:382
+msgid "Use this image"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:185
+#: ../core/admin/postmeta-settings.php:405
+#: ../core/admin/theme-settings.php:343 ../core/admin/theme-settings.php:383
+msgid "Remove image"
+msgstr ""
+
+#: ../core/admin/postmeta-settings.php:401
+#: ../core/admin/theme-settings.php:340
+msgid "Upload/Add image"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/postmeta-settings.php:446
+msgid "Manage Images"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/postmeta-settings.php:447
+msgid "Save/Update"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:28 ../core/admin/sidebar-settings.php:79
+#: ../core/admin/theme-settings.php:414
+msgid "Sidebar Settings"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:75 ../core/admin/theme-settings.php:31
+#: ../core/admin/theme-settings.php:406
+msgid "Theme Settings"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:86
+msgid "New sidebar successfully created!"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:89
+msgid "Sidebar successfully edited!"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:92
+msgid "Sidebar successfully deleted."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:104
+msgid ""
+"Nice try, partner. But that sidebar doesn't exist. Click back and try again."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:112
+#: ../core/admin/sidebar-settings.php:149
+#: ../core/admin/sidebar-settings.php:156
+#: ../core/admin/sidebar-settings.php:175
+msgid "Name"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:114
+#: ../core/admin/sidebar-settings.php:177
+msgid "A recognizable name for your new sidebar widget area"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:117
+#: ../core/admin/sidebar-settings.php:150
+#: ../core/admin/sidebar-settings.php:157
+#: ../core/admin/sidebar-settings.php:180
+msgid "ID"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:121
+msgid ""
+"The unique ID is used to register the sidebar widget area (cannot be changed)"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:124
+#: ../core/admin/sidebar-settings.php:151
+#: ../core/admin/sidebar-settings.php:158
+#: ../core/admin/sidebar-settings.php:185
+msgid "Description"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:129
+msgid "Update"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:139
+msgid "Current Sidebars"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:171
+#: ../core/admin/sidebar-settings.php:188
+msgid "Add New Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:182
+msgid "The unique ID is used to register the sidebar widget area"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:227
+msgid "Delete"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:330
+msgid "Oops! Please choose a valid Name and ID for this sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:333
+msgid "Oops! That sidebar ID already exists"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:336
+msgid ""
+"Oops! You are trying to edit a sidebar that does not exist, or is not "
+"editable"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:339
+msgid ""
+"Oops! You are trying to delete a sidebar that does not exist, or cannot be "
+"deleted"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:342
+msgid "Oops! Something went wrong. Try again."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:355
+msgid "Custom Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:377 ../core/functions/sidebars.php:176
+msgid "Default"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:388 ../inc/theme/settings.php:199
+#: ../inc/theme/settings.php:260 ../inc/theme/settings.php:337
+#: ../inc/theme/settings.php:398
+msgid "Manage Sidebars"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:388 ../inc/theme/settings.php:199
+#: ../inc/theme/settings.php:260 ../inc/theme/settings.php:337
+#: ../inc/theme/settings.php:398
+msgid "Manage Widgets"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/sidebar-settings.php:391
+msgid "Sorry, no defined sidebar areas"
+msgstr ""
+
+#: ../core/admin/theme-settings.php:116 ../core/admin/theme-settings.php:148
+msgid "Settings"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:133
+msgid "Theme Settings Saved"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:136
+msgid "Theme Settings Reset"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:167
+msgid "Save Settings"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:168
+msgid "Reset Settings"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:196
+msgid "General"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:384
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:385
+msgid "Are you sure you want to reset theme settings?"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:495
+msgid "Settings successfully imported!"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:502
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:518
+msgid "Export Settings File"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:521
+msgid ""
+"When you click the button below, PrimaThemes will generate a JSON file for "
+"you to save to your computer."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:522
+msgid ""
+"Once you have saved the download file, you can use the import function on "
+"another site to import this data."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:527
+msgid "All Settings"
+msgstr ""
+
+#: ../core/admin/theme-settings.php:534
+msgid "Download Settings File"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:557
+msgid "Import Settings File"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:560
+msgid ""
+"Upload the data file from your computer (.json) and we'll import your "
+"settings."
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:561
+msgid "Choose the file from your computer and click \"Upload and Import\""
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:566
+#, php-format
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+# @ primathemes
+#: ../core/admin/theme-settings.php:568
+msgid "Upload file and import"
+msgstr ""
+
+#: ../core/functions/customizer.php:72
+msgid "Colors & Typography"
+msgstr ""
+
+#: ../core/functions/customizer.php:77
+msgid "Background"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:35
+msgid "404 - Not Found"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:37
+#, php-format
+msgid "Search Results for \"%1$s\""
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:44 ../core/functions/frontend.php:50
+#: ../core/functions/frontend.php:53 ../core/functions/frontend.php:59
+#: ../core/functions/frontend.php:62
+#, php-format
+msgid "Archive for %1$s"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:44
+msgid "g:i a"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:47
+#, php-format
+msgid "Archive for minute %1$s"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:47
+msgid "i"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:50
+msgid "g a"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:53
+msgid "F jS, Y"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:56
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:56
+msgid "W"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:56 ../core/functions/frontend.php:62
+#: ../core/shortcodes/general.php:53
+msgid "Y"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:77
+msgid "Page "
+msgstr ""
+
+#: ../core/functions/frontend.php:142
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: ../core/functions/frontend.php:216
+msgid "Error 404"
+msgstr ""
+
+#: ../core/functions/frontend.php:264
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../core/functions/frontend.php:269
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../core/functions/frontend.php:275
+msgid "Author:"
+msgstr ""
+
+# @ woocommerce
+#: ../core/functions/frontend.php:280
+msgid "Page"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:300 ../core/functions/frontend.php:336
+msgid " &hellip;"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/frontend.php:368
+msgid "Custom Scripts"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:28 ../core/functions/widgets.php:211
+#: ../core/shortcodes/general.php:73
+msgid "Search this website&hellip;"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:29 ../core/functions/widgets.php:211
+#: ../core/shortcodes/general.php:73 ../inc/theme/frontend.php:306
+#: ../inc/woocommerce/functions.php:147
+msgid "Search"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:55 ../core/shortcodes/general.php:80
+msgid "en_US"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:56 ../core/functions/widgets.php:251
+#: ../core/shortcodes/general.php:80
+msgid "Enter your email address..."
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:57 ../core/functions/widgets.php:251
+#: ../core/shortcodes/general.php:80
+msgid "Subscribe"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:78
+msgid "No Feedburner ID was available"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:120
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:122
+msgid ""
+"There was an error while attempting to contact the Twitter API. Please try "
+"again."
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:124
+msgid ""
+"The Twitter API returned an error while processing your request. Please try "
+"again."
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/general.php:127
+#, php-format
+msgid "about %s ago"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/layouts.php:144 ../inc/theme/settings.php:57
+msgid "Layout"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/layouts.php:146
+msgid ""
+"Select a specific layout for this section. Overrides default layout setting."
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:39
+msgid "Display most recent posts"
+msgstr ""
+
+#: ../core/functions/widgets.php:41
+msgid "Advanced Recent Posts"
+msgstr ""
+
+#: ../core/functions/widgets.php:71
+msgid "Posted on [post-date]"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:97 ../core/functions/widgets.php:175
+#: ../core/functions/widgets.php:213 ../core/functions/widgets.php:253
+#: ../core/functions/widgets.php:292 ../core/functions/widgets.php:351
+#: ../inc/woocommerce/widgets.php:71
+msgid "Title:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:98
+msgid "Number of posts to show:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:99
+msgid "Show image"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:100
+msgid "Image width (px):"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:101
+msgid "Image height (px):"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:102
+msgid "Show post meta"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:103
+msgid "Show post excerpt"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:104
+msgid "Post excerpt length:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:115
+msgid "Display most recent comments"
+msgstr ""
+
+#: ../core/functions/widgets.php:117
+msgid "Advanced Recent Comments"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:156
+msgid "No comments were found"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:176
+msgid "Number of comments to show:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:177
+msgid "Show avatar"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:178
+msgid "Avatar size (px):"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:179
+msgid "Comment excerpt length:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:190
+msgid "Display search form"
+msgstr ""
+
+#: ../core/functions/widgets.php:192
+msgid "Advanced Search Form"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:214 ../core/functions/widgets.php:256
+msgid "Input text:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:215 ../core/functions/widgets.php:257
+msgid "Button text:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:226
+msgid "Display Feedburner subscription form"
+msgstr ""
+
+#: ../core/functions/widgets.php:228
+msgid "Advanced Feedburner Form"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:254
+msgid "Introduction text:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:255
+msgid "Feedburner ID:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:268
+msgid "Display most recent Twitter feed"
+msgstr ""
+
+#: ../core/functions/widgets.php:270
+msgid "Advanced Twitter Feed"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:293
+msgid "Twitter username:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:294
+msgid "Number of tweets:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:295
+msgid "5 minutes"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:295
+msgid "10 minutes"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:295
+msgid "15 minutes"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:295
+msgid "30 minutes"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:295 ../core/functions/widgets.php:296
+msgid "1 hour"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:296
+msgid "4 hour"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:296
+msgid "12 hour"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:296
+msgid "24 hours"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:297
+msgid "Load new Tweets every:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:308
+msgid "Display photos from Flickr"
+msgstr ""
+
+#: ../core/functions/widgets.php:310
+msgid "Advanced Flickr Photos"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:349
+msgid "Flickr Photos"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:352
+msgid "User"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:352
+msgid "Group"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:352
+msgid "User Set"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:352
+msgid "Tag"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:353
+msgid "Source:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:354
+msgid "User ID:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:355
+msgid "* find your user ID using"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:356
+msgid "Group ID:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:357
+msgid "Set ID:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:358
+msgid "Tag (separated by comma):"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:359
+msgid "Latest"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:359
+msgid "Random"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:360
+msgid "Display:"
+msgstr ""
+
+# @ primathemes
+#: ../core/functions/widgets.php:361
+msgid "Number of photos (from 1 to 10):"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:58
+msgid "l, F j, Y"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:159
+msgid "Message via the contact form"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:163
+msgid "Submit"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:179
+msgid "Please enter your name"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:183
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:187
+msgid "Please enter your message"
+msgstr ""
+
+#: ../core/shortcodes/general.php:192
+msgid "Your answer was wrong!"
+msgstr ""
+
+#: ../core/shortcodes/general.php:195
+msgid "Please enter your answer"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:199
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#: ../core/shortcodes/general.php:218
+msgid "Email:"
+msgstr ""
+
+#: ../core/shortcodes/general.php:219
+msgid "Name:"
+msgstr ""
+
+#: ../core/shortcodes/general.php:220
+msgid "IP Address:"
+msgstr ""
+
+#: ../core/shortcodes/general.php:220
+msgid "User Agent:"
+msgstr ""
+
+#: ../core/shortcodes/general.php:230
+msgid "[COPY]"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:239
+msgid "Your email was successfully sent."
+msgstr ""
+
+#: ../core/shortcodes/general.php:242
+msgid ""
+"There were technical error while submitting the form. Sorry for the "
+"inconvenience."
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:251
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:264
+msgid "Your Name"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:271
+msgid "Your Email"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:278
+msgid "Your Message"
+msgstr ""
+
+#: ../core/shortcodes/general.php:287
+msgid "Your Answer"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:299
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/general.php:307
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:136
+msgid "Leave a response"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:136
+msgid "1 Response"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:136
+#, php-format
+msgid "%1$s Responses"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:142 ../core/shortcodes/theme.php:144
+#: ../core/shortcodes/theme.php:146
+#, php-format
+msgid "Comment on %1$s"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:155
+msgid "l, F jS, Y, g:i a"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:166
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:174
+msgid "Shortlink"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:198
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:198
+msgid "WordPress"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:216
+msgid "Log out of this account"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:216
+msgid "Log out"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:218
+msgid "Log into this account"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:218
+msgid "Log in"
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:225
+#, php-format
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr ""
+
+# @ primathemes
+#: ../core/shortcodes/theme.php:277
+msgid "No categories"
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:286
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: ../inc/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:297
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:25 ../inc/theme/designs.php:31
+#: ../inc/theme/settings.php:83
+msgid "Style Layout"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:38 ../inc/theme/settings.php:89
+msgid "Full"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:39 ../inc/theme/settings.php:90
+msgid "Boxed"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:53 ../inc/theme/designs.php:59
+#: ../inc/theme/settings.php:96
+msgid "Responsive Layout"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:66 ../inc/theme/settings.php:102
+msgid "Yes"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:67 ../inc/theme/settings.php:103
+msgid "No"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:134
+msgid "Body Font"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:141
+msgid "Heading Font"
+msgstr ""
+
+#: ../inc/theme/designs.php:197
+msgid "Default Text (Paragraph) Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:206
+msgid "Default Heading Color"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:215
+msgid "Default Link Color"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:224
+msgid "Default Link Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:233
+msgid "Default Form Input Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:242
+msgid "Default Form Input Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:251
+msgid "Default Form Input Border Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:260
+msgid "Default Button Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:269
+msgid "Default Button Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:278
+msgid "Default Button Background Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:287
+msgid "Default Horizontal Line Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:307 ../inc/theme/settings.php:840
+msgid "Ecommerce"
+msgstr ""
+
+#: ../inc/theme/designs.php:313
+msgid "Star Rating Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:322
+msgid "Sale Flash Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:331
+msgid "Sale Flash Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:340
+msgid "Price Text Color (Default)"
+msgstr ""
+
+#: ../inc/theme/designs.php:349
+msgid "Price Text Color (From Text)"
+msgstr ""
+
+#: ../inc/theme/designs.php:358
+msgid "Price Text Color (Regular Price)"
+msgstr ""
+
+#: ../inc/theme/designs.php:367
+msgid "Price Text Color (Sale Price)"
+msgstr ""
+
+#: ../inc/theme/designs.php:376 ../inc/theme/designs.php:730
+msgid "Button Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:385 ../inc/theme/designs.php:739
+msgid "Button Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:394 ../inc/theme/designs.php:748
+msgid "Button Background Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:403
+msgid "Button Border Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:412
+msgid "Alternate Button Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:421
+msgid "Alternate Button Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:430
+msgid "Alternate Button Background Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:439
+msgid "Alternate Button Border Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:448
+msgid "Product Tabs Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:467
+msgid "Background (Boxed Content)"
+msgstr ""
+
+#: ../inc/theme/designs.php:472
+msgid "Background Color (Only for Boxed Layout)"
+msgstr ""
+
+#: ../inc/theme/designs.php:481
+msgid "Background Image (Only for Boxed Layout)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/designs.php:500 ../inc/theme/settings.php:441
+#: ../inc/theme/settings.php:446
+msgid "Top Navigation"
+msgstr ""
+
+#: ../inc/theme/designs.php:505 ../inc/theme/designs.php:592
+#: ../inc/theme/designs.php:670 ../inc/theme/designs.php:703
+#: ../inc/theme/designs.php:772 ../inc/theme/designs.php:814
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:514 ../inc/theme/designs.php:601
+#: ../inc/theme/designs.php:679 ../inc/theme/designs.php:712
+#: ../inc/theme/designs.php:781 ../inc/theme/designs.php:823
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/theme/designs.php:523 ../inc/theme/designs.php:721
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:532
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:541
+msgid "Cart Count Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:550
+msgid "Cart Count Background Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:559
+msgid "Cart Count Text Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:568
+msgid "Search Form Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:587
+msgid "Header Content (Logo&Menu)"
+msgstr ""
+
+#: ../inc/theme/designs.php:610 ../inc/theme/designs.php:832
+msgid "Primary Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:619 ../inc/theme/designs.php:841
+msgid "Secondary Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:628
+msgid "Submenu Background Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:637
+msgid "Submenu Background Color (Hover)"
+msgstr ""
+
+#: ../inc/theme/designs.php:646
+msgid "Submenu Border Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:665 ../inc/theme/settings.php:539
+msgid "Header Featured"
+msgstr ""
+
+#: ../inc/theme/designs.php:698 ../inc/theme/settings.php:572
+msgid "Header Call To Action"
+msgstr ""
+
+#: ../inc/theme/designs.php:767 ../inc/theme/settings.php:636
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../inc/theme/designs.php:790
+msgid "Border Color"
+msgstr ""
+
+#: ../inc/theme/designs.php:809
+msgid "Footer Content (Credits&Menu)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/frontend.php:305
+msgid "Search..."
+msgstr ""
+
+#: ../inc/theme/meta.php:25
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: ../inc/theme/meta.php:29
+msgid "This will hide breadcrumb on this page."
+msgstr ""
+
+#: ../inc/theme/meta.php:32
+msgid "Hide Page Title"
+msgstr ""
+
+#: ../inc/theme/meta.php:36
+msgid ""
+"This will hide page title on this page. NOTE: Some page template is designed "
+"with no page title"
+msgstr ""
+
+#: ../inc/theme/meta.php:50
+msgid "Featured Header Type"
+msgstr ""
+
+#: ../inc/theme/meta.php:55
+msgid "Image"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:56
+msgid "Slider"
+msgstr ""
+
+#: ../inc/theme/meta.php:57 ../inc/theme/settings.php:91
+msgid "Custom"
+msgstr ""
+
+#: ../inc/theme/meta.php:58
+msgid "Disable"
+msgstr ""
+
+#: ../inc/theme/meta.php:62
+msgid "Remove Header Padding"
+msgstr ""
+
+#: ../inc/theme/meta.php:66
+msgid ""
+"This will remove padding (top,left,bottom,right space) on the featured header"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:69
+msgid "Custom Header"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:72
+msgid "You can add any content (HTML, shortcodes) for your custom header."
+msgstr ""
+
+#: ../inc/theme/meta.php:76
+msgid "Slider Animation Type"
+msgstr ""
+
+#: ../inc/theme/meta.php:81
+msgid "Slide"
+msgstr ""
+
+#: ../inc/theme/meta.php:82
+msgid "Fade"
+msgstr ""
+
+#: ../inc/theme/meta.php:86
+msgid "Slider Slideshow Speed"
+msgstr ""
+
+#: ../inc/theme/meta.php:89
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: ../inc/theme/meta.php:93
+msgid "Slider Animation Speed"
+msgstr ""
+
+#: ../inc/theme/meta.php:96
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: ../inc/theme/meta.php:102
+#, php-format
+msgid "Header Image #%d"
+msgstr ""
+
+#: ../inc/theme/meta.php:109
+#, php-format
+msgid "Header Image #%d Link"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:127
+msgid "Content Layout"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:133 ../inc/theme/settings.php:125
+msgid "Full Text"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:134 ../inc/theme/settings.php:126
+msgid "Summary"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:135 ../inc/theme/settings.php:127
+msgid "Featured Image + Summary"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:136 ../inc/theme/settings.php:128
+msgid "Left Thumbnail + Summary"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:137 ../inc/theme/settings.php:129
+msgid "Right Thumbnail + Summary"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:141
+msgid "Content Navigation"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:147 ../inc/theme/settings.php:140
+msgid "Previous Page - Next Page"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:148 ../inc/theme/settings.php:141
+msgid "Older Posts - Newer Posts"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:149 ../inc/theme/settings.php:142
+msgid "Numeric Navigation"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/meta.php:153
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../inc/theme/settings.php:27
+msgid "Automatic Theme Update"
+msgstr ""
+
+#: ../inc/theme/settings.php:32
+msgid "ThemeForest Username"
+msgstr ""
+
+#: ../inc/theme/settings.php:40
+msgid "ThemeForest Secret API Key"
+msgstr ""
+
+#: ../inc/theme/settings.php:78
+msgid "Default Setting"
+msgstr ""
+
+#: ../inc/theme/settings.php:85
+msgid ""
+"\"Custom\" style layout is useful when you plan to highly customize theme "
+"style."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:98
+msgid ""
+"Users now use mobile phones, small notebooks, tablet devices such as iPad or "
+"Playbook to access the web. The layout needs is automatically adjusted to "
+"fit all display resolution and devices."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:109 ../inc/theme/settings.php:185
+#: ../inc/theme/settings.php:246 ../inc/theme/settings.php:323
+#: ../inc/theme/settings.php:384
+msgid "Default Layout"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:119
+msgid "Default Content Layout"
+msgstr ""
+
+#: ../inc/theme/settings.php:121
+msgid ""
+"It will be used for archives page (default homepage, post category, post "
+"tag, archive, and search result page)."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:134
+msgid "Default Content Navigation"
+msgstr ""
+
+#: ../inc/theme/settings.php:147 ../inc/theme/settings.php:208
+#: ../inc/theme/settings.php:269 ../inc/theme/settings.php:346
+#: ../inc/theme/settings.php:407
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/theme/settings.php:149
+msgid ""
+"Hide breadcrumb on archives page (default homepage, post category, post tag, "
+"archive, and search result page."
+msgstr ""
+
+#: ../inc/theme/settings.php:170
+msgid "Page Setting"
+msgstr ""
+
+#: ../inc/theme/settings.php:175 ../inc/theme/settings.php:236
+#: ../inc/theme/settings.php:313 ../inc/theme/settings.php:374
+#: ../inc/theme/settings.php:1024 ../inc/theme/settings.php:1074
+#: ../inc/theme/settings.php:1124
+msgid "Info"
+msgstr ""
+
+#: ../inc/theme/settings.php:177
+msgid ""
+"Your can control default layout and sidebars for \"page\". Layout and "
+"sidebar can also be changed on per page basis when creating/editing page."
+msgstr ""
+
+#: ../inc/theme/settings.php:210
+msgid "Hide breadcrumb on Page."
+msgstr ""
+
+#: ../inc/theme/settings.php:231
+msgid "Single Post Setting"
+msgstr ""
+
+#: ../inc/theme/settings.php:238
+msgid ""
+"Your can control default layout and sidebars for \"single post\" page. "
+"Layout and sidebar can also be changed on per post basis when creating/"
+"editing post."
+msgstr ""
+
+#: ../inc/theme/settings.php:271
+msgid "Hide breadcrumb on single post page."
+msgstr ""
+
+#: ../inc/theme/settings.php:277
+msgid "Post Meta on Blog page"
+msgstr ""
+
+#: ../inc/theme/settings.php:279 ../inc/theme/settings.php:287
+#: ../inc/theme/settings.php:678
+msgid "Useful Shortcodes:"
+msgstr ""
+
+#: ../inc/theme/settings.php:280
+msgid ""
+"Posted on [post-date] by [post-author] / [post-comments-link] [post-edit-"
+"link before=\"/\"]"
+msgstr ""
+
+#: ../inc/theme/settings.php:285
+msgid "Post Meta on single post page"
+msgstr ""
+
+#: ../inc/theme/settings.php:288
+msgid "Posted on [post-date] by [post-author]. [post-edit-link]"
+msgstr ""
+
+#: ../inc/theme/settings.php:308
+msgid "Shop Page Setting"
+msgstr ""
+
+#: ../inc/theme/settings.php:315
+msgid ""
+"Your can control layout and sidebars for \"shop\" page, including product "
+"category, product tag, and product attributes archive page."
+msgstr ""
+
+#: ../inc/theme/settings.php:348
+msgid "Hide breadcrumb on shop page."
+msgstr ""
+
+#: ../inc/theme/settings.php:369
+msgid "Single Product Page Setting"
+msgstr ""
+
+#: ../inc/theme/settings.php:376
+msgid ""
+"Your can control default layout and sidebars for \"single product\" page. "
+"Layout and sidebar can also be changed on per product basis when creating/"
+"editing product."
+msgstr ""
+
+#: ../inc/theme/settings.php:409
+msgid "Hide breadcrumb on single product page."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:424
+msgid "Header"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:448
+msgid "Enable top navigation area"
+msgstr ""
+
+#: ../inc/theme/settings.php:454
+msgid "Welcome message for visitor"
+msgstr ""
+
+#: ../inc/theme/settings.php:457
+msgid "Default welcome message to get attention!"
+msgstr ""
+
+#: ../inc/theme/settings.php:462
+msgid "My account link"
+msgstr ""
+
+#: ../inc/theme/settings.php:464
+msgid "Show \"My Account\" link at top navigation."
+msgstr ""
+
+#: ../inc/theme/settings.php:470
+msgid "Login/Logout link"
+msgstr ""
+
+#: ../inc/theme/settings.php:472
+msgid "Show \"Login/Logout\" link at top navigation."
+msgstr ""
+
+#: ../inc/theme/settings.php:478
+msgid "Product search form"
+msgstr ""
+
+#: ../inc/theme/settings.php:480
+msgid "Show product search form at top navigation."
+msgstr ""
+
+#: ../inc/theme/settings.php:486
+msgid "Cart count"
+msgstr ""
+
+#: ../inc/theme/settings.php:488
+msgid "Show cart count at top navigation."
+msgstr ""
+
+#: ../inc/theme/settings.php:506
+msgid "Header Content"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:511
+msgid "Logo Image URL"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:512
+msgid "png, jpg or gif file."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:519 ../inc/theme/setup.php:72
+msgid "Header Menu"
+msgstr ""
+
+#: ../inc/theme/settings.php:521
+#, php-format
+msgid ""
+"Visit your <a href=\"%1$s\">Appearance - Menus</a> page to configure your "
+"Header Menu."
+msgstr ""
+
+#: ../inc/theme/settings.php:544
+msgid "Default Header Image"
+msgstr ""
+
+#: ../inc/theme/settings.php:546
+#, php-format
+msgid ""
+"Visit your <a href=\"%1$s\">Appearance - Header</a> page to upload the "
+"default header image."
+msgstr ""
+
+#: ../inc/theme/settings.php:552
+msgid "Default Header Image Padding"
+msgstr ""
+
+#: ../inc/theme/settings.php:554
+msgid "Remove padding (top,left,bottom,right space) on default header image"
+msgstr ""
+
+#: ../inc/theme/settings.php:577
+msgid "Call To Action"
+msgstr ""
+
+#: ../inc/theme/settings.php:579
+msgid "Enable call to action area"
+msgstr ""
+
+#: ../inc/theme/settings.php:585
+msgid "Call to action text"
+msgstr ""
+
+#: ../inc/theme/settings.php:588
+#, php-format
+msgid ""
+"Use <strong>PrimaThemes</strong> coupon code to save you 15% off on your "
+"order."
+msgstr ""
+
+#: ../inc/theme/settings.php:593
+msgid "Call to action button text"
+msgstr ""
+
+#: ../inc/theme/settings.php:596
+msgid "Shop Now!"
+msgstr ""
+
+#: ../inc/theme/settings.php:601
+msgid "Call to action button url"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:619
+msgid "Footer"
+msgstr ""
+
+#: ../inc/theme/settings.php:641
+msgid "Footer Widgets Layout"
+msgstr ""
+
+#: ../inc/theme/settings.php:671
+msgid "Footer Content"
+msgstr ""
+
+#: ../inc/theme/settings.php:676
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../inc/theme/settings.php:679 ../inc/theme/settings.php:825
+msgid "&#169; [year] [site-link]. Powered by [theme-link] and [wp-link]."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:684 ../inc/theme/setup.php:73
+msgid "Footer Menu"
+msgstr ""
+
+#: ../inc/theme/settings.php:686
+#, php-format
+msgid ""
+"Visit your <a href=\"%1$s\">Appearance - Menus</a> page to configure your "
+"Footer Menu."
+msgstr ""
+
+#: ../inc/theme/settings.php:703
+msgid "Additional Footer"
+msgstr ""
+
+#: ../inc/theme/settings.php:708
+msgid "Query Counter"
+msgstr ""
+
+#: ../inc/theme/settings.php:710
+msgid "Show query counter for user with administrator level."
+msgstr ""
+
+#: ../inc/theme/settings.php:725
+msgid "Branding"
+msgstr ""
+
+#: ../inc/theme/settings.php:742
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/theme/settings.php:747
+msgid "Favicon URL"
+msgstr ""
+
+#: ../inc/theme/settings.php:748
+msgid "16x16 ico file"
+msgstr ""
+
+#: ../inc/theme/settings.php:767
+msgid "Login Logo"
+msgstr ""
+
+#: ../inc/theme/settings.php:772
+msgid "Login Logo URL"
+msgstr ""
+
+#: ../inc/theme/settings.php:773
+msgid "320x65 png, jpg, gif file"
+msgstr ""
+
+#: ../inc/theme/settings.php:792
+msgid "Admin Logo"
+msgstr ""
+
+#: ../inc/theme/settings.php:797
+msgid "Admin Logo URL"
+msgstr ""
+
+#: ../inc/theme/settings.php:798
+msgid "20x20 png, jpg, gif file"
+msgstr ""
+
+#: ../inc/theme/settings.php:817
+msgid "Admin Footer"
+msgstr ""
+
+#: ../inc/theme/settings.php:822
+msgid "Admin Footer Text"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:824
+msgid "Available Shortcodes:"
+msgstr ""
+
+#: ../inc/theme/settings.php:857
+msgid "Shop Page Settings"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:862
+msgid "Products Per Page"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:870
+msgid "Products Columns Per Row"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:879
+msgid "Products Sale Flash"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:881
+msgid "Hide products sale flash."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:887
+msgid "Products Title"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:889
+msgid "Hide products title."
+msgstr ""
+
+#: ../inc/theme/settings.php:895
+msgid "Products Rating"
+msgstr ""
+
+#: ../inc/theme/settings.php:897
+msgid "Hide products rating below product title."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:903
+msgid "Products Price"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:905
+msgid "Hide products price below product title."
+msgstr ""
+
+#: ../inc/theme/settings.php:911
+msgid "Products Excerpt"
+msgstr ""
+
+#: ../inc/theme/settings.php:913
+msgid "Show product excerpt (short summaries)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:919
+msgid "Products &quot;Add To Cart&quot; Button"
+msgstr ""
+
+#: ../inc/theme/settings.php:921
+msgid "Hide &quot;Add To Cart&quot; button"
+msgstr ""
+
+#: ../inc/theme/settings.php:927
+msgid "Result Count"
+msgstr ""
+
+#: ../inc/theme/settings.php:929
+msgid "Hide result count message"
+msgstr ""
+
+#: ../inc/theme/settings.php:935
+msgid "Catalog Ordering"
+msgstr ""
+
+#: ../inc/theme/settings.php:937
+msgid "Hide catalog ordering dropdown"
+msgstr ""
+
+#: ../inc/theme/settings.php:954
+msgid "Single Product Page Settings"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:959
+msgid "Product Sale Flash"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:961
+msgid "Hide product sale flash."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:967
+msgid "Product Price"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:969
+msgid "Hide product price."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:975
+msgid "Product Excerpt"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:977
+msgid "Hide product excerpt / summaries / short description."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:983
+msgid "Product &quot;Add To Cart&quot; Button"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:985
+msgid "Hide &quot;Add To Cart&quot; button."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:991
+msgid "Product Meta (Categories/Tags)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:993
+msgid "Hide product meta (categories/tags)."
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:999
+msgid "Product Data Tabs Position"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1004
+msgid "Bottom (default)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1004
+msgid "Right Column"
+msgstr ""
+
+#: ../inc/theme/settings.php:1019
+msgid "Related Products Settings"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1026
+msgid "Related products are found from category and tag in random order."
+msgstr ""
+
+# @ primathemes
+# @ woocommerce
+#: ../inc/theme/settings.php:1032
+msgid "Related Products"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1034
+msgid "Hide related products on single product page"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1040
+msgid "Number of Related Products"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1049
+msgid "Related Products Columns Per Row"
+msgstr ""
+
+#: ../inc/theme/settings.php:1069
+msgid "Up-Sells Settings"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1076
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive. You can edit up sells when editing your products."
+msgstr ""
+
+#: ../inc/theme/settings.php:1082
+msgid "Up-Sells"
+msgstr ""
+
+#: ../inc/theme/settings.php:1084
+msgid "Hide up-sells products on single product page"
+msgstr ""
+
+#: ../inc/theme/settings.php:1090
+msgid "Number of Up-Sells Products"
+msgstr ""
+
+#: ../inc/theme/settings.php:1099
+msgid "Up-Sells Columns Per Row"
+msgstr ""
+
+#: ../inc/theme/settings.php:1119
+msgid "Cross-Sells Settings"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/settings.php:1126
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product. You can edit cross sells when editing your products."
+msgstr ""
+
+#: ../inc/theme/settings.php:1132
+msgid "Cross-Sells"
+msgstr ""
+
+#: ../inc/theme/settings.php:1134
+msgid "Hide cross-sells products on cart page"
+msgstr ""
+
+#: ../inc/theme/settings.php:1149
+msgid "Fonts"
+msgstr ""
+
+#: ../inc/theme/settings.php:1166
+msgid "Google Fonts Introduction"
+msgstr ""
+
+#: ../inc/theme/settings.php:1171
+msgid "Introduction"
+msgstr ""
+
+#: ../inc/theme/settings.php:1173
+msgid ""
+"We do not include 600+ Google fonts on this theme. Please check the impact "
+"of the Google font on your website page load time because using some Google "
+"font styles can slow down your webpage. Please only select the font styles "
+"that you actually need on your webpage."
+msgstr ""
+
+#: ../inc/theme/settings.php:1173
+msgid "Visit Google Fonts page"
+msgstr ""
+
+#: ../inc/theme/settings.php:1190
+msgid "Google Fonts #1"
+msgstr ""
+
+#: ../inc/theme/settings.php:1195 ../inc/theme/settings.php:1235
+#: ../inc/theme/settings.php:1275 ../inc/theme/settings.php:1315
+msgid "Font Name"
+msgstr ""
+
+#: ../inc/theme/settings.php:1203 ../inc/theme/settings.php:1243
+#: ../inc/theme/settings.php:1283 ../inc/theme/settings.php:1323
+msgid "Font Url"
+msgstr ""
+
+#: ../inc/theme/settings.php:1211 ../inc/theme/settings.php:1251
+#: ../inc/theme/settings.php:1291 ../inc/theme/settings.php:1331
+msgid "Font Family"
+msgstr ""
+
+#: ../inc/theme/settings.php:1230
+msgid "Google Fonts #2"
+msgstr ""
+
+#: ../inc/theme/settings.php:1270
+msgid "Google Fonts #3"
+msgstr ""
+
+#: ../inc/theme/settings.php:1310
+msgid "Google Fonts #4"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:91
+msgid "Content - Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:99
+msgid "Sidebar - Content"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:107
+msgid "Sidebar Mini - Content - Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:115
+msgid "Sidebar - Content - Sidebar Mini"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:123
+msgid "Content - Sidebar - Sidebar Mini"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:131
+msgid "Sidebar Mini - Sidebar - Content"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:139
+msgid "Content - Sidebar Mini"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:147
+msgid "Sidebar Mini - Content"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:155
+msgid "Full Width Content"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:171
+msgid "Main Sidebar Area"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:175
+msgid "Mini Sidebar Area"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:187
+msgid "Main Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:189
+msgid "Main sidebar area"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:196
+msgid "Mini Sidebar"
+msgstr ""
+
+# @ primathemes
+#: ../inc/theme/setup.php:198
+msgid "Mini sidebar area"
+msgstr ""
+
+#: ../inc/theme/setup.php:208
+msgid "First footer widget area"
+msgstr ""
+
+#: ../inc/theme/setup.php:219
+msgid "Second footer widget area"
+msgstr ""
+
+#: ../inc/theme/setup.php:230
+msgid "Third footer widget area"
+msgstr ""
+
+#: ../inc/theme/setup.php:241
+msgid "Fourth footer widget area"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/functions.php:145
+msgid "Search for:"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/functions.php:146
+msgid "Search for products"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:107
+msgid "No defined product category slug in the current shortcode."
+msgstr ""
+
+#: ../inc/woocommerce/shortcodes.php:121
+#, php-format
+msgid "%s product category does not exist."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:129
+msgid "No defined product tag slug in the current shortcode."
+msgstr ""
+
+#: ../inc/woocommerce/shortcodes.php:143
+#, php-format
+msgid "%s product tag does not exist."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:153
+msgid "No defined product attribute in the current shortcode."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:156
+#, php-format
+msgid "There is no \"%s\" product attribute in the current shop."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:158
+#, php-format
+msgid "There is no defined \"%s\" product attribute in the current shop."
+msgstr ""
+
+#: ../inc/woocommerce/shortcodes.php:172
+#, php-format
+msgid "%s product attribute does not exist."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:181
+msgid "No defined SKUs in the current shortcode."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:197
+msgid "No defined IDs in the current shortcode."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:261
+msgid "No defined product attribute taxonomy in the current shortcode."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/shortcodes.php:264
+#, php-format
+msgid "There is no \"%s\" product attribute taxonomy in the current shop."
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:34
+msgid "Display product attribute lists / top level product categories"
+msgstr ""
+
+#: ../inc/woocommerce/widgets.php:36
+msgid "Advanced Product Attributes"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:82
+msgid "Product Cat (Top Level)"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:83
+msgid "Attribute:"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:84
+msgid "Category/Attribute Order"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:84
+msgid "Category/Attribute Name"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:85
+msgid "Order by:"
+msgstr ""
+
+# @ primathemes
+#: ../inc/woocommerce/widgets.php:86
+msgid "Show post counts"
+msgstr ""
