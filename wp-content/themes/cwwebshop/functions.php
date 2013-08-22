@@ -76,11 +76,6 @@ function my_theme_register_required_plugins() {
 			'slug' 		=> 'wp-all-import',
 			'required' 	=> true,
 		),
-        array(
-        	'name' 		=> 'WP All Import',
-			'slug' 		=> 'wp-all-import',
-			'required' 	=> true,
-		),
 
 	);
 
