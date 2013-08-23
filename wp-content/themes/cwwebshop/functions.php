@@ -43,19 +43,19 @@ function my_theme_register_required_plugins() {
 	 */
 	$plugins = array(
 
-		// This is an example of how to include a plugin pre-packaged with a theme
-		/*array(
-			'name'     				=> 'WooCommerce', // The plugin name
-			'slug'     				=> 'tgm-example-plugin', // The plugin slug (typically the folder name)
-			'source'   				=> get_stylesheet_directory() . '/lib/plugins/tgm-example-plugin.zip', // The plugin source
+		// Plugins pre-packaged with the theme
+		array(
+			'name'     				=> 'WP All Import - WooCommerce Add-On', // The plugin name
+			'slug'     				=> 'wpai-woocommerce-add-on', // The plugin slug (typically the folder name)
+			'source'   				=> get_stylesheet_directory() . '/lib/plugins/wpai-woocommerce-add-on.zip', // The plugin source
 			'required' 				=> true, // If false, the plugin is only 'recommended' instead of required
 			'version' 				=> '', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
 			'force_activation' 		=> true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
 			'force_deactivation' 	=> false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
 			'external_url' 			=> '', // If set, overrides default API URL and points to an external URL
-		),*/
+		),
 
-		// This is an example of how to include a plugin from the WordPress Plugin Repository
+		// Plugins from the WordPress Plugin Repository
 		array(
 			'name' 		=> 'WooCommerce',
 			'slug' 		=> 'woocommerce',
